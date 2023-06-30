@@ -98,15 +98,24 @@ int main()
 
     // setup object vertices
     float vertices[] = {
-        -0.5f, -0.5f, 0.0f,
-        0.5f, -0.5f, 0.0f,
-        0.0f,  0.5f, 0.0f
-    }; 
+        0.5f,  0.5f, 0.0f,  // top right
+        0.5f, -0.5f, 0.0f,  // bottom right
+        -0.5f, -0.5f, 0.0f,  // bottom left
+        -0.5f,  0.5f, 0.0f   // top left 
+    };
+    unsigned int indices[] = {  // note that we start from 0!
+        0, 1, 3,   // first triangle
+        1, 2, 3    // second triangle
+    };
 
-    // setup VBO
-    unsigned int VAO, VBO;
+    // setup VBO and VAO
+    // VBO is vertex buffer object, for filling a buffer with vert positions, normals, uvs, etc.
+    // EBO is element buffer object, so we can just store unique vertices, and reuse it through specified indices.
+    // VAO is vertex array object, for "saving" VBO and EBO configurations so you don't have to specify it over and over again.
+    unsigned int VAO, VBO, EBO;
     glGenVertexArrays(1, &VAO);
     glGenBuffers(1, &VBO);  
+    glGenBuffers(1, &EBO);
 
     // bind (select) VAO for saving the VBO configurations for later use
     glBindVertexArray(VAO);
@@ -115,12 +124,15 @@ int main()
     glBindBuffer(GL_ARRAY_BUFFER, VBO); 
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+
     // set vertex attribute pointers
     // this relates to the in variables in the vertex shader
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, sizeof(float) * 3, (void*)0);
     glEnableVertexAttribArray(0);
 
-    // unbind buffers
+    // unbind buffers, except EBO
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
     
@@ -135,7 +147,8 @@ int main()
 
         glUseProgram(shaderProgram);
         glBindVertexArray(VAO);
-        glDrawArrays(GL_TRIANGLES, 0, 3);
+        //glDrawArrays(GL_TRIANGLES, 0, 3); // if we dont use EBO
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
         glfwSwapBuffers(window);
