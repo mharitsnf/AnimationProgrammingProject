@@ -2,10 +2,19 @@ cmake_minimum_required(VERSION 3.25.1)
 
 project(AnimationProject)
 
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 add_executable(${PROJECT_NAME}
     main.cpp
     external/glad/src/glad.c 
     external/glad/include/glad/glad.h
+    src/vec3.cpp
+    src/vec3.h
+    src/vec2.h
+    src/vec4.h
+    src/mat4.cpp
+    src/mat4.h
 )
 
 # For using glfw homebrew

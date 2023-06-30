@@ -97,20 +97,52 @@ CMakeFiles/AnimationProject.dir/external/glad/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AnimationProject.dir/external/glad/src/glad.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/external/glad/src/glad.c -o CMakeFiles/AnimationProject.dir/external/glad/src/glad.c.s
 
+CMakeFiles/AnimationProject.dir/src/vec3.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
+CMakeFiles/AnimationProject.dir/src/vec3.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/vec3.cpp
+CMakeFiles/AnimationProject.dir/src/vec3.cpp.o: CMakeFiles/AnimationProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AnimationProject.dir/src/vec3.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AnimationProject.dir/src/vec3.cpp.o -MF CMakeFiles/AnimationProject.dir/src/vec3.cpp.o.d -o CMakeFiles/AnimationProject.dir/src/vec3.cpp.o -c /Users/mharitsnf/Documents/C++/AnimationProject/src/vec3.cpp
+
+CMakeFiles/AnimationProject.dir/src/vec3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnimationProject.dir/src/vec3.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mharitsnf/Documents/C++/AnimationProject/src/vec3.cpp > CMakeFiles/AnimationProject.dir/src/vec3.cpp.i
+
+CMakeFiles/AnimationProject.dir/src/vec3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/vec3.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/vec3.cpp -o CMakeFiles/AnimationProject.dir/src/vec3.cpp.s
+
+CMakeFiles/AnimationProject.dir/src/mat4.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
+CMakeFiles/AnimationProject.dir/src/mat4.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/mat4.cpp
+CMakeFiles/AnimationProject.dir/src/mat4.cpp.o: CMakeFiles/AnimationProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AnimationProject.dir/src/mat4.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AnimationProject.dir/src/mat4.cpp.o -MF CMakeFiles/AnimationProject.dir/src/mat4.cpp.o.d -o CMakeFiles/AnimationProject.dir/src/mat4.cpp.o -c /Users/mharitsnf/Documents/C++/AnimationProject/src/mat4.cpp
+
+CMakeFiles/AnimationProject.dir/src/mat4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnimationProject.dir/src/mat4.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mharitsnf/Documents/C++/AnimationProject/src/mat4.cpp > CMakeFiles/AnimationProject.dir/src/mat4.cpp.i
+
+CMakeFiles/AnimationProject.dir/src/mat4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/mat4.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/mat4.cpp -o CMakeFiles/AnimationProject.dir/src/mat4.cpp.s
+
 # Object files for target AnimationProject
 AnimationProject_OBJECTS = \
 "CMakeFiles/AnimationProject.dir/main.cpp.o" \
-"CMakeFiles/AnimationProject.dir/external/glad/src/glad.c.o"
+"CMakeFiles/AnimationProject.dir/external/glad/src/glad.c.o" \
+"CMakeFiles/AnimationProject.dir/src/vec3.cpp.o" \
+"CMakeFiles/AnimationProject.dir/src/mat4.cpp.o"
 
 # External object files for target AnimationProject
 AnimationProject_EXTERNAL_OBJECTS =
 
 AnimationProject: CMakeFiles/AnimationProject.dir/main.cpp.o
 AnimationProject: CMakeFiles/AnimationProject.dir/external/glad/src/glad.c.o
+AnimationProject: CMakeFiles/AnimationProject.dir/src/vec3.cpp.o
+AnimationProject: CMakeFiles/AnimationProject.dir/src/mat4.cpp.o
 AnimationProject: CMakeFiles/AnimationProject.dir/build.make
 AnimationProject: external/glfw/src/libglfw3.a
 AnimationProject: CMakeFiles/AnimationProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable AnimationProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable AnimationProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AnimationProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
