@@ -5,6 +5,7 @@
 #include "src/vec3.h"
 #include "src/vec2.h"
 #include "src/vec4.h"
+#include "src/mat4.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
@@ -26,8 +27,8 @@ const char *fragmentShaderSource = "#version 330 core\n"
     "   FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);\n"
     "}\n\0";
 
-int main()
-{
+int main() {
+
     // glfw: initialize and configure
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
@@ -54,6 +55,7 @@ int main()
         std::cout << "Failed to initialize GLAD" << std::endl;
         return -1;
     }
+
 
     // setting up vertex shader
     unsigned int vertexShader = glCreateShader(GL_VERTEX_SHADER);

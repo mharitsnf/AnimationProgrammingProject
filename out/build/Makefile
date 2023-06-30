@@ -261,6 +261,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/mat4.o: src/mat4.cpp.o
+.PHONY : src/mat4.o
+
+# target to build an object file
+src/mat4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/mat4.cpp.o
+.PHONY : src/mat4.cpp.o
+
+src/mat4.i: src/mat4.cpp.i
+.PHONY : src/mat4.i
+
+# target to preprocess a source file
+src/mat4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/mat4.cpp.i
+.PHONY : src/mat4.cpp.i
+
+src/mat4.s: src/mat4.cpp.s
+.PHONY : src/mat4.s
+
+# target to generate assembly for a file
+src/mat4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/mat4.cpp.s
+.PHONY : src/mat4.cpp.s
+
 src/vec3.o: src/vec3.cpp.o
 .PHONY : src/vec3.o
 
@@ -307,6 +331,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/mat4.o"
+	@echo "... src/mat4.i"
+	@echo "... src/mat4.s"
 	@echo "... src/vec3.o"
 	@echo "... src/vec3.i"
 	@echo "... src/vec3.s"
