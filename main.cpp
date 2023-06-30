@@ -4,6 +4,7 @@
 
 #include "src/vec3.h"
 #include "src/vec2.h"
+#include "src/vec4.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
@@ -53,7 +54,6 @@ int main()
         std::cout << "Failed to initialize GLAD" << std::endl;
         return -1;
     }
-
 
     // setting up vertex shader
     unsigned int vertexShader = glCreateShader(GL_VERTEX_SHADER);
