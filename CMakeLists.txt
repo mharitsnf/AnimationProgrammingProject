@@ -9,12 +9,12 @@ add_executable(${PROJECT_NAME}
     main.cpp
     external/glad/src/glad.c 
     external/glad/include/glad/glad.h
-    src/vec3.cpp
-    src/vec3.h
-    src/vec2.h
-    src/vec4.h
-    src/mat4.cpp
-    src/mat4.h
+    src/math/vec3.cpp
+    src/math/vec3.h
+    src/math/vec2.h
+    src/math/vec4.h
+    src/math/mat4.cpp
+    src/math/mat4.h
 )
 
 # For using glfw homebrew

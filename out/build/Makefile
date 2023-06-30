@@ -261,53 +261,53 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/mat4.o: src/mat4.cpp.o
-.PHONY : src/mat4.o
+src/math/mat4.o: src/math/mat4.cpp.o
+.PHONY : src/math/mat4.o
 
 # target to build an object file
-src/mat4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/mat4.cpp.o
-.PHONY : src/mat4.cpp.o
+src/math/mat4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.o
+.PHONY : src/math/mat4.cpp.o
 
-src/mat4.i: src/mat4.cpp.i
-.PHONY : src/mat4.i
+src/math/mat4.i: src/math/mat4.cpp.i
+.PHONY : src/math/mat4.i
 
 # target to preprocess a source file
-src/mat4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/mat4.cpp.i
-.PHONY : src/mat4.cpp.i
+src/math/mat4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.i
+.PHONY : src/math/mat4.cpp.i
 
-src/mat4.s: src/mat4.cpp.s
-.PHONY : src/mat4.s
+src/math/mat4.s: src/math/mat4.cpp.s
+.PHONY : src/math/mat4.s
 
 # target to generate assembly for a file
-src/mat4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/mat4.cpp.s
-.PHONY : src/mat4.cpp.s
+src/math/mat4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.s
+.PHONY : src/math/mat4.cpp.s
 
-src/vec3.o: src/vec3.cpp.o
-.PHONY : src/vec3.o
+src/math/vec3.o: src/math/vec3.cpp.o
+.PHONY : src/math/vec3.o
 
 # target to build an object file
-src/vec3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/vec3.cpp.o
-.PHONY : src/vec3.cpp.o
+src/math/vec3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.o
+.PHONY : src/math/vec3.cpp.o
 
-src/vec3.i: src/vec3.cpp.i
-.PHONY : src/vec3.i
+src/math/vec3.i: src/math/vec3.cpp.i
+.PHONY : src/math/vec3.i
 
 # target to preprocess a source file
-src/vec3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/vec3.cpp.i
-.PHONY : src/vec3.cpp.i
+src/math/vec3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.i
+.PHONY : src/math/vec3.cpp.i
 
-src/vec3.s: src/vec3.cpp.s
-.PHONY : src/vec3.s
+src/math/vec3.s: src/math/vec3.cpp.s
+.PHONY : src/math/vec3.s
 
 # target to generate assembly for a file
-src/vec3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/vec3.cpp.s
-.PHONY : src/vec3.cpp.s
+src/math/vec3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.s
+.PHONY : src/math/vec3.cpp.s
 
 # Help Target
 help:
@@ -331,12 +331,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/mat4.o"
-	@echo "... src/mat4.i"
-	@echo "... src/mat4.s"
-	@echo "... src/vec3.o"
-	@echo "... src/vec3.i"
-	@echo "... src/vec3.s"
+	@echo "... src/math/mat4.o"
+	@echo "... src/math/mat4.i"
+	@echo "... src/math/mat4.s"
+	@echo "... src/math/vec3.o"
+	@echo "... src/math/vec3.i"
+	@echo "... src/math/vec3.s"
 .PHONY : help
 
 

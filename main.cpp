@@ -2,10 +2,10 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 
-#include "src/vec3.h"
-#include "src/vec2.h"
-#include "src/vec4.h"
-#include "src/mat4.h"
+#include "src/math/vec3.h"
+#include "src/math/vec2.h"
+#include "src/math/vec4.h"
+#include "src/math/mat4.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);

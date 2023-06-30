@@ -10,8 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/mharitsnf/Documents/C++/AnimationProject/external/glad/src/glad.c" "CMakeFiles/AnimationProject.dir/external/glad/src/glad.c.o" "gcc" "CMakeFiles/AnimationProject.dir/external/glad/src/glad.c.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/main.cpp" "CMakeFiles/AnimationProject.dir/main.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/main.cpp.o.d"
-  "/Users/mharitsnf/Documents/C++/AnimationProject/src/mat4.cpp" "CMakeFiles/AnimationProject.dir/src/mat4.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/mat4.cpp.o.d"
-  "/Users/mharitsnf/Documents/C++/AnimationProject/src/vec3.cpp" "CMakeFiles/AnimationProject.dir/src/vec3.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/vec3.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.cpp" "CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec3.cpp" "CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.o.d"
   )
 
 # Targets to which this target links.
