@@ -6,6 +6,8 @@ add_executable(${PROJECT_NAME}
     main.cpp
     external/glad/src/glad.c 
     external/glad/include/glad/glad.h
+    src/vec3.cpp
+    src/vec3.h
 )
 
 # For using glfw homebrew

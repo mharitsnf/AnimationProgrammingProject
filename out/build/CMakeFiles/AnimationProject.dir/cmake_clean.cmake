@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/AnimationProject.dir/external/glad/src/glad.c.o.d"
   "CMakeFiles/AnimationProject.dir/main.cpp.o"
   "CMakeFiles/AnimationProject.dir/main.cpp.o.d"
+  "CMakeFiles/AnimationProject.dir/src/vec3.cpp.o"
+  "CMakeFiles/AnimationProject.dir/src/vec3.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
