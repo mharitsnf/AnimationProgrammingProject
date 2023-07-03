@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/AnimationProject.dir/src/math/quat.cpp.o.d"
   "CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.o"
   "CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.o.d"
+  "CMakeFiles/AnimationProject.dir/src/opengl/Attribute.cpp.o"
+  "CMakeFiles/AnimationProject.dir/src/opengl/Attribute.cpp.o.d"
   "CMakeFiles/AnimationProject.dir/src/opengl/Shader.cpp.o"
   "CMakeFiles/AnimationProject.dir/src/opengl/Shader.cpp.o.d"
   "CMakeFiles/AnimationProject.dir/src/transform/Transform.cpp.o"

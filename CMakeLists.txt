@@ -21,6 +21,8 @@ add_executable(${PROJECT_NAME}
     src/transform/Transform.h
     src/opengl/Shader.cpp
     src/opengl/Shader.h
+    src/opengl/Attribute.cpp
+    src/opengl/Attribute.h
 )
 
 # For using glfw homebrew

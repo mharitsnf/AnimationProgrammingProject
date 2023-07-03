@@ -333,6 +333,30 @@ src/math/vec3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.s
 .PHONY : src/math/vec3.cpp.s
 
+src/opengl/Attribute.o: src/opengl/Attribute.cpp.o
+.PHONY : src/opengl/Attribute.o
+
+# target to build an object file
+src/opengl/Attribute.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Attribute.cpp.o
+.PHONY : src/opengl/Attribute.cpp.o
+
+src/opengl/Attribute.i: src/opengl/Attribute.cpp.i
+.PHONY : src/opengl/Attribute.i
+
+# target to preprocess a source file
+src/opengl/Attribute.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Attribute.cpp.i
+.PHONY : src/opengl/Attribute.cpp.i
+
+src/opengl/Attribute.s: src/opengl/Attribute.cpp.s
+.PHONY : src/opengl/Attribute.s
+
+# target to generate assembly for a file
+src/opengl/Attribute.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Attribute.cpp.s
+.PHONY : src/opengl/Attribute.cpp.s
+
 src/opengl/Shader.o: src/opengl/Shader.cpp.o
 .PHONY : src/opengl/Shader.o
 
@@ -412,6 +436,9 @@ help:
 	@echo "... src/math/vec3.o"
 	@echo "... src/math/vec3.i"
 	@echo "... src/math/vec3.s"
+	@echo "... src/opengl/Attribute.o"
+	@echo "... src/opengl/Attribute.i"
+	@echo "... src/opengl/Attribute.s"
 	@echo "... src/opengl/Shader.o"
 	@echo "... src/opengl/Shader.i"
 	@echo "... src/opengl/Shader.s"
