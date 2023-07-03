@@ -1,6 +1,7 @@
 #ifndef _H_ATTRIBUTE_
 #define _H_ATTRIBUTE_
 
+#include <iostream>
 #include <vector>
 #include "../../external/glad/include/glad/glad.h"
 #include "../math/vec2.h"
@@ -62,7 +63,7 @@ void Attribute<T>::Set(T* inputArray, unsigned int arrayLength) {
 	unsigned int size = sizeof(T);
 
 	glBindBuffer(GL_ARRAY_BUFFER, mHandle);
-	glBufferData(GL_ARRAY_BUFFER, size * mCount, inputArray, GL_STREAM_DRAW);
+	glBufferData(GL_ARRAY_BUFFER, size * mCount, inputArray, GL_STATIC_DRAW);
 	glBindBuffer(GL_ARRAY_BUFFER, 0);
 }
 

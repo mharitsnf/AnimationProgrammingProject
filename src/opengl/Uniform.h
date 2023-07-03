@@ -20,7 +20,6 @@ public:
 	static void Set(unsigned int slot, const T& value);
 	static void Set(unsigned int slot, T* inputArray, unsigned int arrayLength);
 	static void Set(unsigned int slot, std::vector<T>& inputArray);
-	static int GetLocation(GLuint shaderHandle, const GLchar* name);
 };
 
 #define UNIFORM_IMPL(gl_func, tType, dType) \
@@ -51,11 +50,6 @@ void Uniform<T>::Set(unsigned int slot, const T& value) {
 template <typename T>
 void Uniform<T>::Set(unsigned int slot, std::vector<T>& value) {
 	Set(slot, &value[0], (unsigned int)value.size());
-}
-
-template<typename T>
-int Uniform<T>::GetLocation(GLuint shaderHandle, const GLchar* name) {
-	return glGetUniformLocation(shaderHandle, name);
 }
 
 #endif

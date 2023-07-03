@@ -9,6 +9,7 @@
 #include "src/opengl/IndexBuffer.h"
 #include "src/opengl/Draw.h"
 #include "src/opengl/VertexArray.h"
+#include "src/opengl/Texture.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
@@ -50,18 +51,24 @@ int main()
     Shader shader(
         "#version 330 core\n"
         "layout (location = 0) in vec3 aPos;\n"
+        "layout (location = 1) in vec2 aTexCoord;\n"
         "out vec4 vertexColor;\n"
+        "out vec2 TexCoord;\n"
         "void main()\n"
         "{\n"
         "   gl_Position = vec4(aPos, 1.0);\n"
         "   vertexColor = vec4(0.5, 0.0, 0.0, 1.0);\n"
-        "}\0",
+        "   TexCoord = vec2(aTexCoord.x, aTexCoord.y);\n"
+        "}\0"
+        ,
         "#version 330 core\n"
         "out vec4 FragColor;\n"
+        "in vec2 TexCoord;\n"
         "uniform vec4 ourColor;\n"
+        "uniform sampler2D texture0;\n"
         "void main()\n"
         "{\n"
-        "   FragColor = ourColor;\n"
+        "   FragColor = texture(texture0, TexCoord);\n"
         "}\n\0"
     );
 
@@ -71,6 +78,13 @@ int main()
         vec3(0.5f, -0.5f, 0.0f),    // bottom right
         vec3(-0.5f, -0.5f, 0.0f),   // bottom left
         vec3(-0.5f,  0.5f, 0.0f)    // top left 
+    };
+
+    std::vector<vec2> uvVec2 = {
+        vec2(1.0f, 1.0f),           // top right
+        vec2(1.0f, 0.0f),           // bottom right
+        vec2(0.0f, 0.0f),           // bottom left
+        vec2(0.0f, 1.0f)            // top left 
     };
 
      std::vector<unsigned int> indicesUint = {  // note that we start from 0!
@@ -93,12 +107,16 @@ int main()
     aPos.Set(verticesVec3);
     aPos.BindTo(0);
 
+    Attribute<vec2> aTexCoord;
+    aTexCoord.Set(uvVec2);
+    aTexCoord.BindTo(1);
+
     // create and bind EBO, populate data, and then set it to shader
     IndexBuffer indexBuffer;
     indexBuffer.Set(indicesUint);
 
-    // unbind VAO
-    vao.Unbind();
+    Texture texture;
+    texture.Load("textures/wall.jpg");
     
     // render loop
     while (!glfwWindowShouldClose(window)) {
@@ -113,8 +131,11 @@ int main()
         glUseProgram(shader.GetHandle());
         double timeValue = glfwGetTime();
         float greenValue = static_cast<float>(sin(timeValue) / 2.0 + 0.5);
-        int vertexColorLocation =  Uniform<vec4>::GetLocation(shader.GetHandle(), "ourColor");
+        int vertexColorLocation =  glGetUniformLocation(shader.GetHandle(), "ourColor");
         Uniform<vec4>::Set(vertexColorLocation, vec4(0.0f, greenValue, 0.0f, 1.0f));
+
+        int textureLocation = glGetUniformLocation(shader.GetHandle(), "texture0");
+        texture.Set(textureLocation, 0);
 
         // draw
         Draw(indexBuffer, vao, DrawMode::Triangles);

@@ -237,6 +237,30 @@ external/glad/src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/external/glad/src/glad.c.s
 .PHONY : external/glad/src/glad.c.s
 
+external/stb_image/stb_image.o: external/stb_image/stb_image.cpp.o
+.PHONY : external/stb_image/stb_image.o
+
+# target to build an object file
+external/stb_image/stb_image.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/external/stb_image/stb_image.cpp.o
+.PHONY : external/stb_image/stb_image.cpp.o
+
+external/stb_image/stb_image.i: external/stb_image/stb_image.cpp.i
+.PHONY : external/stb_image/stb_image.i
+
+# target to preprocess a source file
+external/stb_image/stb_image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/external/stb_image/stb_image.cpp.i
+.PHONY : external/stb_image/stb_image.cpp.i
+
+external/stb_image/stb_image.s: external/stb_image/stb_image.cpp.s
+.PHONY : external/stb_image/stb_image.s
+
+# target to generate assembly for a file
+external/stb_image/stb_image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/external/stb_image/stb_image.cpp.s
+.PHONY : external/stb_image/stb_image.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -260,6 +284,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+src/animation/Transform.o: src/animation/Transform.cpp.o
+.PHONY : src/animation/Transform.o
+
+# target to build an object file
+src/animation/Transform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Transform.cpp.o
+.PHONY : src/animation/Transform.cpp.o
+
+src/animation/Transform.i: src/animation/Transform.cpp.i
+.PHONY : src/animation/Transform.i
+
+# target to preprocess a source file
+src/animation/Transform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Transform.cpp.i
+.PHONY : src/animation/Transform.cpp.i
+
+src/animation/Transform.s: src/animation/Transform.cpp.s
+.PHONY : src/animation/Transform.s
+
+# target to generate assembly for a file
+src/animation/Transform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Transform.cpp.s
+.PHONY : src/animation/Transform.cpp.s
 
 src/math/mat4.o: src/math/mat4.cpp.o
 .PHONY : src/math/mat4.o
@@ -405,6 +453,30 @@ src/opengl/Shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Shader.cpp.s
 .PHONY : src/opengl/Shader.cpp.s
 
+src/opengl/Texture.o: src/opengl/Texture.cpp.o
+.PHONY : src/opengl/Texture.o
+
+# target to build an object file
+src/opengl/Texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Texture.cpp.o
+.PHONY : src/opengl/Texture.cpp.o
+
+src/opengl/Texture.i: src/opengl/Texture.cpp.i
+.PHONY : src/opengl/Texture.i
+
+# target to preprocess a source file
+src/opengl/Texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Texture.cpp.i
+.PHONY : src/opengl/Texture.cpp.i
+
+src/opengl/Texture.s: src/opengl/Texture.cpp.s
+.PHONY : src/opengl/Texture.s
+
+# target to generate assembly for a file
+src/opengl/Texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Texture.cpp.s
+.PHONY : src/opengl/Texture.cpp.s
+
 src/opengl/VertexArray.o: src/opengl/VertexArray.cpp.o
 .PHONY : src/opengl/VertexArray.o
 
@@ -429,30 +501,6 @@ src/opengl/VertexArray.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/VertexArray.cpp.s
 .PHONY : src/opengl/VertexArray.cpp.s
 
-src/transform/Transform.o: src/transform/Transform.cpp.o
-.PHONY : src/transform/Transform.o
-
-# target to build an object file
-src/transform/Transform.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/transform/Transform.cpp.o
-.PHONY : src/transform/Transform.cpp.o
-
-src/transform/Transform.i: src/transform/Transform.cpp.i
-.PHONY : src/transform/Transform.i
-
-# target to preprocess a source file
-src/transform/Transform.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/transform/Transform.cpp.i
-.PHONY : src/transform/Transform.cpp.i
-
-src/transform/Transform.s: src/transform/Transform.cpp.s
-.PHONY : src/transform/Transform.s
-
-# target to generate assembly for a file
-src/transform/Transform.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/transform/Transform.cpp.s
-.PHONY : src/transform/Transform.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -472,9 +520,15 @@ help:
 	@echo "... external/glad/src/glad.o"
 	@echo "... external/glad/src/glad.i"
 	@echo "... external/glad/src/glad.s"
+	@echo "... external/stb_image/stb_image.o"
+	@echo "... external/stb_image/stb_image.i"
+	@echo "... external/stb_image/stb_image.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/animation/Transform.o"
+	@echo "... src/animation/Transform.i"
+	@echo "... src/animation/Transform.s"
 	@echo "... src/math/mat4.o"
 	@echo "... src/math/mat4.i"
 	@echo "... src/math/mat4.s"
@@ -493,12 +547,12 @@ help:
 	@echo "... src/opengl/Shader.o"
 	@echo "... src/opengl/Shader.i"
 	@echo "... src/opengl/Shader.s"
+	@echo "... src/opengl/Texture.o"
+	@echo "... src/opengl/Texture.i"
+	@echo "... src/opengl/Texture.s"
 	@echo "... src/opengl/VertexArray.o"
 	@echo "... src/opengl/VertexArray.i"
 	@echo "... src/opengl/VertexArray.s"
-	@echo "... src/transform/Transform.o"
-	@echo "... src/transform/Transform.i"
-	@echo "... src/transform/Transform.s"
 .PHONY : help
 
 

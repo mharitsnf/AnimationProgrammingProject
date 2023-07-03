@@ -1,10 +1,10 @@
-CMakeFiles/AnimationProject.dir/src/transform/Transform.cpp.o: \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/transform/Transform.cpp \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/transform/Transform.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/transform/../math/vec3.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/transform/../math/mat4.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/transform/../math/vec4.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/transform/../math/quat.h \
+CMakeFiles/AnimationProject.dir/src/animation/Transform.cpp.o: \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Transform.cpp \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Transform.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/../math/vec3.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/../math/mat4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/../math/vec4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/../math/quat.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cmath \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \

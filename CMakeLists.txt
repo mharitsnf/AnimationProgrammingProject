@@ -2,13 +2,15 @@ cmake_minimum_required(VERSION 3.25.1)
 
 project(AnimationProject)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(${PROJECT_NAME}
     main.cpp
     external/glad/src/glad.c 
     external/glad/include/glad/glad.h
+    external/stb_image/stb_image.cpp
+    external/stb_image/stb_image.h
     src/math/vec3.cpp
     src/math/vec3.h
     src/math/vec2.h
@@ -17,8 +19,8 @@ add_executable(${PROJECT_NAME}
     src/math/mat4.h
     src/math/quat.cpp
     src/math/quat.h
-    src/transform/Transform.cpp
-    src/transform/Transform.h
+    src/animation/Transform.cpp
+    src/animation/Transform.h
     src/opengl/Shader.cpp
     src/opengl/Shader.h
     src/opengl/Attribute.h
@@ -29,6 +31,8 @@ add_executable(${PROJECT_NAME}
     src/opengl/Draw.h
     src/opengl/VertexArray.cpp
     src/opengl/VertexArray.h
+    src/opengl/Texture.cpp
+    src/opengl/Texture.h
 )
 
 # For using glfw homebrew
