@@ -820,10 +820,10 @@ CMakeFiles/AnimationProject.dir/main.cpp.o: /Users/mharitsnf/Documents/C++/Anima
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/quat.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec3.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec2.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec4.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.h
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec4.h
 
 CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.cpp \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.h \
@@ -2300,8 +2300,6 @@ CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.o: /Users/mharitsnf/Documents/
 
 /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec4.h:
 
-/Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec2.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
@@ -2573,6 +2571,8 @@ CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.o: /Users/mharitsnf/Documents/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cwchar:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdio:
+
+/Users/mharitsnf/Documents/C++/AnimationProject/src/math/quat.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
 

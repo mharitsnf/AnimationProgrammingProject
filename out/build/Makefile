@@ -285,6 +285,30 @@ src/math/mat4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.s
 .PHONY : src/math/mat4.cpp.s
 
+src/math/quat.o: src/math/quat.cpp.o
+.PHONY : src/math/quat.o
+
+# target to build an object file
+src/math/quat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/quat.cpp.o
+.PHONY : src/math/quat.cpp.o
+
+src/math/quat.i: src/math/quat.cpp.i
+.PHONY : src/math/quat.i
+
+# target to preprocess a source file
+src/math/quat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/quat.cpp.i
+.PHONY : src/math/quat.cpp.i
+
+src/math/quat.s: src/math/quat.cpp.s
+.PHONY : src/math/quat.s
+
+# target to generate assembly for a file
+src/math/quat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/quat.cpp.s
+.PHONY : src/math/quat.cpp.s
+
 src/math/vec3.o: src/math/vec3.cpp.o
 .PHONY : src/math/vec3.o
 
@@ -308,6 +332,30 @@ src/math/vec3.s: src/math/vec3.cpp.s
 src/math/vec3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.s
 .PHONY : src/math/vec3.cpp.s
+
+src/transform/Transform.o: src/transform/Transform.cpp.o
+.PHONY : src/transform/Transform.o
+
+# target to build an object file
+src/transform/Transform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/transform/Transform.cpp.o
+.PHONY : src/transform/Transform.cpp.o
+
+src/transform/Transform.i: src/transform/Transform.cpp.i
+.PHONY : src/transform/Transform.i
+
+# target to preprocess a source file
+src/transform/Transform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/transform/Transform.cpp.i
+.PHONY : src/transform/Transform.cpp.i
+
+src/transform/Transform.s: src/transform/Transform.cpp.s
+.PHONY : src/transform/Transform.s
+
+# target to generate assembly for a file
+src/transform/Transform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/transform/Transform.cpp.s
+.PHONY : src/transform/Transform.cpp.s
 
 # Help Target
 help:
@@ -334,9 +382,15 @@ help:
 	@echo "... src/math/mat4.o"
 	@echo "... src/math/mat4.i"
 	@echo "... src/math/mat4.s"
+	@echo "... src/math/quat.o"
+	@echo "... src/math/quat.i"
+	@echo "... src/math/quat.s"
 	@echo "... src/math/vec3.o"
 	@echo "... src/math/vec3.i"
 	@echo "... src/math/vec3.s"
+	@echo "... src/transform/Transform.o"
+	@echo "... src/transform/Transform.i"
+	@echo "... src/transform/Transform.s"
 .PHONY : help
 
 

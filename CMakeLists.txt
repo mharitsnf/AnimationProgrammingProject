@@ -15,6 +15,10 @@ add_executable(${PROJECT_NAME}
     src/math/vec4.h
     src/math/mat4.cpp
     src/math/mat4.h
+    src/math/quat.cpp
+    src/math/quat.h
+    src/transform/Transform.cpp
+    src/transform/Transform.h
 )
 
 # For using glfw homebrew
