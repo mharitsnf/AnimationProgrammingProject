@@ -48,29 +48,7 @@ int main()
     }
 
     // initialize shader program
-    Shader shader(
-        "#version 330 core\n"
-        "layout (location = 0) in vec3 aPos;\n"
-        "layout (location = 1) in vec2 aTexCoord;\n"
-        "out vec4 vertexColor;\n"
-        "out vec2 TexCoord;\n"
-        "void main()\n"
-        "{\n"
-        "   gl_Position = vec4(aPos, 1.0);\n"
-        "   vertexColor = vec4(0.5, 0.0, 0.0, 1.0);\n"
-        "   TexCoord = vec2(aTexCoord.x, aTexCoord.y);\n"
-        "}\0"
-        ,
-        "#version 330 core\n"
-        "out vec4 FragColor;\n"
-        "in vec2 TexCoord;\n"
-        "uniform vec4 ourColor;\n"
-        "uniform sampler2D texture0;\n"
-        "void main()\n"
-        "{\n"
-        "   FragColor = texture(texture0, TexCoord);\n"
-        "}\n\0"
-    );
+    Shader shader("shaders/learnopengl.vert", "shaders/learnopengl.frag");
 
     // setup object vertices
     std::vector<vec3> verticesVec3 = {
