@@ -49,7 +49,7 @@ target_include_directories(${PROJECT_NAME}
     PUBLIC external/glfw/include
 ) 
 
-# Where is the .a file?
+# Where is the .a / .cpp file?
 target_link_directories(${PROJECT_NAME}
     PRIVATE external/glfw/src
 ) 

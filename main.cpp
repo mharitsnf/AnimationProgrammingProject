@@ -45,14 +45,21 @@ int main()
     Application* app = (Application*) new LearnOpenGLApp;
     app->Initialize();
     
+    double lastTime = glfwGetTime();
+
     // render loop
     while (!glfwWindowShouldClose(window)) {
         // input
         processInput(window);
 
+        double deltaTime = glfwGetTime() - lastTime;
+        lastTime = glfwGetTime();
+        std::cout << deltaTime << "\n";
+
         // rendering background
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
+        
 
         // Render
         app->Render((float)SCR_WIDTH / (float)SCR_HEIGHT);
