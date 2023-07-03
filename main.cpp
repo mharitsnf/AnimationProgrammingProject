@@ -3,13 +3,7 @@
 #include <iostream>
 #include <vector>
 
-#include "src/opengl/Shader.h"
-#include "src/opengl/Attribute.h"
-#include "src/opengl/Uniform.h"
-#include "src/opengl/IndexBuffer.h"
-#include "src/opengl/Draw.h"
-#include "src/opengl/VertexArray.h"
-#include "src/opengl/Texture.h"
+#include "src/application/LearnOpenGLApp.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
@@ -47,54 +41,9 @@ int main()
         return -1;
     }
 
-    // initialize shader program
-    Shader shader("shaders/learnopengl.vert", "shaders/learnopengl.frag");
-
-    // setup object vertices
-    std::vector<vec3> verticesVec3 = {
-        vec3(0.5f,  0.5f, 0.0f),    // top right
-        vec3(0.5f, -0.5f, 0.0f),    // bottom right
-        vec3(-0.5f, -0.5f, 0.0f),   // bottom left
-        vec3(-0.5f,  0.5f, 0.0f)    // top left 
-    };
-
-    std::vector<vec2> uvVec2 = {
-        vec2(1.0f, 1.0f),           // top right
-        vec2(1.0f, 0.0f),           // bottom right
-        vec2(0.0f, 0.0f),           // bottom left
-        vec2(0.0f, 1.0f)            // top left 
-    };
-
-     std::vector<unsigned int> indicesUint = {  // note that we start from 0!
-        0, 1, 3,   // first triangle
-        1, 2, 3    // second triangle
-    };
-
-    // setup VBO and VAO
-    // VBO is vertex buffer object, for filling a buffer with vert positions, normals, uvs, etc.
-    // EBO is element buffer object, so we can just store unique vertices, and reuse it through specified indices.
-    // VAO is vertex array object, for "saving" VBO and EBO configurations so you don't have to specify it over and over again.
-    
-    // Create and bind VAO
-    VertexArray vao;
-    vao.Bind();
-
-    // create and bind VBO, populate data, and then set it to shader
-    // automatically unbind when it's done
-    Attribute<vec3> aPos;  
-    aPos.Set(verticesVec3);
-    aPos.BindTo(0);
-
-    Attribute<vec2> aTexCoord;
-    aTexCoord.Set(uvVec2);
-    aTexCoord.BindTo(1);
-
-    // create and bind EBO, populate data, and then set it to shader
-    IndexBuffer indexBuffer;
-    indexBuffer.Set(indicesUint);
-
-    Texture texture;
-    texture.Load("textures/wall.jpg");
+    // Initialize application
+    LearnOpenGLApp loglapp;
+    loglapp.Initialize();
     
     // render loop
     while (!glfwWindowShouldClose(window)) {
@@ -105,21 +54,8 @@ int main()
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
-        // set uniform
-        glUseProgram(shader.GetHandle());
-        double timeValue = glfwGetTime();
-        float greenValue = static_cast<float>(sin(timeValue) / 2.0 + 0.5);
-        int vertexColorLocation =  glGetUniformLocation(shader.GetHandle(), "ourColor");
-        Uniform<vec4>::Set(vertexColorLocation, vec4(0.0f, greenValue, 0.0f, 1.0f));
-
-        int textureLocation = glGetUniformLocation(shader.GetHandle(), "texture0");
-        texture.Set(textureLocation, 0);
-
-        // draw
-        Draw(indexBuffer, vao, DrawMode::Triangles);
-
-        // remove program
-        glUseProgram(0);
+        // Render
+        loglapp.Render((float)SCR_WIDTH / (float)SCR_HEIGHT);
 
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
         glfwSwapBuffers(window);
@@ -128,6 +64,9 @@ int main()
 
     // glfw: terminate, clearing all previously allocated GLFW resources.
     glfwTerminate();
+
+    loglapp.Shutdown();
+
     return 0;
 }
 

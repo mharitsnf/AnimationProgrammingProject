@@ -1,3 +1,4 @@
+#pragma once
 #ifndef _H_UNIFORM_
 #define _H_UNIFORM_
 
@@ -38,17 +39,17 @@ UNIFORM_IMPL(glUniform4fv, vec4, float)
 UNIFORM_IMPL(glUniform4fv, quat, float)
 
 template<>
-void Uniform<mat4>::Set(unsigned int slot, mat4* inputArray, unsigned int arrayLength) {
+inline void Uniform<mat4>::Set(unsigned int slot, mat4* inputArray, unsigned int arrayLength) {
 	glUniformMatrix4fv(slot, (GLsizei)arrayLength, false, (float*)&inputArray[0]);
 }
 
 template <typename T>
-void Uniform<T>::Set(unsigned int slot, const T& value) {
+inline void Uniform<T>::Set(unsigned int slot, const T& value) {
 	Set(slot, (T*)&value, 1);
 }
 
 template <typename T>
-void Uniform<T>::Set(unsigned int slot, std::vector<T>& value) {
+inline void Uniform<T>::Set(unsigned int slot, std::vector<T>& value) {
 	Set(slot, &value[0], (unsigned int)value.size());
 }
 

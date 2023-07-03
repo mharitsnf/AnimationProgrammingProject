@@ -33,6 +33,9 @@ add_executable(${PROJECT_NAME}
     src/opengl/VertexArray.h
     src/opengl/Texture.cpp
     src/opengl/Texture.h
+    src/application/Application.h
+    src/application/LearnOpenGLApp.cpp
+    src/application/LearnOpenGLApp.h
 )
 
 # For using glfw homebrew
