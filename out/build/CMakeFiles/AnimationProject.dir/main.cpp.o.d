@@ -735,4 +735,11 @@ CMakeFiles/AnimationProject.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Shader.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Attribute.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../../external/glad/include/glad/glad.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/vec2.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/vec3.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/vec4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/quat.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/mat4.h

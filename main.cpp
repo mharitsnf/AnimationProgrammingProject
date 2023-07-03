@@ -1,8 +1,10 @@
 #include "external/glad/include/glad/glad.h"
 #include <GLFW/glfw3.h>
 #include <iostream>
+#include <vector>
 
 #include "src/opengl/Shader.h"
+#include "src/opengl/Attribute.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
@@ -82,6 +84,14 @@ int main()
         -0.5f, -0.5f, 0.0f,  // bottom left
         -0.5f,  0.5f, 0.0f   // top left 
     };
+
+    std::vector<vec3> verticesVec3 = {
+        vec3(0.5f,  0.5f, 0.0f),
+        vec3(0.5f, -0.5f, 0.0f),
+        vec3(-0.5f, -0.5f, 0.0f),
+        vec3(-0.5f,  0.5f, 0.0f)
+    };
+
     unsigned int indices[] = {  // note that we start from 0!
         0, 1, 3,   // first triangle
         1, 2, 3    // second triangle
@@ -93,26 +103,29 @@ int main()
     // VAO is vertex array object, for "saving" VBO and EBO configurations so you don't have to specify it over and over again.
     unsigned int VAO, VBO, EBO;
     glGenVertexArrays(1, &VAO);
-    glGenBuffers(1, &VBO);  
+    // glGenBuffers(1, &VBO);
+    Attribute<vec3> aPos;  
     glGenBuffers(1, &EBO);
 
     // bind (select) VAO for saving the VBO configurations for later use
     glBindVertexArray(VAO);
 
     // bind (select) buffer and then copy vertices to the vertex buffer
-    glBindBuffer(GL_ARRAY_BUFFER, VBO); 
-    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+    // glBindBuffer(GL_ARRAY_BUFFER, VBO); 
+    // glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+    aPos.Set(verticesVec3);
 
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
 
     // set vertex attribute pointers
     // this relates to the in variables in the vertex shader
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, sizeof(float) * 3, (void*)0);
-    glEnableVertexAttribArray(0);
+    // glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, sizeof(float) * 3, (void*)0);
+    // glEnableVertexAttribArray(0);
+    aPos.BindTo(0);
 
     // unbind buffers, except EBO
-    glBindBuffer(GL_ARRAY_BUFFER, 0);
+    // glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
     
     // render loop
@@ -125,7 +138,7 @@ int main()
         glClear(GL_COLOR_BUFFER_BIT);
 
         glUseProgram(shader.GetHandle());
-        double  timeValue = glfwGetTime();
+        double timeValue = glfwGetTime();
         float greenValue = static_cast<float>(sin(timeValue) / 2.0 + 0.5);
         int vertexColorLocation = glGetUniformLocation(shader.GetHandle(), "ourColor");
         glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
