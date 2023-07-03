@@ -2,10 +2,7 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 
-#include "src/math/vec3.h"
-#include "src/math/vec2.h"
-#include "src/math/vec4.h"
-#include "src/math/mat4.h"
+#include "src/math/quat.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
@@ -55,11 +52,6 @@ int main()
         std::cout << "Failed to initialize GLAD" << std::endl;
         return -1;
     }
-
-    mat4 a;
-    mat4 b;
-    std::cout << a.right.x << "\n";
-    
 
 
     // setting up vertex shader

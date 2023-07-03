@@ -733,7 +733,7 @@ CMakeFiles/AnimationProject.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/quat.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec3.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec2.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec4.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.h
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec4.h
