@@ -829,7 +829,8 @@ CMakeFiles/AnimationProject.dir/main.cpp.o: /Users/mharitsnf/Documents/C++/Anima
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/quat.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.h
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Uniform.h
 
 CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.cpp \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.h \
@@ -4558,6 +4559,8 @@ CMakeFiles/AnimationProject.dir/src/transform/Transform.cpp.o: /Users/mharitsnf/
 /Users/mharitsnf/Documents/C++/AnimationProject/src/math/quat.cpp:
 
 /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.cpp:
+
+/Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Uniform.h:
 
 /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec4.h:
 

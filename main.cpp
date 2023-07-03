@@ -5,6 +5,7 @@
 
 #include "src/opengl/Shader.h"
 #include "src/opengl/Attribute.h"
+#include "src/opengl/Uniform.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
@@ -111,8 +112,6 @@ int main()
     glBindVertexArray(VAO);
 
     // bind (select) buffer and then copy vertices to the vertex buffer
-    // glBindBuffer(GL_ARRAY_BUFFER, VBO); 
-    // glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
     aPos.Set(verticesVec3);
 
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
@@ -120,8 +119,6 @@ int main()
 
     // set vertex attribute pointers
     // this relates to the in variables in the vertex shader
-    // glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, sizeof(float) * 3, (void*)0);
-    // glEnableVertexAttribArray(0);
     aPos.BindTo(0);
 
     // unbind buffers, except EBO
@@ -141,7 +138,7 @@ int main()
         double timeValue = glfwGetTime();
         float greenValue = static_cast<float>(sin(timeValue) / 2.0 + 0.5);
         int vertexColorLocation = glGetUniformLocation(shader.GetHandle(), "ourColor");
-        glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
+        Uniform<vec4>::Set(vertexColorLocation, vec4(0.0f, greenValue, 0.0f, 1.0f));
 
         glBindVertexArray(VAO);
         //glDrawArrays(GL_TRIANGLES, 0, 3); // if we dont use EBO

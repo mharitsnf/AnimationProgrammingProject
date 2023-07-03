@@ -22,7 +22,7 @@ add_executable(${PROJECT_NAME}
     src/opengl/Shader.cpp
     src/opengl/Shader.h
     src/opengl/Attribute.h
-    src/opengl/Test.h
+    src/opengl/Uniform.h
 )
 
 # For using glfw homebrew

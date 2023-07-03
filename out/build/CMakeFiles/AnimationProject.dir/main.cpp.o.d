@@ -742,4 +742,5 @@ CMakeFiles/AnimationProject.dir/main.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/vec4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/quat.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/mat4.h
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/mat4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Uniform.h
