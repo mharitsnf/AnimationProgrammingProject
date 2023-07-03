@@ -42,8 +42,8 @@ int main()
     }
 
     // Initialize application
-    LearnOpenGLApp loglapp;
-    loglapp.Initialize();
+    Application* app = (Application*) new LearnOpenGLApp;
+    app->Initialize();
     
     // render loop
     while (!glfwWindowShouldClose(window)) {
@@ -55,7 +55,7 @@ int main()
         glClear(GL_COLOR_BUFFER_BIT);
 
         // Render
-        loglapp.Render((float)SCR_WIDTH / (float)SCR_HEIGHT);
+        app->Render((float)SCR_WIDTH / (float)SCR_HEIGHT);
 
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
         glfwSwapBuffers(window);
@@ -65,7 +65,7 @@ int main()
     // glfw: terminate, clearing all previously allocated GLFW resources.
     glfwTerminate();
 
-    loglapp.Shutdown();
+    app->Shutdown();
 
     return 0;
 }
