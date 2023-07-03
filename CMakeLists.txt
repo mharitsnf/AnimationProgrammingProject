@@ -27,6 +27,8 @@ add_executable(${PROJECT_NAME}
     src/opengl/IndexBuffer.h
     src/opengl/Draw.cpp
     src/opengl/Draw.h
+    src/opengl/VertexArray.cpp
+    src/opengl/VertexArray.h
 )
 
 # For using glfw homebrew

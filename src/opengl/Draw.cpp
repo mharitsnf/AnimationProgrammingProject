@@ -46,6 +46,17 @@ void Draw(IndexBuffer& inIndexBuffer, DrawMode mode) {
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 }
 
+void Draw(IndexBuffer& inIndexBuffer, VertexArray& inVertexArray, DrawMode mode) {
+	unsigned int handle = inIndexBuffer.GetHandle();
+	unsigned int numIndices = inIndexBuffer.Count();
+
+    inVertexArray.Bind();
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, handle);
+	glDrawElements(DrawModeToGLEnum(mode), numIndices, GL_UNSIGNED_INT, 0);
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
+    inVertexArray.Unbind();
+}
+
 void DrawInstanced(IndexBuffer& inIndexBuffer, DrawMode mode, unsigned int instanceCount) {
 	unsigned int handle = inIndexBuffer.GetHandle();
 	unsigned int numIndices = inIndexBuffer.Count();

@@ -8,6 +8,7 @@
 #include "src/opengl/Uniform.h"
 #include "src/opengl/IndexBuffer.h"
 #include "src/opengl/Draw.h"
+#include "src/opengl/VertexArray.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
@@ -65,23 +66,11 @@ int main()
     );
 
     // setup object vertices
-    float vertices[] = {
-        0.5f,  0.5f, 0.0f,  // top right
-        0.5f, -0.5f, 0.0f,  // bottom right
-        -0.5f, -0.5f, 0.0f,  // bottom left
-        -0.5f,  0.5f, 0.0f   // top left 
-    };
-
     std::vector<vec3> verticesVec3 = {
-        vec3(0.5f,  0.5f, 0.0f),
-        vec3(0.5f, -0.5f, 0.0f),
-        vec3(-0.5f, -0.5f, 0.0f),
-        vec3(-0.5f,  0.5f, 0.0f)
-    };
-
-    unsigned int indices[] = {  // note that we start from 0!
-        0, 1, 3,   // first triangle
-        1, 2, 3    // second triangle
+        vec3(0.5f,  0.5f, 0.0f),    // top right
+        vec3(0.5f, -0.5f, 0.0f),    // bottom right
+        vec3(-0.5f, -0.5f, 0.0f),   // bottom left
+        vec3(-0.5f,  0.5f, 0.0f)    // top left 
     };
 
      std::vector<unsigned int> indicesUint = {  // note that we start from 0!
@@ -95,9 +84,8 @@ int main()
     // VAO is vertex array object, for "saving" VBO and EBO configurations so you don't have to specify it over and over again.
     
     // Create and bind VAO
-    unsigned int VAO;
-    glGenVertexArrays(1, &VAO);
-    glBindVertexArray(VAO);
+    VertexArray vao;
+    vao.Bind();
 
     // create and bind VBO, populate data, and then set it to shader
     // automatically unbind when it's done
@@ -110,7 +98,7 @@ int main()
     indexBuffer.Set(indicesUint);
 
     // unbind VAO
-    glBindVertexArray(0);
+    vao.Unbind();
     
     // render loop
     while (!glfwWindowShouldClose(window)) {
@@ -128,9 +116,10 @@ int main()
         int vertexColorLocation =  Uniform<vec4>::GetLocation(shader.GetHandle(), "ourColor");
         Uniform<vec4>::Set(vertexColorLocation, vec4(0.0f, greenValue, 0.0f, 1.0f));
 
-        glBindVertexArray(VAO);
-        Draw(indexBuffer, DrawMode::Triangles);
+        // draw
+        Draw(indexBuffer, vao, DrawMode::Triangles);
 
+        // remove program
         glUseProgram(0);
 
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)

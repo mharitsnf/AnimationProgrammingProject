@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/AnimationProject.dir/src/opengl/IndexBuffer.cpp.o.d"
   "CMakeFiles/AnimationProject.dir/src/opengl/Shader.cpp.o"
   "CMakeFiles/AnimationProject.dir/src/opengl/Shader.cpp.o.d"
+  "CMakeFiles/AnimationProject.dir/src/opengl/VertexArray.cpp.o"
+  "CMakeFiles/AnimationProject.dir/src/opengl/VertexArray.cpp.o.d"
   "CMakeFiles/AnimationProject.dir/src/transform/Transform.cpp.o"
   "CMakeFiles/AnimationProject.dir/src/transform/Transform.cpp.o.d"
 )

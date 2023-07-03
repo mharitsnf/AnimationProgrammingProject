@@ -745,4 +745,5 @@ CMakeFiles/AnimationProject.dir/main.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Uniform.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/IndexBuffer.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Draw.h
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Draw.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/VertexArray.h

@@ -2,6 +2,7 @@
 #define _H_DRAW_
 
 #include "IndexBuffer.h"
+#include "VertexArray.h"
 
 enum class DrawMode {
 	Points,
@@ -14,6 +15,7 @@ enum class DrawMode {
 };
 
 void Draw(IndexBuffer& inIndexBuffer, DrawMode mode);
+void Draw(IndexBuffer& inIndexBuffer, VertexArray& inVertexArray, DrawMode mode);
 void Draw(unsigned int vertexCount, DrawMode mode);
 
 void DrawInstanced(IndexBuffer& inIndexBuffer, DrawMode mode, unsigned int instanceCount);

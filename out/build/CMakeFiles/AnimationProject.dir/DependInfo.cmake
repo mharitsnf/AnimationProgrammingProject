@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Draw.cpp" "CMakeFiles/AnimationProject.dir/src/opengl/Draw.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/opengl/Draw.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/IndexBuffer.cpp" "CMakeFiles/AnimationProject.dir/src/opengl/IndexBuffer.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/opengl/IndexBuffer.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Shader.cpp" "CMakeFiles/AnimationProject.dir/src/opengl/Shader.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/opengl/Shader.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/VertexArray.cpp" "CMakeFiles/AnimationProject.dir/src/opengl/VertexArray.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/opengl/VertexArray.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/src/transform/Transform.cpp" "CMakeFiles/AnimationProject.dir/src/transform/Transform.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/transform/Transform.cpp.o.d"
   )
 

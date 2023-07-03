@@ -405,6 +405,30 @@ src/opengl/Shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Shader.cpp.s
 .PHONY : src/opengl/Shader.cpp.s
 
+src/opengl/VertexArray.o: src/opengl/VertexArray.cpp.o
+.PHONY : src/opengl/VertexArray.o
+
+# target to build an object file
+src/opengl/VertexArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/VertexArray.cpp.o
+.PHONY : src/opengl/VertexArray.cpp.o
+
+src/opengl/VertexArray.i: src/opengl/VertexArray.cpp.i
+.PHONY : src/opengl/VertexArray.i
+
+# target to preprocess a source file
+src/opengl/VertexArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/VertexArray.cpp.i
+.PHONY : src/opengl/VertexArray.cpp.i
+
+src/opengl/VertexArray.s: src/opengl/VertexArray.cpp.s
+.PHONY : src/opengl/VertexArray.s
+
+# target to generate assembly for a file
+src/opengl/VertexArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/VertexArray.cpp.s
+.PHONY : src/opengl/VertexArray.cpp.s
+
 src/transform/Transform.o: src/transform/Transform.cpp.o
 .PHONY : src/transform/Transform.o
 
@@ -469,6 +493,9 @@ help:
 	@echo "... src/opengl/Shader.o"
 	@echo "... src/opengl/Shader.i"
 	@echo "... src/opengl/Shader.s"
+	@echo "... src/opengl/VertexArray.o"
+	@echo "... src/opengl/VertexArray.i"
+	@echo "... src/opengl/VertexArray.s"
 	@echo "... src/transform/Transform.o"
 	@echo "... src/transform/Transform.i"
 	@echo "... src/transform/Transform.s"

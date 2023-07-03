@@ -640,6 +640,7 @@ CMakeFiles/AnimationProject.dir/src/opengl/Draw.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/shift_left.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/shift_right.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/transform.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/VertexArray.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../../external/glad/include/glad/glad.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../../external/glad/include/glad/../KHR/khrplatform.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
