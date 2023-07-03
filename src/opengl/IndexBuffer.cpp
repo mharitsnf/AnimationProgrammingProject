@@ -24,7 +24,7 @@ void IndexBuffer::Set(unsigned int* inputArray, unsigned int arrayLengt) {
 
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, mHandle);
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, size * mCount, inputArray, GL_STATIC_DRAW);
-    // glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 }
 
 void IndexBuffer::Set(std::vector<unsigned int>& input) {

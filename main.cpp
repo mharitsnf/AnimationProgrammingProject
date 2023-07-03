@@ -7,6 +7,7 @@
 #include "src/opengl/Attribute.h"
 #include "src/opengl/Uniform.h"
 #include "src/opengl/IndexBuffer.h"
+#include "src/opengl/Draw.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
@@ -92,10 +93,10 @@ int main()
     // VBO is vertex buffer object, for filling a buffer with vert positions, normals, uvs, etc.
     // EBO is element buffer object, so we can just store unique vertices, and reuse it through specified indices.
     // VAO is vertex array object, for "saving" VBO and EBO configurations so you don't have to specify it over and over again.
+    
+    // Create and bind VAO
     unsigned int VAO;
     glGenVertexArrays(1, &VAO);
-
-    // bind (select) VAO for saving the VBO configurations for later use
     glBindVertexArray(VAO);
 
     // create and bind VBO, populate data, and then set it to shader
@@ -128,8 +129,7 @@ int main()
         Uniform<vec4>::Set(vertexColorLocation, vec4(0.0f, greenValue, 0.0f, 1.0f));
 
         glBindVertexArray(VAO);
-        //glDrawArrays(GL_TRIANGLES, 0, 3); // if we dont use EBO
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+        Draw(indexBuffer, DrawMode::Triangles);
 
         glUseProgram(0);
 
