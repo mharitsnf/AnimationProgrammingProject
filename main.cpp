@@ -14,22 +14,6 @@ void processInput(GLFWwindow *window);
 const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
 
-const char *vertexShaderSource = "#version 330 core\n"
-    "layout (location = 0) in vec3 aPos;\n"
-    "out vec4 vertexColor;\n"
-    "void main()\n"
-    "{\n"
-    "   gl_Position = vec4(aPos, 1.0);\n"
-    "   vertexColor = vec4(0.5, 0.0, 0.0, 1.0);\n"
-    "}\0";
-const char *fragmentShaderSource = "#version 330 core\n"
-    "out vec4 FragColor;\n"
-    "uniform vec4 ourColor;\n"
-    "void main()\n"
-    "{\n"
-    "   FragColor = ourColor;\n"
-    "}\n\0";
-
 int main()
 {
     // glfw: initialize and configure
@@ -102,27 +86,23 @@ int main()
     // VBO is vertex buffer object, for filling a buffer with vert positions, normals, uvs, etc.
     // EBO is element buffer object, so we can just store unique vertices, and reuse it through specified indices.
     // VAO is vertex array object, for "saving" VBO and EBO configurations so you don't have to specify it over and over again.
-    unsigned int VAO, VBO, EBO;
+    unsigned int VAO, EBO;
     glGenVertexArrays(1, &VAO);
-    // glGenBuffers(1, &VBO);
-    Attribute<vec3> aPos;  
     glGenBuffers(1, &EBO);
 
     // bind (select) VAO for saving the VBO configurations for later use
     glBindVertexArray(VAO);
 
-    // bind (select) buffer and then copy vertices to the vertex buffer
+    // create VBO, populate data, and then set it to shader
+    // automatically unbind when it's done
+    Attribute<vec3> aPos;  
     aPos.Set(verticesVec3);
+    aPos.BindTo(0);
 
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
 
-    // set vertex attribute pointers
-    // this relates to the in variables in the vertex shader
-    aPos.BindTo(0);
-
     // unbind buffers, except EBO
-    // glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
     
     // render loop
@@ -137,7 +117,7 @@ int main()
         glUseProgram(shader.GetHandle());
         double timeValue = glfwGetTime();
         float greenValue = static_cast<float>(sin(timeValue) / 2.0 + 0.5);
-        int vertexColorLocation = glGetUniformLocation(shader.GetHandle(), "ourColor");
+        int vertexColorLocation =  Uniform<vec4>::GetLocation(shader.GetHandle(), "ourColor");
         Uniform<vec4>::Set(vertexColorLocation, vec4(0.0f, greenValue, 0.0f, 1.0f));
 
         glBindVertexArray(VAO);
