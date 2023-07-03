@@ -333,6 +333,30 @@ src/math/vec3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.s
 .PHONY : src/math/vec3.cpp.s
 
+src/opengl/IndexBuffer.o: src/opengl/IndexBuffer.cpp.o
+.PHONY : src/opengl/IndexBuffer.o
+
+# target to build an object file
+src/opengl/IndexBuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/IndexBuffer.cpp.o
+.PHONY : src/opengl/IndexBuffer.cpp.o
+
+src/opengl/IndexBuffer.i: src/opengl/IndexBuffer.cpp.i
+.PHONY : src/opengl/IndexBuffer.i
+
+# target to preprocess a source file
+src/opengl/IndexBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/IndexBuffer.cpp.i
+.PHONY : src/opengl/IndexBuffer.cpp.i
+
+src/opengl/IndexBuffer.s: src/opengl/IndexBuffer.cpp.s
+.PHONY : src/opengl/IndexBuffer.s
+
+# target to generate assembly for a file
+src/opengl/IndexBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/IndexBuffer.cpp.s
+.PHONY : src/opengl/IndexBuffer.cpp.s
+
 src/opengl/Shader.o: src/opengl/Shader.cpp.o
 .PHONY : src/opengl/Shader.o
 
@@ -412,6 +436,9 @@ help:
 	@echo "... src/math/vec3.o"
 	@echo "... src/math/vec3.i"
 	@echo "... src/math/vec3.s"
+	@echo "... src/opengl/IndexBuffer.o"
+	@echo "... src/opengl/IndexBuffer.i"
+	@echo "... src/opengl/IndexBuffer.s"
 	@echo "... src/opengl/Shader.o"
 	@echo "... src/opengl/Shader.i"
 	@echo "... src/opengl/Shader.s"

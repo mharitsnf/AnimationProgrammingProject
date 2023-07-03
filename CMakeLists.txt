@@ -23,6 +23,8 @@ add_executable(${PROJECT_NAME}
     src/opengl/Shader.h
     src/opengl/Attribute.h
     src/opengl/Uniform.h
+    src/opengl/IndexBuffer.cpp
+    src/opengl/IndexBuffer.h
 )
 
 # For using glfw homebrew

@@ -8,6 +8,8 @@
 #include "../math/vec4.h"
 #include "../math/quat.h"
 
+// Abstraction of VBO
+
 template<typename T>
 class Attribute {
 protected:

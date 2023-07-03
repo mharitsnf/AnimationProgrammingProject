@@ -6,6 +6,7 @@
 #include "src/opengl/Shader.h"
 #include "src/opengl/Attribute.h"
 #include "src/opengl/Uniform.h"
+#include "src/opengl/IndexBuffer.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
@@ -82,27 +83,32 @@ int main()
         1, 2, 3    // second triangle
     };
 
+     std::vector<unsigned int> indicesUint = {  // note that we start from 0!
+        0, 1, 3,   // first triangle
+        1, 2, 3    // second triangle
+    };
+
     // setup VBO and VAO
     // VBO is vertex buffer object, for filling a buffer with vert positions, normals, uvs, etc.
     // EBO is element buffer object, so we can just store unique vertices, and reuse it through specified indices.
     // VAO is vertex array object, for "saving" VBO and EBO configurations so you don't have to specify it over and over again.
-    unsigned int VAO, EBO;
+    unsigned int VAO;
     glGenVertexArrays(1, &VAO);
-    glGenBuffers(1, &EBO);
 
     // bind (select) VAO for saving the VBO configurations for later use
     glBindVertexArray(VAO);
 
-    // create VBO, populate data, and then set it to shader
+    // create and bind VBO, populate data, and then set it to shader
     // automatically unbind when it's done
     Attribute<vec3> aPos;  
     aPos.Set(verticesVec3);
     aPos.BindTo(0);
 
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+    // create and bind EBO, populate data, and then set it to shader
+    IndexBuffer indexBuffer;
+    indexBuffer.Set(indicesUint);
 
-    // unbind buffers, except EBO
+    // unbind VAO
     glBindVertexArray(0);
     
     // render loop
@@ -110,10 +116,11 @@ int main()
         // input
         processInput(window);
 
-        // rendering commands
+        // rendering background
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
+        // set uniform
         glUseProgram(shader.GetHandle());
         double timeValue = glfwGetTime();
         float greenValue = static_cast<float>(sin(timeValue) / 2.0 + 0.5);
