@@ -333,6 +333,30 @@ src/math/vec3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.s
 .PHONY : src/math/vec3.cpp.s
 
+src/opengl/Shader.o: src/opengl/Shader.cpp.o
+.PHONY : src/opengl/Shader.o
+
+# target to build an object file
+src/opengl/Shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Shader.cpp.o
+.PHONY : src/opengl/Shader.cpp.o
+
+src/opengl/Shader.i: src/opengl/Shader.cpp.i
+.PHONY : src/opengl/Shader.i
+
+# target to preprocess a source file
+src/opengl/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Shader.cpp.i
+.PHONY : src/opengl/Shader.cpp.i
+
+src/opengl/Shader.s: src/opengl/Shader.cpp.s
+.PHONY : src/opengl/Shader.s
+
+# target to generate assembly for a file
+src/opengl/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Shader.cpp.s
+.PHONY : src/opengl/Shader.cpp.s
+
 src/transform/Transform.o: src/transform/Transform.cpp.o
 .PHONY : src/transform/Transform.o
 
@@ -388,6 +412,9 @@ help:
 	@echo "... src/math/vec3.o"
 	@echo "... src/math/vec3.i"
 	@echo "... src/math/vec3.s"
+	@echo "... src/opengl/Shader.o"
+	@echo "... src/opengl/Shader.i"
+	@echo "... src/opengl/Shader.s"
 	@echo "... src/transform/Transform.o"
 	@echo "... src/transform/Transform.i"
 	@echo "... src/transform/Transform.s"

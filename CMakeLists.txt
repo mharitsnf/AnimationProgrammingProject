@@ -19,6 +19,8 @@ add_executable(${PROJECT_NAME}
     src/math/quat.h
     src/transform/Transform.cpp
     src/transform/Transform.h
+    src/opengl/Shader.cpp
+    src/opengl/Shader.h
 )
 
 # For using glfw homebrew
