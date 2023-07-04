@@ -23,7 +23,9 @@ add_executable(${PROJECT_NAME}
     src/animation/Transform.h
     src/opengl/Shader.cpp
     src/opengl/Shader.h
+    src/opengl/Attribute.cpp
     src/opengl/Attribute.h
+    src/opengl/Uniform.cpp
     src/opengl/Uniform.h
     src/opengl/IndexBuffer.cpp
     src/opengl/IndexBuffer.h
@@ -37,7 +39,11 @@ add_executable(${PROJECT_NAME}
     src/application/LearnOpenGLApp.cpp
     src/application/LearnOpenGLApp.h
     src/application/BasicApp.cpp
-    src/application/BasicApp.h    
+    src/application/BasicApp.h
+    src/animation/Interpolation.h
+    src/animation/Frame.h
+    src/animation/Track.cpp
+    src/animation/Track.h
 )
 
 

@@ -738,17 +738,11 @@ CMakeFiles/AnimationProject.dir/src/application/LearnOpenGLApp.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../../external/glad/include/glad/glad.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../../external/glad/include/glad/../KHR/khrplatform.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../math/vec2.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../math/vec3.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../math/vec4.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../math/quat.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../math/mat4.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../math/vec4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/IndexBuffer.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/VertexArray.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/Texture.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../math/mat4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../math/vec4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../math/quat.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/Uniform.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/Draw.h

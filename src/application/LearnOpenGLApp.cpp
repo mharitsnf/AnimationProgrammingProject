@@ -43,7 +43,7 @@ void LearnOpenGLApp::Initialize() {
     mIndexBuffer->Set(indices);
 
     // set texture
-    mDisplayTexture->Load("textures/wall.jpg");
+    mDisplayTexture->Load("assets/textures/wall.jpg");
     mDisplayTexture->Set(mShader->GetUniform("texture0"), 0);
 }
 

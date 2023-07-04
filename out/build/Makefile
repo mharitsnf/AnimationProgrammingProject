@@ -285,6 +285,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/animation/Track.o: src/animation/Track.cpp.o
+.PHONY : src/animation/Track.o
+
+# target to build an object file
+src/animation/Track.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Track.cpp.o
+.PHONY : src/animation/Track.cpp.o
+
+src/animation/Track.i: src/animation/Track.cpp.i
+.PHONY : src/animation/Track.i
+
+# target to preprocess a source file
+src/animation/Track.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Track.cpp.i
+.PHONY : src/animation/Track.cpp.i
+
+src/animation/Track.s: src/animation/Track.cpp.s
+.PHONY : src/animation/Track.s
+
+# target to generate assembly for a file
+src/animation/Track.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Track.cpp.s
+.PHONY : src/animation/Track.cpp.s
+
 src/animation/Transform.o: src/animation/Transform.cpp.o
 .PHONY : src/animation/Transform.o
 
@@ -429,6 +453,30 @@ src/math/vec3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.s
 .PHONY : src/math/vec3.cpp.s
 
+src/opengl/Attribute.o: src/opengl/Attribute.cpp.o
+.PHONY : src/opengl/Attribute.o
+
+# target to build an object file
+src/opengl/Attribute.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Attribute.cpp.o
+.PHONY : src/opengl/Attribute.cpp.o
+
+src/opengl/Attribute.i: src/opengl/Attribute.cpp.i
+.PHONY : src/opengl/Attribute.i
+
+# target to preprocess a source file
+src/opengl/Attribute.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Attribute.cpp.i
+.PHONY : src/opengl/Attribute.cpp.i
+
+src/opengl/Attribute.s: src/opengl/Attribute.cpp.s
+.PHONY : src/opengl/Attribute.s
+
+# target to generate assembly for a file
+src/opengl/Attribute.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Attribute.cpp.s
+.PHONY : src/opengl/Attribute.cpp.s
+
 src/opengl/Draw.o: src/opengl/Draw.cpp.o
 .PHONY : src/opengl/Draw.o
 
@@ -525,6 +573,30 @@ src/opengl/Texture.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Texture.cpp.s
 .PHONY : src/opengl/Texture.cpp.s
 
+src/opengl/Uniform.o: src/opengl/Uniform.cpp.o
+.PHONY : src/opengl/Uniform.o
+
+# target to build an object file
+src/opengl/Uniform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Uniform.cpp.o
+.PHONY : src/opengl/Uniform.cpp.o
+
+src/opengl/Uniform.i: src/opengl/Uniform.cpp.i
+.PHONY : src/opengl/Uniform.i
+
+# target to preprocess a source file
+src/opengl/Uniform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Uniform.cpp.i
+.PHONY : src/opengl/Uniform.cpp.i
+
+src/opengl/Uniform.s: src/opengl/Uniform.cpp.s
+.PHONY : src/opengl/Uniform.s
+
+# target to generate assembly for a file
+src/opengl/Uniform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Uniform.cpp.s
+.PHONY : src/opengl/Uniform.cpp.s
+
 src/opengl/VertexArray.o: src/opengl/VertexArray.cpp.o
 .PHONY : src/opengl/VertexArray.o
 
@@ -574,6 +646,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/animation/Track.o"
+	@echo "... src/animation/Track.i"
+	@echo "... src/animation/Track.s"
 	@echo "... src/animation/Transform.o"
 	@echo "... src/animation/Transform.i"
 	@echo "... src/animation/Transform.s"
@@ -592,6 +667,9 @@ help:
 	@echo "... src/math/vec3.o"
 	@echo "... src/math/vec3.i"
 	@echo "... src/math/vec3.s"
+	@echo "... src/opengl/Attribute.o"
+	@echo "... src/opengl/Attribute.i"
+	@echo "... src/opengl/Attribute.s"
 	@echo "... src/opengl/Draw.o"
 	@echo "... src/opengl/Draw.i"
 	@echo "... src/opengl/Draw.s"
@@ -604,6 +682,9 @@ help:
 	@echo "... src/opengl/Texture.o"
 	@echo "... src/opengl/Texture.i"
 	@echo "... src/opengl/Texture.s"
+	@echo "... src/opengl/Uniform.o"
+	@echo "... src/opengl/Uniform.i"
+	@echo "... src/opengl/Uniform.s"
 	@echo "... src/opengl/VertexArray.o"
 	@echo "... src/opengl/VertexArray.i"
 	@echo "... src/opengl/VertexArray.s"

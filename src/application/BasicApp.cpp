@@ -49,8 +49,8 @@ void BasicApp::Initialize() {
 	mIndexBuffer->Set(indices);
 
     // load texture    
-    mDisplayTexture->Load("textures/wall.jpg");
-    mDisplayTexture->Set(mShader->GetUniform("texture0"), 0);
+    mDisplayTexture->Load("assets/textures/wall.jpg");
+    mDisplayTexture->Set(mShader->GetUniform("tex0"), 0);
 
 }
 
