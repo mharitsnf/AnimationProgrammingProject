@@ -333,6 +333,30 @@ src/animation/Transform.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Transform.cpp.s
 .PHONY : src/animation/Transform.cpp.s
 
+src/animation/TransformTrack.o: src/animation/TransformTrack.cpp.o
+.PHONY : src/animation/TransformTrack.o
+
+# target to build an object file
+src/animation/TransformTrack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/TransformTrack.cpp.o
+.PHONY : src/animation/TransformTrack.cpp.o
+
+src/animation/TransformTrack.i: src/animation/TransformTrack.cpp.i
+.PHONY : src/animation/TransformTrack.i
+
+# target to preprocess a source file
+src/animation/TransformTrack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/TransformTrack.cpp.i
+.PHONY : src/animation/TransformTrack.cpp.i
+
+src/animation/TransformTrack.s: src/animation/TransformTrack.cpp.s
+.PHONY : src/animation/TransformTrack.s
+
+# target to generate assembly for a file
+src/animation/TransformTrack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/TransformTrack.cpp.s
+.PHONY : src/animation/TransformTrack.cpp.s
+
 src/application/BasicApp.o: src/application/BasicApp.cpp.o
 .PHONY : src/application/BasicApp.o
 
@@ -356,6 +380,30 @@ src/application/BasicApp.s: src/application/BasicApp.cpp.s
 src/application/BasicApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/BasicApp.cpp.s
 .PHONY : src/application/BasicApp.cpp.s
+
+src/application/ChapterEightApp.o: src/application/ChapterEightApp.cpp.o
+.PHONY : src/application/ChapterEightApp.o
+
+# target to build an object file
+src/application/ChapterEightApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o
+.PHONY : src/application/ChapterEightApp.cpp.o
+
+src/application/ChapterEightApp.i: src/application/ChapterEightApp.cpp.i
+.PHONY : src/application/ChapterEightApp.i
+
+# target to preprocess a source file
+src/application/ChapterEightApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.i
+.PHONY : src/application/ChapterEightApp.cpp.i
+
+src/application/ChapterEightApp.s: src/application/ChapterEightApp.cpp.s
+.PHONY : src/application/ChapterEightApp.s
+
+# target to generate assembly for a file
+src/application/ChapterEightApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.s
+.PHONY : src/application/ChapterEightApp.cpp.s
 
 src/application/LearnOpenGLApp.o: src/application/LearnOpenGLApp.cpp.o
 .PHONY : src/application/LearnOpenGLApp.o
@@ -476,6 +524,30 @@ src/opengl/Attribute.s: src/opengl/Attribute.cpp.s
 src/opengl/Attribute.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Attribute.cpp.s
 .PHONY : src/opengl/Attribute.cpp.s
+
+src/opengl/DebugDraw.o: src/opengl/DebugDraw.cpp.o
+.PHONY : src/opengl/DebugDraw.o
+
+# target to build an object file
+src/opengl/DebugDraw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/DebugDraw.cpp.o
+.PHONY : src/opengl/DebugDraw.cpp.o
+
+src/opengl/DebugDraw.i: src/opengl/DebugDraw.cpp.i
+.PHONY : src/opengl/DebugDraw.i
+
+# target to preprocess a source file
+src/opengl/DebugDraw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/DebugDraw.cpp.i
+.PHONY : src/opengl/DebugDraw.cpp.i
+
+src/opengl/DebugDraw.s: src/opengl/DebugDraw.cpp.s
+.PHONY : src/opengl/DebugDraw.s
+
+# target to generate assembly for a file
+src/opengl/DebugDraw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/DebugDraw.cpp.s
+.PHONY : src/opengl/DebugDraw.cpp.s
 
 src/opengl/Draw.o: src/opengl/Draw.cpp.o
 .PHONY : src/opengl/Draw.o
@@ -652,9 +724,15 @@ help:
 	@echo "... src/animation/Transform.o"
 	@echo "... src/animation/Transform.i"
 	@echo "... src/animation/Transform.s"
+	@echo "... src/animation/TransformTrack.o"
+	@echo "... src/animation/TransformTrack.i"
+	@echo "... src/animation/TransformTrack.s"
 	@echo "... src/application/BasicApp.o"
 	@echo "... src/application/BasicApp.i"
 	@echo "... src/application/BasicApp.s"
+	@echo "... src/application/ChapterEightApp.o"
+	@echo "... src/application/ChapterEightApp.i"
+	@echo "... src/application/ChapterEightApp.s"
 	@echo "... src/application/LearnOpenGLApp.o"
 	@echo "... src/application/LearnOpenGLApp.i"
 	@echo "... src/application/LearnOpenGLApp.s"
@@ -670,6 +748,9 @@ help:
 	@echo "... src/opengl/Attribute.o"
 	@echo "... src/opengl/Attribute.i"
 	@echo "... src/opengl/Attribute.s"
+	@echo "... src/opengl/DebugDraw.o"
+	@echo "... src/opengl/DebugDraw.i"
+	@echo "... src/opengl/DebugDraw.s"
 	@echo "... src/opengl/Draw.o"
 	@echo "... src/opengl/Draw.i"
 	@echo "... src/opengl/Draw.s"

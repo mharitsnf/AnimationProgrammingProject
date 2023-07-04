@@ -44,6 +44,12 @@ add_executable(${PROJECT_NAME}
     src/animation/Frame.h
     src/animation/Track.cpp
     src/animation/Track.h
+    src/animation/TransformTrack.cpp
+    src/animation/TransformTrack.h
+    src/opengl/DebugDraw.cpp
+    src/opengl/DebugDraw.h
+    src/application/ChapterEightApp.cpp
+    src/application/ChapterEightApp.h
 )
 
 
