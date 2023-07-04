@@ -25,7 +25,7 @@ void LearnOpenGLApp::Initialize() {
         vec3(-0.5f,  0.5f, 0.0f)    // top left 
     };
     mVertexPositions->Set(verts);
-    mVertexPositions->BindTo(0);
+    mVertexPositions->BindTo(mShader->GetAttribute("aPos"));
 
     std::vector<vec2> uvs = {
         vec2(1.0f, 1.0f),           // top right
@@ -34,7 +34,7 @@ void LearnOpenGLApp::Initialize() {
         vec2(0.0f, 1.0f)            // top left 
     };
     mVertexTexCoords->Set(uvs);
-    mVertexTexCoords->BindTo(1);
+    mVertexTexCoords->BindTo(mShader->GetAttribute("aTexCoord"));
 
     std::vector<unsigned int> indices = {  // note that we start from 0!
         0, 1, 3,   // first triangle
@@ -42,7 +42,9 @@ void LearnOpenGLApp::Initialize() {
     };
     mIndexBuffer->Set(indices);
 
+    // set texture
     mDisplayTexture->Load("textures/wall.jpg");
+    mDisplayTexture->Set(mShader->GetUniform("texture0"), 0);
 }
 
 // inside the loop loop
@@ -50,14 +52,7 @@ void LearnOpenGLApp::Render(float inAspectRatio) {
 
     mShader->Bind();
 
-    mDisplayTexture->Set(mShader->GetUniform("texture0"), 0);
-
     Draw(*mIndexBuffer, *mVertexArray, DrawMode::Triangles);
-
-    mDisplayTexture->UnSet(0);
-
-    mVertexPositions->UnBindFrom(0);
-    mVertexTexCoords->UnBindFrom(1);
 
     mShader->UnBind();
 }
@@ -68,4 +63,5 @@ void LearnOpenGLApp::Shutdown() {
 	delete mVertexPositions;
 	delete mVertexTexCoords;
 	delete mIndexBuffer;
+    delete mVertexArray;
 }
