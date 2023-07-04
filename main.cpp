@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-#include "src/application/LearnOpenGLApp.h"
+#include "src/application/BasicApp.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
@@ -42,7 +42,7 @@ int main()
     }
 
     // Initialize application
-    Application* app = (Application*) new LearnOpenGLApp;
+    Application* app = (Application*) new BasicApp;
     app->Initialize();
     
     double lastTime = glfwGetTime();
@@ -52,16 +52,18 @@ int main()
         // input
         processInput(window);
 
+        // add deltatime
         double deltaTime = glfwGetTime() - lastTime;
         lastTime = glfwGetTime();
-        std::cout << deltaTime << "\n";
 
         // rendering background
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
         
+        // update calculation
+        app->Update((float)deltaTime);
 
-        // Render
+        // render
         app->Render((float)SCR_WIDTH / (float)SCR_HEIGHT);
 
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)

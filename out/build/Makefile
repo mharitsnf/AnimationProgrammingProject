@@ -309,6 +309,30 @@ src/animation/Transform.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Transform.cpp.s
 .PHONY : src/animation/Transform.cpp.s
 
+src/application/BasicApp.o: src/application/BasicApp.cpp.o
+.PHONY : src/application/BasicApp.o
+
+# target to build an object file
+src/application/BasicApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/BasicApp.cpp.o
+.PHONY : src/application/BasicApp.cpp.o
+
+src/application/BasicApp.i: src/application/BasicApp.cpp.i
+.PHONY : src/application/BasicApp.i
+
+# target to preprocess a source file
+src/application/BasicApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/BasicApp.cpp.i
+.PHONY : src/application/BasicApp.cpp.i
+
+src/application/BasicApp.s: src/application/BasicApp.cpp.s
+.PHONY : src/application/BasicApp.s
+
+# target to generate assembly for a file
+src/application/BasicApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/BasicApp.cpp.s
+.PHONY : src/application/BasicApp.cpp.s
+
 src/application/LearnOpenGLApp.o: src/application/LearnOpenGLApp.cpp.o
 .PHONY : src/application/LearnOpenGLApp.o
 
@@ -553,6 +577,9 @@ help:
 	@echo "... src/animation/Transform.o"
 	@echo "... src/animation/Transform.i"
 	@echo "... src/animation/Transform.s"
+	@echo "... src/application/BasicApp.o"
+	@echo "... src/application/BasicApp.i"
+	@echo "... src/application/BasicApp.s"
 	@echo "... src/application/LearnOpenGLApp.o"
 	@echo "... src/application/LearnOpenGLApp.i"
 	@echo "... src/application/LearnOpenGLApp.s"

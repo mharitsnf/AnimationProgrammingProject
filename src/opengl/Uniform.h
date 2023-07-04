@@ -25,7 +25,7 @@ public:
 
 #define UNIFORM_IMPL(gl_func, tType, dType) \
 template<> \
-void Uniform<tType>::Set(unsigned int slot, tType* data, unsigned int length) { \
+inline void Uniform<tType>::Set(unsigned int slot, tType* data, unsigned int length) { \
     gl_func(slot, (GLsizei)length, (dType*)&data[0]); \
 }
 
