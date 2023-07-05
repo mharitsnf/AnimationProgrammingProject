@@ -1,9 +1,9 @@
-#include "CurveApp.h"
+#include "DebugApp.h"
 #include "../math/vec3.h"
 #include "../math/mat4.h"
 
 
-void CurveApp::Initialize() {
+void DebugApp::Initialize() {
     refLine = new DebugDraw;
     for (unsigned int i = 0; i < 10; ++i) {
 		float yPosition = (i * 2.0f) + ((float)i * 0.2f) + 0.1f;
@@ -26,7 +26,7 @@ void CurveApp::Initialize() {
     newLine->UpdateOpenGLBuffers();
 }
 
-void CurveApp::Render(float inAspectRatio) {
+void DebugApp::Render(float inAspectRatio) {
     mat4 model;
 	mat4 view = lookAt(vec3(0, 0, 5), vec3(0, 0, 0), vec3(0, 1, 0));
 	mat4 projection = ortho(0, inAspectRatio * 22.0f, 0, 22, 0.001f, 10);
@@ -37,7 +37,7 @@ void CurveApp::Render(float inAspectRatio) {
     newLine->Draw(DebugDrawMode::Lines, vec3(1, 1, 1), mvp);
 }
 
-void CurveApp::Shutdown() {
+void DebugApp::Shutdown() {
     delete refLine;
     delete newLine;
 }

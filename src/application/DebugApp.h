@@ -1,12 +1,12 @@
-#ifndef _H_CURVEAPP_
-#define _H_CURVEAPP_
+#ifndef _H_DEBUGAPP_
+#define _H_DEBUGAPP_
 
 #include "Application.h"
 #include "../opengl/DebugDraw.h"
 
 #define DEG2RAD 0.0174533f
 
-class CurveApp : public Application {
+class DebugApp : public Application {
 protected:
 	DebugDraw* refLine;
 	DebugDraw* newLine;

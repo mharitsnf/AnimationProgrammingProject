@@ -405,29 +405,29 @@ src/application/ChapterEightApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.s
 .PHONY : src/application/ChapterEightApp.cpp.s
 
-src/application/CurveApp.o: src/application/CurveApp.cpp.o
-.PHONY : src/application/CurveApp.o
+src/application/DebugApp.o: src/application/DebugApp.cpp.o
+.PHONY : src/application/DebugApp.o
 
 # target to build an object file
-src/application/CurveApp.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/CurveApp.cpp.o
-.PHONY : src/application/CurveApp.cpp.o
+src/application/DebugApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/DebugApp.cpp.o
+.PHONY : src/application/DebugApp.cpp.o
 
-src/application/CurveApp.i: src/application/CurveApp.cpp.i
-.PHONY : src/application/CurveApp.i
+src/application/DebugApp.i: src/application/DebugApp.cpp.i
+.PHONY : src/application/DebugApp.i
 
 # target to preprocess a source file
-src/application/CurveApp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/CurveApp.cpp.i
-.PHONY : src/application/CurveApp.cpp.i
+src/application/DebugApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/DebugApp.cpp.i
+.PHONY : src/application/DebugApp.cpp.i
 
-src/application/CurveApp.s: src/application/CurveApp.cpp.s
-.PHONY : src/application/CurveApp.s
+src/application/DebugApp.s: src/application/DebugApp.cpp.s
+.PHONY : src/application/DebugApp.s
 
 # target to generate assembly for a file
-src/application/CurveApp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/CurveApp.cpp.s
-.PHONY : src/application/CurveApp.cpp.s
+src/application/DebugApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/DebugApp.cpp.s
+.PHONY : src/application/DebugApp.cpp.s
 
 src/application/LearnOpenGLApp.o: src/application/LearnOpenGLApp.cpp.o
 .PHONY : src/application/LearnOpenGLApp.o
@@ -757,9 +757,9 @@ help:
 	@echo "... src/application/ChapterEightApp.o"
 	@echo "... src/application/ChapterEightApp.i"
 	@echo "... src/application/ChapterEightApp.s"
-	@echo "... src/application/CurveApp.o"
-	@echo "... src/application/CurveApp.i"
-	@echo "... src/application/CurveApp.s"
+	@echo "... src/application/DebugApp.o"
+	@echo "... src/application/DebugApp.i"
+	@echo "... src/application/DebugApp.s"
 	@echo "... src/application/LearnOpenGLApp.o"
 	@echo "... src/application/LearnOpenGLApp.i"
 	@echo "... src/application/LearnOpenGLApp.s"
