@@ -49,12 +49,12 @@ void DebugApp::Initialize() {
 	track[3] = frame3;
 	track[4] = frame4;
 
-	std::cout << "Start time: " << track.GetStartTime() << " End time: " << track.GetEndTime() << "\n";
-
+	// scaling the x axis
 	float left = 1.f;
 	float right = 16.f;
 	float xRange = right - left;
 
+	// scaling the y axis
 	float bottom = 5.f;
 	float top = 10.f;
 	float yRange = top - bottom;
