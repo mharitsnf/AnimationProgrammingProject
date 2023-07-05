@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/AnimationProject.dir/src/application/BasicApp.cpp.o.d"
   "CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o"
   "CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o.d"
+  "CMakeFiles/AnimationProject.dir/src/application/CurveApp.cpp.o"
+  "CMakeFiles/AnimationProject.dir/src/application/CurveApp.cpp.o.d"
   "CMakeFiles/AnimationProject.dir/src/application/LearnOpenGLApp.cpp.o"
   "CMakeFiles/AnimationProject.dir/src/application/LearnOpenGLApp.cpp.o.d"
   "CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.o"

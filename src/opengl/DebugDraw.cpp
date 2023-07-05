@@ -20,6 +20,9 @@ DebugDraw::DebugDraw() {
 		"	FragColor = vec4(color, 1);\n"
 		"}"
 	);
+
+	mVertexArray = new VertexArray;
+	mVertexArray->Bind();
 }
 
 DebugDraw::DebugDraw(unsigned int size) {
@@ -42,11 +45,14 @@ DebugDraw::DebugDraw(unsigned int size) {
 	);
 
 	Resize(size);
+
+	mVertexArray = new VertexArray;
 }
 
 DebugDraw::~DebugDraw() {
 	delete mAttribs;
 	delete mShader;
+	delete mVertexArray;
 }
 
 unsigned int DebugDraw::Size() {
@@ -67,7 +73,9 @@ void DebugDraw::Push(const vec3& v) {
 
 
 void DebugDraw::UpdateOpenGLBuffers() {
+	mVertexArray->Bind();
 	mAttribs->Set(mPoints);
+	mVertexArray->Bind();
 }
 
 void DebugDraw::Draw(DebugDrawMode mode, const vec3& color, const mat4& mvp) {
@@ -76,16 +84,16 @@ void DebugDraw::Draw(DebugDrawMode mode, const vec3& color, const mat4& mvp) {
 	Uniform<vec3>::Set(mShader->GetUniform("color"), color);
 	mAttribs->BindTo(mShader->GetAttribute("position"));
 	if (mode == DebugDrawMode::Lines) {
-		::Draw(Size(), DrawMode::Lines);
+		::Draw(Size(), *mVertexArray, DrawMode::Lines);
 	}
 	else if (mode == DebugDrawMode::Loop) {
-		::Draw(Size(), DrawMode::LineLoop);
+		::Draw(Size(), *mVertexArray, DrawMode::LineLoop);
 	}
 	else if (mode == DebugDrawMode::Strip) {
-		::Draw(Size(), DrawMode::LineStrip);
+		::Draw(Size(), *mVertexArray, DrawMode::LineStrip);
 	}
 	else {
-		::Draw(Size(), DrawMode::Points);
+		::Draw(Size(), *mVertexArray, DrawMode::Points);
 	}
 	mAttribs->UnBindFrom(mShader->GetAttribute("position"));
 	mShader->UnBind();

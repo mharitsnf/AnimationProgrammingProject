@@ -735,10 +735,10 @@ CMakeFiles/AnimationProject.dir/src/opengl/DebugDraw.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/VertexArray.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/vec4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Uniform.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Draw.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/IndexBuffer.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/VertexArray.h
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/IndexBuffer.h

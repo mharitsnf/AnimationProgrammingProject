@@ -3,6 +3,7 @@
 
 #include "Application.h"
 #include "../opengl/DebugDraw.h"
+#include "../opengl/VertexArray.h"
 #include "../animation/Track.h"
 #include <vector>
 
@@ -11,6 +12,7 @@ protected:
 	std::vector<ScalarTrack> mScalarTracks;
 	std::vector<bool> mScalarTracksLooping;
 
+	VertexArray* mVertexArray;
 	DebugDraw* mScalarTrackLines;
 	DebugDraw* mHandleLines;
 	DebugDraw* mHandlePoints;

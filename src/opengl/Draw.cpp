@@ -33,6 +33,12 @@ void Draw(unsigned int vertexCount, DrawMode mode) {
 	glDrawArrays(DrawModeToGLEnum(mode), 0, vertexCount);
 }
 
+void Draw(unsigned int vertexCount, VertexArray& inVertexArray, DrawMode mode) {
+	inVertexArray.Bind();
+	glDrawArrays(DrawModeToGLEnum(mode), 0, vertexCount);
+	inVertexArray.Unbind();
+}
+
 void DrawInstanced(unsigned int vertexCount, DrawMode mode, unsigned int numInstances) {
 	glDrawArraysInstanced(DrawModeToGLEnum(mode), 0, vertexCount, numInstances);
 }

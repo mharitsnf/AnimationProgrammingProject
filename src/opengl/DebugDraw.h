@@ -3,6 +3,7 @@
 
 #include "Shader.h"
 #include "Attribute.h"
+#include "VertexArray.h"
 #include "../math/vec3.h"
 #include "../math/mat4.h"
 #include <vector>
@@ -13,6 +14,7 @@ enum class DebugDrawMode {
 
 class DebugDraw {
 protected:
+	VertexArray* mVertexArray;
 	std::vector<vec3> mPoints;
 	Attribute<vec3>* mAttribs;
 	Shader* mShader;

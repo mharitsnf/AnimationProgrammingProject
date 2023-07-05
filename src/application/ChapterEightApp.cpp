@@ -37,10 +37,13 @@ void ChapterEightApp::Initialize() {
 	mScalarTracks.push_back(MakeScalarTrack(Interpolation::Cubic, 5, MakeFrame(0.25f, 0, 0, 0), MakeFrame(0.3833333f, 13.25147f, 0.5499259f, -10.11282f), MakeFrame(0.5f, 10.2405f, 1, -5.545671f), MakeFrame(0.6333333f, 7.925411f, 0.4500741f, -11.40672f), MakeFrame(0.75f, 0, 0, 0)));
 	mScalarTracksLooping.push_back(true);
 
+	mVertexArray = new VertexArray;
 	mScalarTrackLines = new DebugDraw();
 	mHandlePoints = new DebugDraw();
 	mHandleLines = new DebugDraw();
 	mReferenceLines = new DebugDraw();
+
+	mVertexArray->Bind();
 
 	// Range in both X and Y is 0 to 20
 
@@ -130,10 +133,12 @@ void ChapterEightApp::Render(float inAspectRatio) {
 
 	mat4 mvp = projection * view * model;
 
+	mVertexArray->Bind();
 	mReferenceLines->Draw(DebugDrawMode::Lines, vec3(1, 1, 1), mvp);
-	mScalarTrackLines->Draw(DebugDrawMode::Lines, vec3(0, 1, 0), mvp);
+	mScalarTrackLines->Draw(DebugDrawMode::Lines, vec3(1, 1, 1), mvp);
 	mHandleLines->Draw(DebugDrawMode::Lines, vec3(1, 0, 0), mvp);
 	mHandlePoints->Draw(DebugDrawMode::Points, vec3(0, 0, 1), mvp);
+	mVertexArray->Bind();
 }
 
 void ChapterEightApp::Shutdown() {
@@ -144,6 +149,7 @@ void ChapterEightApp::Shutdown() {
 	delete mHandlePoints;
 	delete mHandleLines;
 	delete mReferenceLines;
+	delete mVertexArray;
 }
 
 ScalarFrame ChapterEightApp::MakeFrame(float time, float value) {

@@ -1,6 +1,6 @@
-CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o: \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterEightApp.cpp \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterEightApp.h \
+CMakeFiles/AnimationProject.dir/src/application/CurveApp.cpp.o: \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/CurveApp.cpp \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/CurveApp.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/Application.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/DebugDraw.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/Shader.h \
@@ -741,8 +741,5 @@ CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../math/vec4.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../animation/Track.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../animation/Frame.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../animation/../math/vec3.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../animation/../math/quat.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../animation/Interpolation.h
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../math/vec3.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../math/mat4.h

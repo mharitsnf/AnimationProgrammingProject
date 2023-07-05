@@ -50,6 +50,8 @@ add_executable(${PROJECT_NAME}
     src/opengl/DebugDraw.h
     src/application/ChapterEightApp.cpp
     src/application/ChapterEightApp.h
+    src/application/CurveApp.cpp
+    src/application/CurveApp.h
 )
 
 

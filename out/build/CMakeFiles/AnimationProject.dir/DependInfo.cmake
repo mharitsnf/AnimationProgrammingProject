@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/mharitsnf/Documents/C++/AnimationProject/src/animation/TransformTrack.cpp" "CMakeFiles/AnimationProject.dir/src/animation/TransformTrack.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/animation/TransformTrack.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/src/application/BasicApp.cpp" "CMakeFiles/AnimationProject.dir/src/application/BasicApp.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/application/BasicApp.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterEightApp.cpp" "CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/application/CurveApp.cpp" "CMakeFiles/AnimationProject.dir/src/application/CurveApp.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/application/CurveApp.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/src/application/LearnOpenGLApp.cpp" "CMakeFiles/AnimationProject.dir/src/application/LearnOpenGLApp.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/application/LearnOpenGLApp.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.cpp" "CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/src/math/quat.cpp" "CMakeFiles/AnimationProject.dir/src/math/quat.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/math/quat.cpp.o.d"
