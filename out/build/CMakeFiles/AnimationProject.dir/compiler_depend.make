@@ -1052,10 +1052,10 @@ CMakeFiles/AnimationProject.dir/main.cpp.o: /Users/mharitsnf/Documents/C++/Anima
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Attribute.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/VertexArray.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec4.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/VertexArray.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Track.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Frame.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec3.h \
@@ -4581,10 +4581,10 @@ CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o: /Users/mh
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/VertexArray.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec4.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/VertexArray.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Track.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Frame.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec3.h \
@@ -5329,6 +5329,7 @@ CMakeFiles/AnimationProject.dir/src/application/CurveApp.cpp.o: /Users/mharitsnf
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/VertexArray.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec4.h \
@@ -9763,13 +9764,13 @@ CMakeFiles/AnimationProject.dir/src/opengl/DebugDraw.cpp.o: /Users/mharitsnf/Doc
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/VertexArray.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Uniform.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Draw.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/IndexBuffer.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/VertexArray.h
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/IndexBuffer.h
 
 CMakeFiles/AnimationProject.dir/src/opengl/Draw.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Draw.cpp \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Draw.h \

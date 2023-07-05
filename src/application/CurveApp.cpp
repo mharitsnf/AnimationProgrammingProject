@@ -4,11 +4,26 @@
 
 
 void CurveApp::Initialize() {
-    line = new DebugDraw;
+    refLine = new DebugDraw;
+    for (unsigned int i = 0; i < 10; ++i) {
+		float yPosition = (i * 2.0f) + ((float)i * 0.2f) + 0.1f;
+		float height = 1.8f;
 
-    line->Push(vec3(  0.f,  0.f, 0.0f));
-    line->Push(vec3( 10.f, 10.f, 0.0f));
-    line->UpdateOpenGLBuffers();
+		float left = 1.0f;
+		float right = 14.0;
+
+		refLine->Push(vec3(left, yPosition, 0));
+		refLine->Push(vec3(left, yPosition + height, 0));
+
+		refLine->Push(vec3(left, yPosition, 0));
+		refLine->Push(vec3(right, yPosition, 0));
+	}
+	refLine->UpdateOpenGLBuffers();
+
+    newLine = new DebugDraw;
+    newLine->Push(vec3(1.f, 1.f, 0.f));
+    newLine->Push(vec3(10.f, 10.f, 0.f));
+    newLine->UpdateOpenGLBuffers();
 }
 
 void CurveApp::Render(float inAspectRatio) {
@@ -18,9 +33,11 @@ void CurveApp::Render(float inAspectRatio) {
 
 	mat4 mvp = projection * view * model;
 
-    line->Draw(DebugDrawMode::Lines, vec3(1,1,1), mvp);
+    refLine->Draw(DebugDrawMode::Lines, vec3(1, 1, 1), mvp);
+    newLine->Draw(DebugDrawMode::Lines, vec3(1, 1, 1), mvp);
 }
 
 void CurveApp::Shutdown() {
-    delete line;
+    delete refLine;
+    delete newLine;
 }

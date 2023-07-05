@@ -12,7 +12,6 @@ protected:
 	std::vector<ScalarTrack> mScalarTracks;
 	std::vector<bool> mScalarTracksLooping;
 
-	VertexArray* mVertexArray;
 	DebugDraw* mScalarTrackLines;
 	DebugDraw* mHandleLines;
 	DebugDraw* mHandlePoints;

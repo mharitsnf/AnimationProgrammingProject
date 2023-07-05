@@ -8,7 +8,8 @@
 
 class CurveApp : public Application {
 protected:
-	DebugDraw* line;
+	DebugDraw* refLine;
+	DebugDraw* newLine;
     
 public:
 	void Initialize();

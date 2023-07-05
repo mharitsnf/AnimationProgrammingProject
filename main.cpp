@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-#include "src/application/CurveApp.h"
+#include "src/application/ChapterEightApp.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
@@ -42,7 +42,7 @@ int main()
     }
 
     // Initialize application
-    Application* app = (Application*) new CurveApp;
+    Application* app = (Application*) new ChapterEightApp;
     app->Initialize();
     
     double lastTime = glfwGetTime();
@@ -57,7 +57,7 @@ int main()
         lastTime = glfwGetTime();
 
         // rendering background
-        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+        glClearColor(0.15f, 0.15f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
         
         // update calculation
