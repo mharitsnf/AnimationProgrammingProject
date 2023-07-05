@@ -8,8 +8,7 @@
 
 class DebugApp : public Application {
 protected:
-	DebugDraw* refLine;
-	DebugDraw* newLine;
+	DebugDraw* mTestLine;
     
 public:
 	void Initialize();

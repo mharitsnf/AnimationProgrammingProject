@@ -1045,7 +1045,7 @@ CMakeFiles/AnimationProject.dir/main.cpp.o: /Users/mharitsnf/Documents/C++/Anima
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterEightApp.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/DebugApp.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/Application.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/DebugDraw.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Shader.h \
@@ -1055,12 +1055,7 @@ CMakeFiles/AnimationProject.dir/main.cpp.o: /Users/mharitsnf/Documents/C++/Anima
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/VertexArray.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec4.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Track.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Frame.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec3.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/quat.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Interpolation.h
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec4.h
 
 CMakeFiles/AnimationProject.dir/src/animation/Track.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Track.cpp \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Track.h \
@@ -5334,7 +5329,12 @@ CMakeFiles/AnimationProject.dir/src/application/DebugApp.cpp.o: /Users/mharitsnf
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec3.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.h
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Frame.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Track.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec3.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/quat.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Interpolation.h
 
 CMakeFiles/AnimationProject.dir/src/application/LearnOpenGLApp.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/application/LearnOpenGLApp.cpp \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/LearnOpenGLApp.h \
@@ -13394,15 +13394,15 @@ CMakeFiles/AnimationProject.dir/src/opengl/VertexArray.cpp.o: /Users/mharitsnf/D
 
 /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Transform.cpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_is_sorted_until.h:
-
-/Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Track.cpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/i386/signal.h:
 
 /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Interpolation.h:
 
 /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Track.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_is_sorted_until.h:
+
+/Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Track.cpp:
 
 /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec4.h:
 

@@ -109,9 +109,12 @@ T Track<T, N>::Hermite(float t, const T& p1, const T& s1, const T& _p2, const T&
 template<typename T, int N>
 int Track<T, N>::FrameIndex(float time, bool looping) {
 	unsigned int size = (unsigned int)mFrames.size();
+	// if the track only contains less than 1 frames
 	if (size <= 1) {
 		return -1;
 	}
+	// if the track is looping, we adjust the given given time according to the limit
+	// e.g., track runs from 0 - 5, with input 6, we would get 0 again
 	if (looping) {
 		float startTime = mFrames[0].mTime;
 		float endTime = mFrames[size - 1].mTime;
@@ -123,6 +126,7 @@ int Track<T, N>::FrameIndex(float time, bool looping) {
 		}
 		time = time + startTime;
 	}
+	// if its not looping, just get the clamped time
 	else {
 		if (time <= mFrames[0].mTime) {
 			return 0;
