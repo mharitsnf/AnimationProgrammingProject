@@ -739,6 +739,11 @@ CMakeFiles/AnimationProject.dir/src/opengl/DebugDraw.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/vec4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../animation/Pose.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../animation/Transform.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../animation/../math/vec3.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../animation/../math/mat4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../animation/../math/quat.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Uniform.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Draw.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/IndexBuffer.h

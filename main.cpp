@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-#include "src/application/DebugApp.h"
+#include "src/application/ChapterNinthApp.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
@@ -42,7 +42,7 @@ int main()
     }
 
     // Initialize application
-    Application* app = (Application*) new DebugApp;
+    Application* app = (Application*) new ChapterNinthApp;
     app->Initialize();
     
     double lastTime = glfwGetTime();

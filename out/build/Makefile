@@ -213,6 +213,54 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f external/glfw/src/CMakeFiles/update_mappings.dir/build.make external/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
+external/cgltf/GLTFLoader.o: external/cgltf/GLTFLoader.cpp.o
+.PHONY : external/cgltf/GLTFLoader.o
+
+# target to build an object file
+external/cgltf/GLTFLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/external/cgltf/GLTFLoader.cpp.o
+.PHONY : external/cgltf/GLTFLoader.cpp.o
+
+external/cgltf/GLTFLoader.i: external/cgltf/GLTFLoader.cpp.i
+.PHONY : external/cgltf/GLTFLoader.i
+
+# target to preprocess a source file
+external/cgltf/GLTFLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/external/cgltf/GLTFLoader.cpp.i
+.PHONY : external/cgltf/GLTFLoader.cpp.i
+
+external/cgltf/GLTFLoader.s: external/cgltf/GLTFLoader.cpp.s
+.PHONY : external/cgltf/GLTFLoader.s
+
+# target to generate assembly for a file
+external/cgltf/GLTFLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/external/cgltf/GLTFLoader.cpp.s
+.PHONY : external/cgltf/GLTFLoader.cpp.s
+
+external/cgltf/cgltf.o: external/cgltf/cgltf.c.o
+.PHONY : external/cgltf/cgltf.o
+
+# target to build an object file
+external/cgltf/cgltf.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/external/cgltf/cgltf.c.o
+.PHONY : external/cgltf/cgltf.c.o
+
+external/cgltf/cgltf.i: external/cgltf/cgltf.c.i
+.PHONY : external/cgltf/cgltf.i
+
+# target to preprocess a source file
+external/cgltf/cgltf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/external/cgltf/cgltf.c.i
+.PHONY : external/cgltf/cgltf.c.i
+
+external/cgltf/cgltf.s: external/cgltf/cgltf.c.s
+.PHONY : external/cgltf/cgltf.s
+
+# target to generate assembly for a file
+external/cgltf/cgltf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/external/cgltf/cgltf.c.s
+.PHONY : external/cgltf/cgltf.c.s
+
 external/glad/src/glad.o: external/glad/src/glad.c.o
 .PHONY : external/glad/src/glad.o
 
@@ -284,6 +332,54 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+src/animation/Clip.o: src/animation/Clip.cpp.o
+.PHONY : src/animation/Clip.o
+
+# target to build an object file
+src/animation/Clip.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Clip.cpp.o
+.PHONY : src/animation/Clip.cpp.o
+
+src/animation/Clip.i: src/animation/Clip.cpp.i
+.PHONY : src/animation/Clip.i
+
+# target to preprocess a source file
+src/animation/Clip.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Clip.cpp.i
+.PHONY : src/animation/Clip.cpp.i
+
+src/animation/Clip.s: src/animation/Clip.cpp.s
+.PHONY : src/animation/Clip.s
+
+# target to generate assembly for a file
+src/animation/Clip.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Clip.cpp.s
+.PHONY : src/animation/Clip.cpp.s
+
+src/animation/Pose.o: src/animation/Pose.cpp.o
+.PHONY : src/animation/Pose.o
+
+# target to build an object file
+src/animation/Pose.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Pose.cpp.o
+.PHONY : src/animation/Pose.cpp.o
+
+src/animation/Pose.i: src/animation/Pose.cpp.i
+.PHONY : src/animation/Pose.i
+
+# target to preprocess a source file
+src/animation/Pose.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Pose.cpp.i
+.PHONY : src/animation/Pose.cpp.i
+
+src/animation/Pose.s: src/animation/Pose.cpp.s
+.PHONY : src/animation/Pose.s
+
+# target to generate assembly for a file
+src/animation/Pose.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Pose.cpp.s
+.PHONY : src/animation/Pose.cpp.s
 
 src/animation/Track.o: src/animation/Track.cpp.o
 .PHONY : src/animation/Track.o
@@ -404,6 +500,30 @@ src/application/ChapterEightApp.s: src/application/ChapterEightApp.cpp.s
 src/application/ChapterEightApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.s
 .PHONY : src/application/ChapterEightApp.cpp.s
+
+src/application/ChapterNinthApp.o: src/application/ChapterNinthApp.cpp.o
+.PHONY : src/application/ChapterNinthApp.o
+
+# target to build an object file
+src/application/ChapterNinthApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.o
+.PHONY : src/application/ChapterNinthApp.cpp.o
+
+src/application/ChapterNinthApp.i: src/application/ChapterNinthApp.cpp.i
+.PHONY : src/application/ChapterNinthApp.i
+
+# target to preprocess a source file
+src/application/ChapterNinthApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.i
+.PHONY : src/application/ChapterNinthApp.cpp.i
+
+src/application/ChapterNinthApp.s: src/application/ChapterNinthApp.cpp.s
+.PHONY : src/application/ChapterNinthApp.s
+
+# target to generate assembly for a file
+src/application/ChapterNinthApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.s
+.PHONY : src/application/ChapterNinthApp.cpp.s
 
 src/application/DebugApp.o: src/application/DebugApp.cpp.o
 .PHONY : src/application/DebugApp.o
@@ -733,6 +853,12 @@ help:
 	@echo "... update_mappings"
 	@echo "... AnimationProject"
 	@echo "... glfw"
+	@echo "... external/cgltf/GLTFLoader.o"
+	@echo "... external/cgltf/GLTFLoader.i"
+	@echo "... external/cgltf/GLTFLoader.s"
+	@echo "... external/cgltf/cgltf.o"
+	@echo "... external/cgltf/cgltf.i"
+	@echo "... external/cgltf/cgltf.s"
 	@echo "... external/glad/src/glad.o"
 	@echo "... external/glad/src/glad.i"
 	@echo "... external/glad/src/glad.s"
@@ -742,6 +868,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/animation/Clip.o"
+	@echo "... src/animation/Clip.i"
+	@echo "... src/animation/Clip.s"
+	@echo "... src/animation/Pose.o"
+	@echo "... src/animation/Pose.i"
+	@echo "... src/animation/Pose.s"
 	@echo "... src/animation/Track.o"
 	@echo "... src/animation/Track.i"
 	@echo "... src/animation/Track.s"
@@ -757,6 +889,9 @@ help:
 	@echo "... src/application/ChapterEightApp.o"
 	@echo "... src/application/ChapterEightApp.i"
 	@echo "... src/application/ChapterEightApp.s"
+	@echo "... src/application/ChapterNinthApp.o"
+	@echo "... src/application/ChapterNinthApp.i"
+	@echo "... src/application/ChapterNinthApp.s"
 	@echo "... src/application/DebugApp.o"
 	@echo "... src/application/DebugApp.i"
 	@echo "... src/application/DebugApp.s"

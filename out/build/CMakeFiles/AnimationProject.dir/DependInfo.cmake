@@ -8,14 +8,19 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/mharitsnf/Documents/C++/AnimationProject/external/cgltf/cgltf.c" "CMakeFiles/AnimationProject.dir/external/cgltf/cgltf.c.o" "gcc" "CMakeFiles/AnimationProject.dir/external/cgltf/cgltf.c.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/external/glad/src/glad.c" "CMakeFiles/AnimationProject.dir/external/glad/src/glad.c.o" "gcc" "CMakeFiles/AnimationProject.dir/external/glad/src/glad.c.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/external/cgltf/GLTFLoader.cpp" "CMakeFiles/AnimationProject.dir/external/cgltf/GLTFLoader.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/external/cgltf/GLTFLoader.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/external/stb_image/stb_image.cpp" "CMakeFiles/AnimationProject.dir/external/stb_image/stb_image.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/external/stb_image/stb_image.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/main.cpp" "CMakeFiles/AnimationProject.dir/main.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/main.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Clip.cpp" "CMakeFiles/AnimationProject.dir/src/animation/Clip.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/animation/Clip.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Pose.cpp" "CMakeFiles/AnimationProject.dir/src/animation/Pose.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/animation/Pose.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Track.cpp" "CMakeFiles/AnimationProject.dir/src/animation/Track.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/animation/Track.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Transform.cpp" "CMakeFiles/AnimationProject.dir/src/animation/Transform.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/animation/Transform.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/src/animation/TransformTrack.cpp" "CMakeFiles/AnimationProject.dir/src/animation/TransformTrack.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/animation/TransformTrack.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/src/application/BasicApp.cpp" "CMakeFiles/AnimationProject.dir/src/application/BasicApp.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/application/BasicApp.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterEightApp.cpp" "CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterNinthApp.cpp" "CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/src/application/DebugApp.cpp" "CMakeFiles/AnimationProject.dir/src/application/DebugApp.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/application/DebugApp.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/src/application/LearnOpenGLApp.cpp" "CMakeFiles/AnimationProject.dir/src/application/LearnOpenGLApp.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/application/LearnOpenGLApp.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.cpp" "CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.o.d"

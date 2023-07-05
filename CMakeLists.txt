@@ -11,6 +11,10 @@ add_executable(${PROJECT_NAME}
     external/glad/include/glad/glad.h
     external/stb_image/stb_image.cpp
     external/stb_image/stb_image.h
+    external/cgltf/cgltf.c
+    external/cgltf/cgltf.h
+    external/cgltf/GLTFLoader.cpp
+    external/cgltf/GLTFLoader.h
     src/math/vec3.cpp
     src/math/vec3.h
     src/math/vec2.h
@@ -54,6 +58,9 @@ add_executable(${PROJECT_NAME}
     src/application/DebugApp.h
     src/animation/Pose.cpp
     src/animation/Pose.h
+    src/animation/Clip.cpp
+    src/application/ChapterNinthApp.cpp
+    src/application/ChapterNinthApp.h
 )
 
 

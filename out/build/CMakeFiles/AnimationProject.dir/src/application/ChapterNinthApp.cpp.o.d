@@ -1,6 +1,6 @@
-CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o: \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterEightApp.cpp \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterEightApp.h \
+CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.o: \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterNinthApp.cpp \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterNinthApp.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/Application.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/DebugDraw.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/Shader.h \
@@ -746,6 +746,13 @@ CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/../math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/../math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/../math/quat.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../animation/Track.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../animation/Pose.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../animation/Clip.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/TransformTrack.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/Track.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/Frame.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/Interpolation.h
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/Interpolation.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../../external/cgltf/GLTFLoader.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../../external/cgltf/cgltf.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../../external/cgltf/../../src/animation/Pose.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../../external/cgltf/../../src/animation/Clip.h

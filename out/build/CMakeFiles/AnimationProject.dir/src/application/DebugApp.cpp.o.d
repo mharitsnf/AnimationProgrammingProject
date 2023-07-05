@@ -741,10 +741,14 @@ CMakeFiles/AnimationProject.dir/src/application/DebugApp.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../math/vec4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/Pose.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/Transform.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/../math/vec3.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/../math/mat4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/../math/quat.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../animation/Frame.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../animation/Track.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../animation/../math/vec3.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../animation/../math/quat.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../animation/Interpolation.h
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/Frame.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/Interpolation.h
