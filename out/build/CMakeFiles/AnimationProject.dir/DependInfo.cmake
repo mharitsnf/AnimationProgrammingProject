@@ -9,9 +9,26 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/mharitsnf/Documents/C++/AnimationProject/external/glad/src/glad.c" "CMakeFiles/AnimationProject.dir/external/glad/src/glad.c.o" "gcc" "CMakeFiles/AnimationProject.dir/external/glad/src/glad.c.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/external/stb_image/stb_image.cpp" "CMakeFiles/AnimationProject.dir/external/stb_image/stb_image.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/external/stb_image/stb_image.cpp.o.d"
   "/Users/mharitsnf/Documents/C++/AnimationProject/main.cpp" "CMakeFiles/AnimationProject.dir/main.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/main.cpp.o.d"
-  "/Users/mharitsnf/Documents/C++/AnimationProject/src/mat4.cpp" "CMakeFiles/AnimationProject.dir/src/mat4.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/mat4.cpp.o.d"
-  "/Users/mharitsnf/Documents/C++/AnimationProject/src/vec3.cpp" "CMakeFiles/AnimationProject.dir/src/vec3.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/vec3.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Track.cpp" "CMakeFiles/AnimationProject.dir/src/animation/Track.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/animation/Track.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Transform.cpp" "CMakeFiles/AnimationProject.dir/src/animation/Transform.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/animation/Transform.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/animation/TransformTrack.cpp" "CMakeFiles/AnimationProject.dir/src/animation/TransformTrack.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/animation/TransformTrack.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/application/BasicApp.cpp" "CMakeFiles/AnimationProject.dir/src/application/BasicApp.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/application/BasicApp.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterEightApp.cpp" "CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/application/DebugApp.cpp" "CMakeFiles/AnimationProject.dir/src/application/DebugApp.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/application/DebugApp.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/application/LearnOpenGLApp.cpp" "CMakeFiles/AnimationProject.dir/src/application/LearnOpenGLApp.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/application/LearnOpenGLApp.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/math/mat4.cpp" "CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/math/quat.cpp" "CMakeFiles/AnimationProject.dir/src/math/quat.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/math/quat.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec3.cpp" "CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Attribute.cpp" "CMakeFiles/AnimationProject.dir/src/opengl/Attribute.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/opengl/Attribute.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/DebugDraw.cpp" "CMakeFiles/AnimationProject.dir/src/opengl/DebugDraw.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/opengl/DebugDraw.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Draw.cpp" "CMakeFiles/AnimationProject.dir/src/opengl/Draw.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/opengl/Draw.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/IndexBuffer.cpp" "CMakeFiles/AnimationProject.dir/src/opengl/IndexBuffer.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/opengl/IndexBuffer.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Shader.cpp" "CMakeFiles/AnimationProject.dir/src/opengl/Shader.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/opengl/Shader.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Texture.cpp" "CMakeFiles/AnimationProject.dir/src/opengl/Texture.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/opengl/Texture.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Uniform.cpp" "CMakeFiles/AnimationProject.dir/src/opengl/Uniform.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/opengl/Uniform.cpp.o.d"
+  "/Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/VertexArray.cpp" "CMakeFiles/AnimationProject.dir/src/opengl/VertexArray.cpp.o" "gcc" "CMakeFiles/AnimationProject.dir/src/opengl/VertexArray.cpp.o.d"
   )
 
 # Targets to which this target links.

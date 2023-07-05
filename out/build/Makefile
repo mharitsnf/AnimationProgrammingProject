@@ -237,6 +237,30 @@ external/glad/src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/external/glad/src/glad.c.s
 .PHONY : external/glad/src/glad.c.s
 
+external/stb_image/stb_image.o: external/stb_image/stb_image.cpp.o
+.PHONY : external/stb_image/stb_image.o
+
+# target to build an object file
+external/stb_image/stb_image.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/external/stb_image/stb_image.cpp.o
+.PHONY : external/stb_image/stb_image.cpp.o
+
+external/stb_image/stb_image.i: external/stb_image/stb_image.cpp.i
+.PHONY : external/stb_image/stb_image.i
+
+# target to preprocess a source file
+external/stb_image/stb_image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/external/stb_image/stb_image.cpp.i
+.PHONY : external/stb_image/stb_image.cpp.i
+
+external/stb_image/stb_image.s: external/stb_image/stb_image.cpp.s
+.PHONY : external/stb_image/stb_image.s
+
+# target to generate assembly for a file
+external/stb_image/stb_image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/external/stb_image/stb_image.cpp.s
+.PHONY : external/stb_image/stb_image.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -261,53 +285,437 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/mat4.o: src/mat4.cpp.o
-.PHONY : src/mat4.o
+src/animation/Track.o: src/animation/Track.cpp.o
+.PHONY : src/animation/Track.o
 
 # target to build an object file
-src/mat4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/mat4.cpp.o
-.PHONY : src/mat4.cpp.o
+src/animation/Track.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Track.cpp.o
+.PHONY : src/animation/Track.cpp.o
 
-src/mat4.i: src/mat4.cpp.i
-.PHONY : src/mat4.i
+src/animation/Track.i: src/animation/Track.cpp.i
+.PHONY : src/animation/Track.i
 
 # target to preprocess a source file
-src/mat4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/mat4.cpp.i
-.PHONY : src/mat4.cpp.i
+src/animation/Track.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Track.cpp.i
+.PHONY : src/animation/Track.cpp.i
 
-src/mat4.s: src/mat4.cpp.s
-.PHONY : src/mat4.s
+src/animation/Track.s: src/animation/Track.cpp.s
+.PHONY : src/animation/Track.s
 
 # target to generate assembly for a file
-src/mat4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/mat4.cpp.s
-.PHONY : src/mat4.cpp.s
+src/animation/Track.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Track.cpp.s
+.PHONY : src/animation/Track.cpp.s
 
-src/vec3.o: src/vec3.cpp.o
-.PHONY : src/vec3.o
+src/animation/Transform.o: src/animation/Transform.cpp.o
+.PHONY : src/animation/Transform.o
 
 # target to build an object file
-src/vec3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/vec3.cpp.o
-.PHONY : src/vec3.cpp.o
+src/animation/Transform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Transform.cpp.o
+.PHONY : src/animation/Transform.cpp.o
 
-src/vec3.i: src/vec3.cpp.i
-.PHONY : src/vec3.i
+src/animation/Transform.i: src/animation/Transform.cpp.i
+.PHONY : src/animation/Transform.i
 
 # target to preprocess a source file
-src/vec3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/vec3.cpp.i
-.PHONY : src/vec3.cpp.i
+src/animation/Transform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Transform.cpp.i
+.PHONY : src/animation/Transform.cpp.i
 
-src/vec3.s: src/vec3.cpp.s
-.PHONY : src/vec3.s
+src/animation/Transform.s: src/animation/Transform.cpp.s
+.PHONY : src/animation/Transform.s
 
 # target to generate assembly for a file
-src/vec3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/vec3.cpp.s
-.PHONY : src/vec3.cpp.s
+src/animation/Transform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Transform.cpp.s
+.PHONY : src/animation/Transform.cpp.s
+
+src/animation/TransformTrack.o: src/animation/TransformTrack.cpp.o
+.PHONY : src/animation/TransformTrack.o
+
+# target to build an object file
+src/animation/TransformTrack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/TransformTrack.cpp.o
+.PHONY : src/animation/TransformTrack.cpp.o
+
+src/animation/TransformTrack.i: src/animation/TransformTrack.cpp.i
+.PHONY : src/animation/TransformTrack.i
+
+# target to preprocess a source file
+src/animation/TransformTrack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/TransformTrack.cpp.i
+.PHONY : src/animation/TransformTrack.cpp.i
+
+src/animation/TransformTrack.s: src/animation/TransformTrack.cpp.s
+.PHONY : src/animation/TransformTrack.s
+
+# target to generate assembly for a file
+src/animation/TransformTrack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/TransformTrack.cpp.s
+.PHONY : src/animation/TransformTrack.cpp.s
+
+src/application/BasicApp.o: src/application/BasicApp.cpp.o
+.PHONY : src/application/BasicApp.o
+
+# target to build an object file
+src/application/BasicApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/BasicApp.cpp.o
+.PHONY : src/application/BasicApp.cpp.o
+
+src/application/BasicApp.i: src/application/BasicApp.cpp.i
+.PHONY : src/application/BasicApp.i
+
+# target to preprocess a source file
+src/application/BasicApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/BasicApp.cpp.i
+.PHONY : src/application/BasicApp.cpp.i
+
+src/application/BasicApp.s: src/application/BasicApp.cpp.s
+.PHONY : src/application/BasicApp.s
+
+# target to generate assembly for a file
+src/application/BasicApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/BasicApp.cpp.s
+.PHONY : src/application/BasicApp.cpp.s
+
+src/application/ChapterEightApp.o: src/application/ChapterEightApp.cpp.o
+.PHONY : src/application/ChapterEightApp.o
+
+# target to build an object file
+src/application/ChapterEightApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o
+.PHONY : src/application/ChapterEightApp.cpp.o
+
+src/application/ChapterEightApp.i: src/application/ChapterEightApp.cpp.i
+.PHONY : src/application/ChapterEightApp.i
+
+# target to preprocess a source file
+src/application/ChapterEightApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.i
+.PHONY : src/application/ChapterEightApp.cpp.i
+
+src/application/ChapterEightApp.s: src/application/ChapterEightApp.cpp.s
+.PHONY : src/application/ChapterEightApp.s
+
+# target to generate assembly for a file
+src/application/ChapterEightApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.s
+.PHONY : src/application/ChapterEightApp.cpp.s
+
+src/application/DebugApp.o: src/application/DebugApp.cpp.o
+.PHONY : src/application/DebugApp.o
+
+# target to build an object file
+src/application/DebugApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/DebugApp.cpp.o
+.PHONY : src/application/DebugApp.cpp.o
+
+src/application/DebugApp.i: src/application/DebugApp.cpp.i
+.PHONY : src/application/DebugApp.i
+
+# target to preprocess a source file
+src/application/DebugApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/DebugApp.cpp.i
+.PHONY : src/application/DebugApp.cpp.i
+
+src/application/DebugApp.s: src/application/DebugApp.cpp.s
+.PHONY : src/application/DebugApp.s
+
+# target to generate assembly for a file
+src/application/DebugApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/DebugApp.cpp.s
+.PHONY : src/application/DebugApp.cpp.s
+
+src/application/LearnOpenGLApp.o: src/application/LearnOpenGLApp.cpp.o
+.PHONY : src/application/LearnOpenGLApp.o
+
+# target to build an object file
+src/application/LearnOpenGLApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/LearnOpenGLApp.cpp.o
+.PHONY : src/application/LearnOpenGLApp.cpp.o
+
+src/application/LearnOpenGLApp.i: src/application/LearnOpenGLApp.cpp.i
+.PHONY : src/application/LearnOpenGLApp.i
+
+# target to preprocess a source file
+src/application/LearnOpenGLApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/LearnOpenGLApp.cpp.i
+.PHONY : src/application/LearnOpenGLApp.cpp.i
+
+src/application/LearnOpenGLApp.s: src/application/LearnOpenGLApp.cpp.s
+.PHONY : src/application/LearnOpenGLApp.s
+
+# target to generate assembly for a file
+src/application/LearnOpenGLApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/LearnOpenGLApp.cpp.s
+.PHONY : src/application/LearnOpenGLApp.cpp.s
+
+src/math/mat4.o: src/math/mat4.cpp.o
+.PHONY : src/math/mat4.o
+
+# target to build an object file
+src/math/mat4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.o
+.PHONY : src/math/mat4.cpp.o
+
+src/math/mat4.i: src/math/mat4.cpp.i
+.PHONY : src/math/mat4.i
+
+# target to preprocess a source file
+src/math/mat4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.i
+.PHONY : src/math/mat4.cpp.i
+
+src/math/mat4.s: src/math/mat4.cpp.s
+.PHONY : src/math/mat4.s
+
+# target to generate assembly for a file
+src/math/mat4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.s
+.PHONY : src/math/mat4.cpp.s
+
+src/math/quat.o: src/math/quat.cpp.o
+.PHONY : src/math/quat.o
+
+# target to build an object file
+src/math/quat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/quat.cpp.o
+.PHONY : src/math/quat.cpp.o
+
+src/math/quat.i: src/math/quat.cpp.i
+.PHONY : src/math/quat.i
+
+# target to preprocess a source file
+src/math/quat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/quat.cpp.i
+.PHONY : src/math/quat.cpp.i
+
+src/math/quat.s: src/math/quat.cpp.s
+.PHONY : src/math/quat.s
+
+# target to generate assembly for a file
+src/math/quat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/quat.cpp.s
+.PHONY : src/math/quat.cpp.s
+
+src/math/vec3.o: src/math/vec3.cpp.o
+.PHONY : src/math/vec3.o
+
+# target to build an object file
+src/math/vec3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.o
+.PHONY : src/math/vec3.cpp.o
+
+src/math/vec3.i: src/math/vec3.cpp.i
+.PHONY : src/math/vec3.i
+
+# target to preprocess a source file
+src/math/vec3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.i
+.PHONY : src/math/vec3.cpp.i
+
+src/math/vec3.s: src/math/vec3.cpp.s
+.PHONY : src/math/vec3.s
+
+# target to generate assembly for a file
+src/math/vec3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.s
+.PHONY : src/math/vec3.cpp.s
+
+src/opengl/Attribute.o: src/opengl/Attribute.cpp.o
+.PHONY : src/opengl/Attribute.o
+
+# target to build an object file
+src/opengl/Attribute.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Attribute.cpp.o
+.PHONY : src/opengl/Attribute.cpp.o
+
+src/opengl/Attribute.i: src/opengl/Attribute.cpp.i
+.PHONY : src/opengl/Attribute.i
+
+# target to preprocess a source file
+src/opengl/Attribute.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Attribute.cpp.i
+.PHONY : src/opengl/Attribute.cpp.i
+
+src/opengl/Attribute.s: src/opengl/Attribute.cpp.s
+.PHONY : src/opengl/Attribute.s
+
+# target to generate assembly for a file
+src/opengl/Attribute.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Attribute.cpp.s
+.PHONY : src/opengl/Attribute.cpp.s
+
+src/opengl/DebugDraw.o: src/opengl/DebugDraw.cpp.o
+.PHONY : src/opengl/DebugDraw.o
+
+# target to build an object file
+src/opengl/DebugDraw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/DebugDraw.cpp.o
+.PHONY : src/opengl/DebugDraw.cpp.o
+
+src/opengl/DebugDraw.i: src/opengl/DebugDraw.cpp.i
+.PHONY : src/opengl/DebugDraw.i
+
+# target to preprocess a source file
+src/opengl/DebugDraw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/DebugDraw.cpp.i
+.PHONY : src/opengl/DebugDraw.cpp.i
+
+src/opengl/DebugDraw.s: src/opengl/DebugDraw.cpp.s
+.PHONY : src/opengl/DebugDraw.s
+
+# target to generate assembly for a file
+src/opengl/DebugDraw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/DebugDraw.cpp.s
+.PHONY : src/opengl/DebugDraw.cpp.s
+
+src/opengl/Draw.o: src/opengl/Draw.cpp.o
+.PHONY : src/opengl/Draw.o
+
+# target to build an object file
+src/opengl/Draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Draw.cpp.o
+.PHONY : src/opengl/Draw.cpp.o
+
+src/opengl/Draw.i: src/opengl/Draw.cpp.i
+.PHONY : src/opengl/Draw.i
+
+# target to preprocess a source file
+src/opengl/Draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Draw.cpp.i
+.PHONY : src/opengl/Draw.cpp.i
+
+src/opengl/Draw.s: src/opengl/Draw.cpp.s
+.PHONY : src/opengl/Draw.s
+
+# target to generate assembly for a file
+src/opengl/Draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Draw.cpp.s
+.PHONY : src/opengl/Draw.cpp.s
+
+src/opengl/IndexBuffer.o: src/opengl/IndexBuffer.cpp.o
+.PHONY : src/opengl/IndexBuffer.o
+
+# target to build an object file
+src/opengl/IndexBuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/IndexBuffer.cpp.o
+.PHONY : src/opengl/IndexBuffer.cpp.o
+
+src/opengl/IndexBuffer.i: src/opengl/IndexBuffer.cpp.i
+.PHONY : src/opengl/IndexBuffer.i
+
+# target to preprocess a source file
+src/opengl/IndexBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/IndexBuffer.cpp.i
+.PHONY : src/opengl/IndexBuffer.cpp.i
+
+src/opengl/IndexBuffer.s: src/opengl/IndexBuffer.cpp.s
+.PHONY : src/opengl/IndexBuffer.s
+
+# target to generate assembly for a file
+src/opengl/IndexBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/IndexBuffer.cpp.s
+.PHONY : src/opengl/IndexBuffer.cpp.s
+
+src/opengl/Shader.o: src/opengl/Shader.cpp.o
+.PHONY : src/opengl/Shader.o
+
+# target to build an object file
+src/opengl/Shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Shader.cpp.o
+.PHONY : src/opengl/Shader.cpp.o
+
+src/opengl/Shader.i: src/opengl/Shader.cpp.i
+.PHONY : src/opengl/Shader.i
+
+# target to preprocess a source file
+src/opengl/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Shader.cpp.i
+.PHONY : src/opengl/Shader.cpp.i
+
+src/opengl/Shader.s: src/opengl/Shader.cpp.s
+.PHONY : src/opengl/Shader.s
+
+# target to generate assembly for a file
+src/opengl/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Shader.cpp.s
+.PHONY : src/opengl/Shader.cpp.s
+
+src/opengl/Texture.o: src/opengl/Texture.cpp.o
+.PHONY : src/opengl/Texture.o
+
+# target to build an object file
+src/opengl/Texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Texture.cpp.o
+.PHONY : src/opengl/Texture.cpp.o
+
+src/opengl/Texture.i: src/opengl/Texture.cpp.i
+.PHONY : src/opengl/Texture.i
+
+# target to preprocess a source file
+src/opengl/Texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Texture.cpp.i
+.PHONY : src/opengl/Texture.cpp.i
+
+src/opengl/Texture.s: src/opengl/Texture.cpp.s
+.PHONY : src/opengl/Texture.s
+
+# target to generate assembly for a file
+src/opengl/Texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Texture.cpp.s
+.PHONY : src/opengl/Texture.cpp.s
+
+src/opengl/Uniform.o: src/opengl/Uniform.cpp.o
+.PHONY : src/opengl/Uniform.o
+
+# target to build an object file
+src/opengl/Uniform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Uniform.cpp.o
+.PHONY : src/opengl/Uniform.cpp.o
+
+src/opengl/Uniform.i: src/opengl/Uniform.cpp.i
+.PHONY : src/opengl/Uniform.i
+
+# target to preprocess a source file
+src/opengl/Uniform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Uniform.cpp.i
+.PHONY : src/opengl/Uniform.cpp.i
+
+src/opengl/Uniform.s: src/opengl/Uniform.cpp.s
+.PHONY : src/opengl/Uniform.s
+
+# target to generate assembly for a file
+src/opengl/Uniform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/Uniform.cpp.s
+.PHONY : src/opengl/Uniform.cpp.s
+
+src/opengl/VertexArray.o: src/opengl/VertexArray.cpp.o
+.PHONY : src/opengl/VertexArray.o
+
+# target to build an object file
+src/opengl/VertexArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/VertexArray.cpp.o
+.PHONY : src/opengl/VertexArray.cpp.o
+
+src/opengl/VertexArray.i: src/opengl/VertexArray.cpp.i
+.PHONY : src/opengl/VertexArray.i
+
+# target to preprocess a source file
+src/opengl/VertexArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/VertexArray.cpp.i
+.PHONY : src/opengl/VertexArray.cpp.i
+
+src/opengl/VertexArray.s: src/opengl/VertexArray.cpp.s
+.PHONY : src/opengl/VertexArray.s
+
+# target to generate assembly for a file
+src/opengl/VertexArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/VertexArray.cpp.s
+.PHONY : src/opengl/VertexArray.cpp.s
 
 # Help Target
 help:
@@ -328,15 +736,66 @@ help:
 	@echo "... external/glad/src/glad.o"
 	@echo "... external/glad/src/glad.i"
 	@echo "... external/glad/src/glad.s"
+	@echo "... external/stb_image/stb_image.o"
+	@echo "... external/stb_image/stb_image.i"
+	@echo "... external/stb_image/stb_image.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/mat4.o"
-	@echo "... src/mat4.i"
-	@echo "... src/mat4.s"
-	@echo "... src/vec3.o"
-	@echo "... src/vec3.i"
-	@echo "... src/vec3.s"
+	@echo "... src/animation/Track.o"
+	@echo "... src/animation/Track.i"
+	@echo "... src/animation/Track.s"
+	@echo "... src/animation/Transform.o"
+	@echo "... src/animation/Transform.i"
+	@echo "... src/animation/Transform.s"
+	@echo "... src/animation/TransformTrack.o"
+	@echo "... src/animation/TransformTrack.i"
+	@echo "... src/animation/TransformTrack.s"
+	@echo "... src/application/BasicApp.o"
+	@echo "... src/application/BasicApp.i"
+	@echo "... src/application/BasicApp.s"
+	@echo "... src/application/ChapterEightApp.o"
+	@echo "... src/application/ChapterEightApp.i"
+	@echo "... src/application/ChapterEightApp.s"
+	@echo "... src/application/DebugApp.o"
+	@echo "... src/application/DebugApp.i"
+	@echo "... src/application/DebugApp.s"
+	@echo "... src/application/LearnOpenGLApp.o"
+	@echo "... src/application/LearnOpenGLApp.i"
+	@echo "... src/application/LearnOpenGLApp.s"
+	@echo "... src/math/mat4.o"
+	@echo "... src/math/mat4.i"
+	@echo "... src/math/mat4.s"
+	@echo "... src/math/quat.o"
+	@echo "... src/math/quat.i"
+	@echo "... src/math/quat.s"
+	@echo "... src/math/vec3.o"
+	@echo "... src/math/vec3.i"
+	@echo "... src/math/vec3.s"
+	@echo "... src/opengl/Attribute.o"
+	@echo "... src/opengl/Attribute.i"
+	@echo "... src/opengl/Attribute.s"
+	@echo "... src/opengl/DebugDraw.o"
+	@echo "... src/opengl/DebugDraw.i"
+	@echo "... src/opengl/DebugDraw.s"
+	@echo "... src/opengl/Draw.o"
+	@echo "... src/opengl/Draw.i"
+	@echo "... src/opengl/Draw.s"
+	@echo "... src/opengl/IndexBuffer.o"
+	@echo "... src/opengl/IndexBuffer.i"
+	@echo "... src/opengl/IndexBuffer.s"
+	@echo "... src/opengl/Shader.o"
+	@echo "... src/opengl/Shader.i"
+	@echo "... src/opengl/Shader.s"
+	@echo "... src/opengl/Texture.o"
+	@echo "... src/opengl/Texture.i"
+	@echo "... src/opengl/Texture.s"
+	@echo "... src/opengl/Uniform.o"
+	@echo "... src/opengl/Uniform.i"
+	@echo "... src/opengl/Uniform.s"
+	@echo "... src/opengl/VertexArray.o"
+	@echo "... src/opengl/VertexArray.i"
+	@echo "... src/opengl/VertexArray.s"
 .PHONY : help
 
 
