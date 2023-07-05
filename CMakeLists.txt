@@ -52,6 +52,8 @@ add_executable(${PROJECT_NAME}
     src/application/ChapterEightApp.h
     src/application/DebugApp.cpp
     src/application/DebugApp.h
+    src/animation/Pose.cpp
+    src/animation/Pose.h
 )
 
 
