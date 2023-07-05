@@ -69,9 +69,10 @@ void ChapterEightApp::Initialize() {
 		float right = 14.0;
 		float xRange = right - left;
 
-		for (unsigned int j = 1; j < 150; ++j) { // j goes from 0 to 149
-			float thisJNorm = (float)(j - 1) / 149.0f;
-			float nextJNorm = (float)(j) / 149.0f;
+		int limit = 40;
+		for (unsigned int j = 1; j < limit; ++j) { // j goes from 0 to 149
+			float thisJNorm = (float)(j - 1) / (float)(limit-1);
+			float nextJNorm = (float)(j) / (float)(limit-1);
 
 			float thisX = left + thisJNorm * xRange;
 			float nextX = left + nextJNorm * xRange;
