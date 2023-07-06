@@ -1,4 +1,5 @@
 #include "Clip.h"
+#include <iostream>
 
 Clip::Clip() {
 	mName = "No name given";
@@ -70,6 +71,10 @@ void Clip::RecalculateDuration() {
 	}
 }
 
+// For getting the transform track according to the joint ID.
+// We linearly loop over the tracks inside this clip,
+// and find the transform track which has our desired joint.
+// We create one if one does not exist yet.
 TransformTrack& Clip::operator[](unsigned int joint) {
 	for (unsigned int i = 0, size = (unsigned int)mTracks.size();
 		i < size; ++i) {

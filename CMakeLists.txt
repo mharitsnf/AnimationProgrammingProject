@@ -61,6 +61,8 @@ add_executable(${PROJECT_NAME}
     src/animation/Clip.cpp
     src/application/ChapterNinthApp.cpp
     src/application/ChapterNinthApp.h
+    src/application/OwnNinthApp.cpp
+    src/application/OwnNinthApp.h
 )
 
 

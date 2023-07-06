@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "ChapterNinthApp.h"
+#include <string>
 #include "../../external/cgltf/GLTFLoader.h"
 
 void ChapterNinthApp::Initialize() {
@@ -22,7 +23,7 @@ void ChapterNinthApp::Initialize() {
 	// For the UI
 	unsigned int numUIClips = (unsigned int)mClips.size();
 	for (unsigned int i = 0; i < numUIClips; ++i) {
-		if (mClips[i].GetName() == "Walking") {
+		if (mClips[i].GetName() == "Lean_Left") {
 			mCurrentClip = i;
 			break;
 		}

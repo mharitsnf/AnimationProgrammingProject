@@ -61,14 +61,14 @@ void DebugApp::Initialize() {
 
 	int sampleSize = 50;
 	for (int i = 1; i < sampleSize; ++i) {
-		float thisINorm = (float)(i - 1) / (float)(sampleSize-1);
-		float nextINorm = (float)(i) / (float)(sampleSize-1);
+		float thisTime = (float)(i - 1) / (float)(sampleSize-1);
+		float nextTime = (float)(i) / (float)(sampleSize-1);
 
-		float x0 = left + thisINorm * xRange;
-		float x1 = left + nextINorm * xRange;
+		float x0 = left + thisTime * xRange;
+		float x1 = left + nextTime * xRange;
 
-		float y0 = track.Sample(thisINorm, false);
-		float y1 = track.Sample(nextINorm, false);
+		float y0 = track.Sample(thisTime, false);
+		float y1 = track.Sample(nextTime, false);
 
 		y0 = bottom + y0 * yRange;
 		y1 = bottom + y1 * yRange;

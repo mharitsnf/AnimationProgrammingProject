@@ -573,6 +573,30 @@ src/application/LearnOpenGLApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/LearnOpenGLApp.cpp.s
 .PHONY : src/application/LearnOpenGLApp.cpp.s
 
+src/application/OwnNinthApp.o: src/application/OwnNinthApp.cpp.o
+.PHONY : src/application/OwnNinthApp.o
+
+# target to build an object file
+src/application/OwnNinthApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.o
+.PHONY : src/application/OwnNinthApp.cpp.o
+
+src/application/OwnNinthApp.i: src/application/OwnNinthApp.cpp.i
+.PHONY : src/application/OwnNinthApp.i
+
+# target to preprocess a source file
+src/application/OwnNinthApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.i
+.PHONY : src/application/OwnNinthApp.cpp.i
+
+src/application/OwnNinthApp.s: src/application/OwnNinthApp.cpp.s
+.PHONY : src/application/OwnNinthApp.s
+
+# target to generate assembly for a file
+src/application/OwnNinthApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.s
+.PHONY : src/application/OwnNinthApp.cpp.s
+
 src/math/mat4.o: src/math/mat4.cpp.o
 .PHONY : src/math/mat4.o
 
@@ -898,6 +922,9 @@ help:
 	@echo "... src/application/LearnOpenGLApp.o"
 	@echo "... src/application/LearnOpenGLApp.i"
 	@echo "... src/application/LearnOpenGLApp.s"
+	@echo "... src/application/OwnNinthApp.o"
+	@echo "... src/application/OwnNinthApp.i"
+	@echo "... src/application/OwnNinthApp.s"
 	@echo "... src/math/mat4.o"
 	@echo "... src/math/mat4.i"
 	@echo "... src/math/mat4.s"

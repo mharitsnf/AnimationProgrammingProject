@@ -6,6 +6,10 @@
 #include "TransformTrack.h"
 #include "Pose.h"
 
+// Clip handles the "backend", it contains the curves
+// of the transform components.
+// Since each TransformTrack contains a joint ID,
+// 
 class Clip {
 protected:
 	std::vector<TransformTrack> mTracks;

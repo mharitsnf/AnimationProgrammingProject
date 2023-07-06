@@ -53,8 +53,7 @@ void Pose::SetLocalTransform(unsigned int index, const Transform& transform) {
 
 Transform Pose::GetGlobalTransform(unsigned int index) {
 	Transform result = mJoints[index];
-	for (int parent = mParents[index]; parent >= 0;
-		parent = mParents[parent]) {
+	for (int parent = mParents[index]; parent >= 0; parent = mParents[parent]) {
 		result = combine(mJoints[parent], result);
 	}
 

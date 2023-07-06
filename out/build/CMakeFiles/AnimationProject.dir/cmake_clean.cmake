@@ -31,6 +31,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/AnimationProject.dir/src/application/DebugApp.cpp.o.d"
   "CMakeFiles/AnimationProject.dir/src/application/LearnOpenGLApp.cpp.o"
   "CMakeFiles/AnimationProject.dir/src/application/LearnOpenGLApp.cpp.o.d"
+  "CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.o"
+  "CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.o.d"
   "CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.o"
   "CMakeFiles/AnimationProject.dir/src/math/mat4.cpp.o.d"
   "CMakeFiles/AnimationProject.dir/src/math/quat.cpp.o"
