@@ -7,7 +7,7 @@
 
 
 void DebugApp::Initialize() {
-    mTestLine = new DebugDraw;
+	mTestLine = new DebugDraw;
 
 	ScalarTrack track;
 	track.SetInterpolation(Interpolation::Constant);

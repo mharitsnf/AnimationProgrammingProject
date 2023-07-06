@@ -23,7 +23,7 @@ void ChapterNinthApp::Initialize() {
 	// For the UI
 	unsigned int numUIClips = (unsigned int)mClips.size();
 	for (unsigned int i = 0; i < numUIClips; ++i) {
-		if (mClips[i].GetName() == "Lean_Left") {
+		if (mClips[i].GetName() == "Walking") {
 			mCurrentClip = i;
 			break;
 		}
@@ -42,7 +42,7 @@ void ChapterNinthApp::Render(float inAspectRatio) {
 
 	mRestPoseVisual->Draw(DebugDrawMode::Lines, vec3(1, 0, 0), mvp);
 	mCurrentPoseVisual->UpdateOpenGLBuffers();
-	mCurrentPoseVisual->Draw(DebugDrawMode::Lines, vec3(0, 0, 1), mvp);
+	mCurrentPoseVisual->Draw(DebugDrawMode::Lines, vec3(1, 1, 1), mvp);
 }
 
 void ChapterNinthApp::Shutdown() {

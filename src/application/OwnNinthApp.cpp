@@ -8,6 +8,9 @@ void OwnNinthApp::Initialize() {
     // Pose setup
     mPose = new Pose(2);
 
+    // First, we make the joints for the pose. For this application, I want to have two joints only.
+    // The second joint will be the child of the first joint, and the first joint will be the root.
+
     Transform jointA;
     jointA.position = vec3(3, 5, 0);
     mPose->SetLocalTransform(0, jointA);
@@ -21,14 +24,18 @@ void OwnNinthApp::Initialize() {
     // Clip setup
     mClipA = new Clip();
 
+    // Now we make a clip. A clip is composed of multiple tracks (vector<TransformTrack>), and each track corresponds to one joint.
+    // In this case, we need two TransformTracks.
+
     // Track for joint A
+    // The get functions returns a track. It also creates one if the track does not exist.
     VectorTrack &posTrackA = mClipA->operator[](0).GetPositionTrack();
     VectorTrack &scaleTrackA =  mClipA->operator[](0).GetScaleTrack();
     QuaternionTrack &rotTrackA = mClipA->operator[](0).GetRotationTrack();
 
     posTrackA.Resize(2);
     VectorFrame posFrame0 = MakeFrame(0.0f, vec3(3, 5, 0)); // absolute position
-    VectorFrame posFrame1 = MakeFrame(1.0f, vec3(3, 5, 0));
+    VectorFrame posFrame1 = MakeFrame(1.0f, vec3(3, 5, 0)); // absolute position
     posTrackA[0] = posFrame0;
     posTrackA[1] = posFrame1;
     
@@ -50,8 +57,8 @@ void OwnNinthApp::Initialize() {
     QuaternionTrack &rotTrackB = mClipA->operator[](1).GetRotationTrack();
 
     posTrackB.Resize(2);
-    posFrame0 = MakeFrame(0.0f, vec3(0, 0, 0));
-    posFrame1 = MakeFrame(1.0f, vec3(1, -1, 0));
+    posFrame0 = MakeFrame(0.0f, vec3(0, 0, 0)); // relative to the parent's position
+    posFrame1 = MakeFrame(1.0f, vec3(1, -1, 0)); // relative to the parent's position
     posTrackB[0] = posFrame0;
     posTrackB[1] = posFrame1;
     
@@ -67,6 +74,7 @@ void OwnNinthApp::Initialize() {
     rotTrackB[0] = rotFrame0;
     rotTrackB[1] = rotFrame1;
 
+    // We set the tracks' ID according to the joint ID (in the Pose object)
     mClipA->SetIdAtIndex(0, 0);
     mClipA->SetIdAtIndex(1, 1);
     mClipA->RecalculateDuration();
@@ -78,6 +86,8 @@ void OwnNinthApp::Initialize() {
 }
 
 void OwnNinthApp::Update(float inDeltaTime) {
+    // We create animation by sampling the keyframes we have defined above.
+    // This function will change the joints position directly.
     mPlaybackTime = mClipA->Sample(*mPose, mPlaybackTime + inDeltaTime);
     mPoseVisual->FromPose(*mPose);
 }

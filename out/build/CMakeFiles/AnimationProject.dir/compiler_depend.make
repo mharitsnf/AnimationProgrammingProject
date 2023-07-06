@@ -1883,7 +1883,7 @@ CMakeFiles/AnimationProject.dir/main.cpp.o: /Users/mharitsnf/Documents/C++/Anima
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/OwnNinthApp.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterNinthApp.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/Application.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/DebugDraw.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/Shader.h \
@@ -1904,10 +1904,7 @@ CMakeFiles/AnimationProject.dir/main.cpp.o: /Users/mharitsnf/Documents/C++/Anima
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/TransformTrack.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Track.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Frame.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Interpolation.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Frame.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/vec3.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/math/quat.h
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Interpolation.h
 
 CMakeFiles/AnimationProject.dir/src/animation/Clip.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Clip.cpp \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Clip.h \
