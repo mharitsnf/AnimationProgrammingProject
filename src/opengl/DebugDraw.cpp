@@ -22,7 +22,6 @@ DebugDraw::DebugDraw() {
 	mAttribs = new Attribute<vec3>();
 
 	mVertexArray = new VertexArray;
-	mVertexArray->Bind();
 }
 
 DebugDraw::DebugDraw(unsigned int size) {
@@ -48,7 +47,6 @@ DebugDraw::DebugDraw(unsigned int size) {
 	Resize(size);
 
 	mVertexArray = new VertexArray;
-	mVertexArray->Bind();
 }
 
 DebugDraw::~DebugDraw() {
@@ -77,6 +75,7 @@ void DebugDraw::Push(const vec3& v) {
 void DebugDraw::UpdateOpenGLBuffers() {
 	mVertexArray->Bind();
 	mAttribs->Set(mPoints);
+	mVertexArray->Unbind();
 }
 
 void DebugDraw::FromPose(Pose& pose) {

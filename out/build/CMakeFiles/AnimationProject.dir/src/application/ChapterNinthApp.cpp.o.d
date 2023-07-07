@@ -755,4 +755,12 @@ CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../../external/cgltf/GLTFLoader.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../../external/cgltf/cgltf.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../../external/cgltf/../../src/animation/Pose.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../../external/cgltf/../../src/animation/Clip.h
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../../external/cgltf/../../src/animation/Clip.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../../external/cgltf/../../src/animation/Skeleton.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../../external/cgltf/../../src/animation/Mesh.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/../math/vec2.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/../math/vec4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/../opengl/Attribute.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/../opengl/IndexBuffer.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/../opengl/VertexArray.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/Skeleton.h

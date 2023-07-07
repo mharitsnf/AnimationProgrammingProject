@@ -63,6 +63,16 @@ add_executable(${PROJECT_NAME}
     src/application/ChapterNinthApp.h
     src/application/OwnNinthApp.cpp
     src/application/OwnNinthApp.h
+    src/animation/Skeleton.cpp
+    src/animation/Skeleton.h
+    src/animation/Mesh.cpp
+    src/animation/Mesh.h
+    src/application/ChapterTenApp.cpp
+    src/application/ChapterTenApp.h
+    src/application/ChapterTenApp2.cpp
+    src/application/ChapterTenApp2.h
+    src/application/OwnChapterTen.cpp
+    src/application/OwnChapterTen.h
 )
 
 

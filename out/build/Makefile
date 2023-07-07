@@ -357,6 +357,30 @@ src/animation/Clip.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Clip.cpp.s
 .PHONY : src/animation/Clip.cpp.s
 
+src/animation/Mesh.o: src/animation/Mesh.cpp.o
+.PHONY : src/animation/Mesh.o
+
+# target to build an object file
+src/animation/Mesh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Mesh.cpp.o
+.PHONY : src/animation/Mesh.cpp.o
+
+src/animation/Mesh.i: src/animation/Mesh.cpp.i
+.PHONY : src/animation/Mesh.i
+
+# target to preprocess a source file
+src/animation/Mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Mesh.cpp.i
+.PHONY : src/animation/Mesh.cpp.i
+
+src/animation/Mesh.s: src/animation/Mesh.cpp.s
+.PHONY : src/animation/Mesh.s
+
+# target to generate assembly for a file
+src/animation/Mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Mesh.cpp.s
+.PHONY : src/animation/Mesh.cpp.s
+
 src/animation/Pose.o: src/animation/Pose.cpp.o
 .PHONY : src/animation/Pose.o
 
@@ -380,6 +404,30 @@ src/animation/Pose.s: src/animation/Pose.cpp.s
 src/animation/Pose.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Pose.cpp.s
 .PHONY : src/animation/Pose.cpp.s
+
+src/animation/Skeleton.o: src/animation/Skeleton.cpp.o
+.PHONY : src/animation/Skeleton.o
+
+# target to build an object file
+src/animation/Skeleton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Skeleton.cpp.o
+.PHONY : src/animation/Skeleton.cpp.o
+
+src/animation/Skeleton.i: src/animation/Skeleton.cpp.i
+.PHONY : src/animation/Skeleton.i
+
+# target to preprocess a source file
+src/animation/Skeleton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Skeleton.cpp.i
+.PHONY : src/animation/Skeleton.cpp.i
+
+src/animation/Skeleton.s: src/animation/Skeleton.cpp.s
+.PHONY : src/animation/Skeleton.s
+
+# target to generate assembly for a file
+src/animation/Skeleton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Skeleton.cpp.s
+.PHONY : src/animation/Skeleton.cpp.s
 
 src/animation/Track.o: src/animation/Track.cpp.o
 .PHONY : src/animation/Track.o
@@ -525,6 +573,54 @@ src/application/ChapterNinthApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.s
 .PHONY : src/application/ChapterNinthApp.cpp.s
 
+src/application/ChapterTenApp.o: src/application/ChapterTenApp.cpp.o
+.PHONY : src/application/ChapterTenApp.o
+
+# target to build an object file
+src/application/ChapterTenApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp.cpp.o
+.PHONY : src/application/ChapterTenApp.cpp.o
+
+src/application/ChapterTenApp.i: src/application/ChapterTenApp.cpp.i
+.PHONY : src/application/ChapterTenApp.i
+
+# target to preprocess a source file
+src/application/ChapterTenApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp.cpp.i
+.PHONY : src/application/ChapterTenApp.cpp.i
+
+src/application/ChapterTenApp.s: src/application/ChapterTenApp.cpp.s
+.PHONY : src/application/ChapterTenApp.s
+
+# target to generate assembly for a file
+src/application/ChapterTenApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp.cpp.s
+.PHONY : src/application/ChapterTenApp.cpp.s
+
+src/application/ChapterTenApp2.o: src/application/ChapterTenApp2.cpp.o
+.PHONY : src/application/ChapterTenApp2.o
+
+# target to build an object file
+src/application/ChapterTenApp2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp2.cpp.o
+.PHONY : src/application/ChapterTenApp2.cpp.o
+
+src/application/ChapterTenApp2.i: src/application/ChapterTenApp2.cpp.i
+.PHONY : src/application/ChapterTenApp2.i
+
+# target to preprocess a source file
+src/application/ChapterTenApp2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp2.cpp.i
+.PHONY : src/application/ChapterTenApp2.cpp.i
+
+src/application/ChapterTenApp2.s: src/application/ChapterTenApp2.cpp.s
+.PHONY : src/application/ChapterTenApp2.s
+
+# target to generate assembly for a file
+src/application/ChapterTenApp2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp2.cpp.s
+.PHONY : src/application/ChapterTenApp2.cpp.s
+
 src/application/DebugApp.o: src/application/DebugApp.cpp.o
 .PHONY : src/application/DebugApp.o
 
@@ -572,6 +668,30 @@ src/application/LearnOpenGLApp.s: src/application/LearnOpenGLApp.cpp.s
 src/application/LearnOpenGLApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/LearnOpenGLApp.cpp.s
 .PHONY : src/application/LearnOpenGLApp.cpp.s
+
+src/application/OwnChapterTen.o: src/application/OwnChapterTen.cpp.o
+.PHONY : src/application/OwnChapterTen.o
+
+# target to build an object file
+src/application/OwnChapterTen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/OwnChapterTen.cpp.o
+.PHONY : src/application/OwnChapterTen.cpp.o
+
+src/application/OwnChapterTen.i: src/application/OwnChapterTen.cpp.i
+.PHONY : src/application/OwnChapterTen.i
+
+# target to preprocess a source file
+src/application/OwnChapterTen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/OwnChapterTen.cpp.i
+.PHONY : src/application/OwnChapterTen.cpp.i
+
+src/application/OwnChapterTen.s: src/application/OwnChapterTen.cpp.s
+.PHONY : src/application/OwnChapterTen.s
+
+# target to generate assembly for a file
+src/application/OwnChapterTen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/OwnChapterTen.cpp.s
+.PHONY : src/application/OwnChapterTen.cpp.s
 
 src/application/OwnNinthApp.o: src/application/OwnNinthApp.cpp.o
 .PHONY : src/application/OwnNinthApp.o
@@ -895,9 +1015,15 @@ help:
 	@echo "... src/animation/Clip.o"
 	@echo "... src/animation/Clip.i"
 	@echo "... src/animation/Clip.s"
+	@echo "... src/animation/Mesh.o"
+	@echo "... src/animation/Mesh.i"
+	@echo "... src/animation/Mesh.s"
 	@echo "... src/animation/Pose.o"
 	@echo "... src/animation/Pose.i"
 	@echo "... src/animation/Pose.s"
+	@echo "... src/animation/Skeleton.o"
+	@echo "... src/animation/Skeleton.i"
+	@echo "... src/animation/Skeleton.s"
 	@echo "... src/animation/Track.o"
 	@echo "... src/animation/Track.i"
 	@echo "... src/animation/Track.s"
@@ -916,12 +1042,21 @@ help:
 	@echo "... src/application/ChapterNinthApp.o"
 	@echo "... src/application/ChapterNinthApp.i"
 	@echo "... src/application/ChapterNinthApp.s"
+	@echo "... src/application/ChapterTenApp.o"
+	@echo "... src/application/ChapterTenApp.i"
+	@echo "... src/application/ChapterTenApp.s"
+	@echo "... src/application/ChapterTenApp2.o"
+	@echo "... src/application/ChapterTenApp2.i"
+	@echo "... src/application/ChapterTenApp2.s"
 	@echo "... src/application/DebugApp.o"
 	@echo "... src/application/DebugApp.i"
 	@echo "... src/application/DebugApp.s"
 	@echo "... src/application/LearnOpenGLApp.o"
 	@echo "... src/application/LearnOpenGLApp.i"
 	@echo "... src/application/LearnOpenGLApp.s"
+	@echo "... src/application/OwnChapterTen.o"
+	@echo "... src/application/OwnChapterTen.i"
+	@echo "... src/application/OwnChapterTen.s"
 	@echo "... src/application/OwnNinthApp.o"
 	@echo "... src/application/OwnNinthApp.i"
 	@echo "... src/application/OwnNinthApp.s"

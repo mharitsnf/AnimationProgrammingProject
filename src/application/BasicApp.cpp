@@ -9,6 +9,7 @@ void BasicApp::Initialize() {
     mRotation = 0.0f;
 	mShader = new Shader("shaders/static.vert", "shaders/lit.frag");
 	mDisplayTexture = new Texture;
+    mDisplayTexture->Load("assets/textures/wall.jpg");
 
     mVertexArray = new VertexArray();
 	mVertexPositions = new Attribute<vec3>();
@@ -16,28 +17,36 @@ void BasicApp::Initialize() {
 	mVertexTexCoords = new Attribute<vec2>();
 	mIndexBuffer = new IndexBuffer();
 
-    mVertexArray->Bind();
 
 	std::vector<vec3> positions;
 	positions.push_back(vec3(-1, -1, 0));
 	positions.push_back(vec3(-1, 1, 0));
 	positions.push_back(vec3(1, -1, 0));
 	positions.push_back(vec3(1, 1, 0));
+    
+	mVertexArray->Bind();
 	mVertexPositions->Set(positions);
     mVertexPositions->BindTo(mShader->GetAttribute("position"));
+	mVertexArray->Unbind();
 
 	std::vector<vec3> normals;
 	normals.resize(4, vec3(0, 0, 1));
+
+	mVertexArray->Bind();
 	mVertexNormals->Set(normals);
 	mVertexNormals->BindTo(mShader->GetAttribute("normal"));
+	mVertexArray->Unbind();
 
 	std::vector<vec2> uvs;
 	uvs.push_back(vec2(0, 0));
 	uvs.push_back(vec2(0, 1));
 	uvs.push_back(vec2(1, 0));
 	uvs.push_back(vec2(1, 1));
+
+	mVertexArray->Bind();
 	mVertexTexCoords->Set(uvs);
 	mVertexTexCoords->BindTo(mShader->GetAttribute("texCoord"));
+	mVertexArray->Unbind();
 
 	std::vector<unsigned int> indices;
 	indices.push_back(0);
@@ -46,11 +55,10 @@ void BasicApp::Initialize() {
 	indices.push_back(2);
 	indices.push_back(1);
 	indices.push_back(3);
-	mIndexBuffer->Set(indices);
 
-    // load texture    
-    mDisplayTexture->Load("assets/textures/wall.jpg");
-    mDisplayTexture->Set(mShader->GetUniform("tex0"), 0);
+	mVertexArray->Bind();
+	mIndexBuffer->Set(indices);
+	mVertexArray->Unbind();
 
 }
 
@@ -69,6 +77,8 @@ void BasicApp::Render(float inAspectRatio) {
 
 	mShader->Bind();
 
+    mDisplayTexture->Set(mShader->GetUniform("tex0"), 0);
+
     // setting uniform
 	Uniform<mat4>::Set(mShader->GetUniform("model"), model);
 	Uniform<mat4>::Set(mShader->GetUniform("view"), view);
@@ -76,6 +86,8 @@ void BasicApp::Render(float inAspectRatio) {
 	Uniform<vec3>::Set(mShader->GetUniform("light"), vec3(0, 0, 1));
 
 	Draw(*mIndexBuffer, *mVertexArray, DrawMode::Triangles);
+
+    mDisplayTexture->UnSet(0);
 
 	mShader->UnBind();
 }

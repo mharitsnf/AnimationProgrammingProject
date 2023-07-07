@@ -733,7 +733,7 @@ CMakeFiles/AnimationProject.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/OwnNinthApp.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/OwnChapterTen.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/Application.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/DebugDraw.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/Shader.h \
@@ -755,6 +755,4 @@ CMakeFiles/AnimationProject.dir/main.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/Track.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/Frame.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/Interpolation.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../animation/Frame.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../math/vec3.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../math/quat.h
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../animation/Skeleton.h
