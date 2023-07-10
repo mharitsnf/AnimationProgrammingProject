@@ -11,7 +11,7 @@ Mesh::Mesh() {
 	mWeightAttrib = new Attribute<vec4>();
 	mInfluenceAttrib = new Attribute<ivec4>();
 	mIndexBuffer = new IndexBuffer();
-	mVertexArray = new VertexArray;
+	mVertexArray = new VertexArray();
 }
 
 Mesh::Mesh(const Mesh& other) {
@@ -21,7 +21,7 @@ Mesh::Mesh(const Mesh& other) {
 	mWeightAttrib = new Attribute<vec4>();
 	mInfluenceAttrib = new Attribute<ivec4>();
 	mIndexBuffer = new IndexBuffer();
-	mVertexArray = new VertexArray;
+	mVertexArray = new VertexArray();
 	*this = other;
 }
 
@@ -41,13 +41,13 @@ Mesh& Mesh::operator=(const Mesh& other) {
 }
 
 Mesh::~Mesh() {
-	delete mPosAttrib;
-	delete mNormAttrib;
-	delete mUvAttrib;
-	delete mWeightAttrib;
-	delete mInfluenceAttrib;
-	delete mIndexBuffer;
-	delete mVertexArray;
+	// delete mPosAttrib;
+	// delete mNormAttrib;
+	// delete mUvAttrib;
+	// delete mWeightAttrib;
+	// delete mInfluenceAttrib;
+	// delete mIndexBuffer;
+	// delete mVertexArray;
 }
 
 std::vector<vec3>& Mesh::GetPosition() {
@@ -101,8 +101,6 @@ void Mesh::UpdateOpenGLBuffers() {
 
 void Mesh::Bind(int position, int normal, int texCoord, int weight, int influcence) {
 	mVertexArray->Bind();
-
-	// std::cout << position << " " << normal << " " << texCoord << " " << weight << " " << influcence << "\n";
 
 	if (position >= 0) {
 		mPosAttrib->BindTo(position);

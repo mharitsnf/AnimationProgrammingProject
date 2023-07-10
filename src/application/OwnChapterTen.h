@@ -3,10 +3,14 @@
 
 #include "Application.h"
 #include "../opengl/DebugDraw.h"
-#include <vector>
+#include "../opengl/Shader.h"
+#include "../opengl/Texture.h"
 #include "../animation/Pose.h"
 #include "../animation/Clip.h"
 #include "../animation/Skeleton.h"
+#include "../animation/Mesh.h"
+#include <vector>
+
 
 class OwnChapterTen : public Application {
 protected:
@@ -18,6 +22,10 @@ protected:
 	DebugDraw* mBindPoseVisual;
 	DebugDraw* mRestPoseVisual;
 	DebugDraw* mCurrentPoseVisual;
+
+	Shader* mStaticShader;
+	std::vector<Mesh> mMeshes;
+	Texture* mDiffuseTexture;
     
 public:
 	void Initialize();

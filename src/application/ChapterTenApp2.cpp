@@ -32,7 +32,7 @@ void ChapterTenApp2::Initialize() {
 	mCPUAnimInfo.mPosePalette.resize(mSkeleton.GetRestPose().Size());
 
 	mGPUAnimInfo.mModel.position = vec3(2, 0, 0);
-	mCPUAnimInfo.mModel.position = vec3(0, 0, 0);
+	mCPUAnimInfo.mModel.position = vec3(-2, 0, 0);
 
 	unsigned int numUIClips = (unsigned int)mClips.size();
 	for (unsigned int i = 0; i < numUIClips; ++i) {
@@ -43,18 +43,12 @@ void ChapterTenApp2::Initialize() {
 			mGPUAnimInfo.mClip = i;
 		}
 	}
-
-	mCPUVisual = new DebugDraw;
-	mCPUVisual->FromPose(mCPUAnimInfo.mAnimatedPose);
-	mCPUVisual->UpdateOpenGLBuffers();
 }
 
 void ChapterTenApp2::Update(float deltaTime) {
 	mCPUAnimInfo.mPlayback = mClips[mCPUAnimInfo.mClip].Sample(mCPUAnimInfo.mAnimatedPose, mCPUAnimInfo.mPlayback + deltaTime);
 	mGPUAnimInfo.mPlayback = mClips[mGPUAnimInfo.mClip].Sample(mGPUAnimInfo.mAnimatedPose, mGPUAnimInfo.mPlayback + deltaTime);
 
-	mCPUVisual->FromPose(mCPUAnimInfo.mAnimatedPose);
-	
 	for (unsigned int i = 0, size = (unsigned int)mCPUMeshes.size(); i < size; ++i) {
 		mCPUMeshes[i].CPUSkin(mSkeleton, mCPUAnimInfo.mAnimatedPose);
 	}
@@ -67,14 +61,8 @@ void ChapterTenApp2::Render(float inAspectRatio) {
 	mat4 view = lookAt(vec3(0, 4, 7), vec3(0, 4, 0), vec3(0, 1, 0));
 	mat4 model;
 
-	
-
 	// CPU Skinned Mesh
 	model = transformToMat4(mCPUAnimInfo.mModel);
-
-	mCPUVisual->UpdateOpenGLBuffers();
-	mCPUVisual->Draw(DebugDrawMode::Lines, vec3(1,1,1), model * view * projection);
-
 	mStaticShader->Bind();
 	Uniform<mat4>::Set(mStaticShader->GetUniform("model"), model);
 	Uniform<mat4>::Set(mStaticShader->GetUniform("view"), view);
@@ -120,6 +108,6 @@ void ChapterTenApp2::Shutdown() {
 	delete mDiffuseTexture;
 	delete mSkinnedShader;
 	mClips.clear();
-	// mCPUMeshes.clear();
-	// mGPUMeshes.clear();
+	mCPUMeshes.clear();
+	mGPUMeshes.clear();
 }

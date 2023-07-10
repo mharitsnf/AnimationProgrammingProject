@@ -35,9 +35,6 @@ protected:
 	AnimationInstance mGPUAnimInfo;
 	AnimationInstance mCPUAnimInfo;
 
-	DebugDraw* mCPUVisual;
-    
-
 public:
 	void Initialize();
 	void Update(float deltaTime);
