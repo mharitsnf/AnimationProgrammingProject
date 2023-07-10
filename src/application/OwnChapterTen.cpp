@@ -38,7 +38,6 @@ void OwnChapterTen::Initialize() {
 	mDiffuseTexture = new Texture();
 	mDiffuseTexture->Load("assets/textures/Woman.png");
 	for (auto mesh : mMeshes) {
-		std::cout << mesh.GetPosition().size() << "\n";
 		mesh.UpdateOpenGLBuffers();
 		mesh.Bind(mStaticShader->GetAttribute("position"), mStaticShader->GetAttribute("normal"), mStaticShader->GetAttribute("texCoord"), -1, -1);
 	}

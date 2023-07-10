@@ -41,6 +41,8 @@ int main()
         return -1;
     }
 
+    glEnable(GL_DEPTH_TEST);
+
     // Initialize application
     Application* app = (Application*) new ChapterTenApp2;
     app->Initialize();
@@ -58,7 +60,7 @@ int main()
 
         // rendering background
         glClearColor(0.15f, 0.15f, 0.15f, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); 
         
         // update calculation
         app->Update((float)deltaTime);

@@ -58,7 +58,7 @@ void ChapterTenApp2::Update(float deltaTime) {
 
 void ChapterTenApp2::Render(float inAspectRatio) {
 	mat4 projection = perspective(60.0f, inAspectRatio, 0.01f, 1000.0f);
-	mat4 view = lookAt(vec3(0, 4, 7), vec3(0, 4, 0), vec3(0, 1, 0));
+	mat4 view = lookAt(vec3(0, 4, 10), vec3(0, 4, 0), vec3(0, 1, 0));
 	mat4 model;
 
 	// CPU Skinned Mesh
