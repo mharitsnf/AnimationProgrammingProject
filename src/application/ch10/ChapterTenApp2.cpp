@@ -1,9 +1,9 @@
 #pragma warning(disable : 26451)
 #define _CRT_SECURE_NO_WARNINGS
 #include "ChapterTenApp2.h"
-#include "../../external/cgltf/GLTFLoader.h"
-#include "../opengl/Uniform.h"
-#include "../../external/glad/include/glad/glad.h"
+#include "../../../external/cgltf/GLTFLoader.h"
+#include "../../opengl/Uniform.h"
+#include "../../../external/glad/include/glad/glad.h"
 
 #include <iostream>
 

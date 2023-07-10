@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "OwnChapterTen.h"
-#include "../../external/cgltf/GLTFLoader.h"
-#include "../opengl/Uniform.h"
+#include "../../../external/cgltf/GLTFLoader.h"
+#include "../../opengl/Uniform.h"
 
 void OwnChapterTen::Initialize() {
 	cgltf_data* gltf = LoadGLTFFile("assets/models/Woman.gltf");

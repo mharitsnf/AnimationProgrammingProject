@@ -1,9 +1,9 @@
 #ifndef _H_CHAPTEREIGHTAPP_
 #define _H_CHAPTEREIGHTAPP_
 
-#include "Application.h"
-#include "../opengl/DebugDraw.h"
-#include "../animation/Track.h"
+#include "../Application.h"
+#include "../../opengl/DebugDraw.h"
+#include "../../animation/Track.h"
 #include <vector>
 
 class ChapterEightApp : public Application {

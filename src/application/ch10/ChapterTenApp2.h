@@ -1,16 +1,16 @@
 #ifndef _H_CHAPTERTENAPP2_
 #define _H_CHAPTERTENAPP2_
 
-#include "Application.h"
+#include "../Application.h"
 #include <vector>
-#include "../animation/Pose.h"
-#include "../animation/Clip.h"
-#include "../animation/Skeleton.h"
-#include "../animation/Mesh.h"
-#include "../opengl/Texture.h"
-#include "../opengl/Shader.h"
+#include "../../animation/Pose.h"
+#include "../../animation/Clip.h"
+#include "../../animation/Skeleton.h"
+#include "../../animation/Mesh.h"
+#include "../../opengl/Texture.h"
+#include "../../opengl/Shader.h"
 
-#include "../opengl/DebugDraw.h"
+#include "../../opengl/DebugDraw.h"
 
 struct AnimationInstance {
 	Pose mAnimatedPose;

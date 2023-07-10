@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-#include "src/application/ch11/Sample01.h"
+#include "src/application/ch11/Sample03.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
@@ -44,7 +44,7 @@ int main()
     glEnable(GL_DEPTH_TEST);
 
     // Initialize application
-    Application* app = (Application*) new Ch11Sample1;
+    Application* app = (Application*) new Ch11Sample3;
     app->Initialize();
     
     double lastTime = glfwGetTime();

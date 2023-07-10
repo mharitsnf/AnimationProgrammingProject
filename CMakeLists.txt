@@ -52,31 +52,35 @@ add_executable(${PROJECT_NAME}
     src/animation/TransformTrack.h
     src/opengl/DebugDraw.cpp
     src/opengl/DebugDraw.h
-    src/application/ChapterEightApp.cpp
-    src/application/ChapterEightApp.h
+    src/application/ch8/ChapterEightApp.cpp
+    src/application/ch8/ChapterEightApp.h
     src/application/DebugApp.cpp
     src/application/DebugApp.h
     src/animation/Pose.cpp
     src/animation/Pose.h
     src/animation/Clip.cpp
-    src/application/ChapterNinthApp.cpp
-    src/application/ChapterNinthApp.h
-    src/application/OwnNinthApp.cpp
-    src/application/OwnNinthApp.h
+    src/application/ch9/ChapterNinthApp.cpp
+    src/application/ch9/ChapterNinthApp.h
+    src/application/ch9/OwnNinthApp.cpp
+    src/application/ch9/OwnNinthApp.h
     src/animation/Skeleton.cpp
     src/animation/Skeleton.h
     src/animation/Mesh.cpp
     src/animation/Mesh.h
-    src/application/ChapterTenApp.cpp
-    src/application/ChapterTenApp.h
-    src/application/ChapterTenApp2.cpp
-    src/application/ChapterTenApp2.h
-    src/application/OwnChapterTen.cpp
-    src/application/OwnChapterTen.h
+    src/application/ch10/ChapterTenApp.cpp
+    src/application/ch10/ChapterTenApp.h
+    src/application/ch10/ChapterTenApp2.cpp
+    src/application/ch10/ChapterTenApp2.h
+    src/application/ch10/OwnChapterTen.cpp
+    src/application/ch10/OwnChapterTen.h
     src/animation/RearrangeBones.cpp
     src/animation/RearrangeBones.h
     src/application/ch11/Sample01.cpp
     src/application/ch11/Sample01.h
+    src/application/ch11/Sample02.cpp
+    src/application/ch11/Sample02.h
+    src/application/ch11/Sample03.cpp
+    src/application/ch11/Sample03.h
 )
 
 

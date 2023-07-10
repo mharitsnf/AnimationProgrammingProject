@@ -1,14 +1,14 @@
 #ifndef _H_OWNCHAPTERTEN_
 #define _H_OWNCHAPTERTEN_
 
-#include "Application.h"
-#include "../opengl/DebugDraw.h"
-#include "../opengl/Shader.h"
-#include "../opengl/Texture.h"
-#include "../animation/Pose.h"
-#include "../animation/Clip.h"
-#include "../animation/Skeleton.h"
-#include "../animation/Mesh.h"
+#include "../Application.h"
+#include "../../opengl/DebugDraw.h"
+#include "../../opengl/Shader.h"
+#include "../../opengl/Texture.h"
+#include "../../animation/Pose.h"
+#include "../../animation/Clip.h"
+#include "../../animation/Skeleton.h"
+#include "../../animation/Mesh.h"
 #include <vector>
 
 

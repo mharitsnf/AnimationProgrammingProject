@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "ChapterTenApp.h"
-#include "../../external/cgltf/GLTFLoader.h"
+#include "../../../external/cgltf/GLTFLoader.h"
 
 void ChapterTenApp::Initialize() {
 	cgltf_data* gltf = LoadGLTFFile("assets/models/Woman.gltf");

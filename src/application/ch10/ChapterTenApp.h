@@ -1,12 +1,12 @@
 #ifndef _H_CHAPTERTENAPP_
 #define _H_CHAPTERTENAPP_
 
-#include "Application.h"
-#include "../opengl/DebugDraw.h"
+#include "../Application.h"
+#include "../../opengl/DebugDraw.h"
 #include <vector>
-#include "../animation/Pose.h"
-#include "../animation/Clip.h"
-#include "../animation/Skeleton.h"
+#include "../../animation/Pose.h"
+#include "../../animation/Clip.h"
+#include "../../animation/Skeleton.h"
 
 class ChapterTenApp : public Application {
 protected:

@@ -363,19 +363,19 @@ CMakeFiles/AnimationProject.dir/src/opengl/DebugDraw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/opengl/DebugDraw.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/DebugDraw.cpp -o CMakeFiles/AnimationProject.dir/src/opengl/DebugDraw.cpp.s
 
-CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
-CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterEightApp.cpp
-CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o: CMakeFiles/AnimationProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o -MF CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o.d -o CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o -c /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterEightApp.cpp
+CMakeFiles/AnimationProject.dir/src/application/ch8/ChapterEightApp.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
+CMakeFiles/AnimationProject.dir/src/application/ch8/ChapterEightApp.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch8/ChapterEightApp.cpp
+CMakeFiles/AnimationProject.dir/src/application/ch8/ChapterEightApp.cpp.o: CMakeFiles/AnimationProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/AnimationProject.dir/src/application/ch8/ChapterEightApp.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AnimationProject.dir/src/application/ch8/ChapterEightApp.cpp.o -MF CMakeFiles/AnimationProject.dir/src/application/ch8/ChapterEightApp.cpp.o.d -o CMakeFiles/AnimationProject.dir/src/application/ch8/ChapterEightApp.cpp.o -c /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch8/ChapterEightApp.cpp
 
-CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterEightApp.cpp > CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.i
+CMakeFiles/AnimationProject.dir/src/application/ch8/ChapterEightApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnimationProject.dir/src/application/ch8/ChapterEightApp.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch8/ChapterEightApp.cpp > CMakeFiles/AnimationProject.dir/src/application/ch8/ChapterEightApp.cpp.i
 
-CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterEightApp.cpp -o CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.s
+CMakeFiles/AnimationProject.dir/src/application/ch8/ChapterEightApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/application/ch8/ChapterEightApp.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch8/ChapterEightApp.cpp -o CMakeFiles/AnimationProject.dir/src/application/ch8/ChapterEightApp.cpp.s
 
 CMakeFiles/AnimationProject.dir/src/application/DebugApp.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
 CMakeFiles/AnimationProject.dir/src/application/DebugApp.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/application/DebugApp.cpp
@@ -419,33 +419,33 @@ CMakeFiles/AnimationProject.dir/src/animation/Clip.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/animation/Clip.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Clip.cpp -o CMakeFiles/AnimationProject.dir/src/animation/Clip.cpp.s
 
-CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
-CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterNinthApp.cpp
-CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.o: CMakeFiles/AnimationProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.o -MF CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.o.d -o CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.o -c /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterNinthApp.cpp
+CMakeFiles/AnimationProject.dir/src/application/ch9/ChapterNinthApp.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
+CMakeFiles/AnimationProject.dir/src/application/ch9/ChapterNinthApp.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch9/ChapterNinthApp.cpp
+CMakeFiles/AnimationProject.dir/src/application/ch9/ChapterNinthApp.cpp.o: CMakeFiles/AnimationProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/AnimationProject.dir/src/application/ch9/ChapterNinthApp.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AnimationProject.dir/src/application/ch9/ChapterNinthApp.cpp.o -MF CMakeFiles/AnimationProject.dir/src/application/ch9/ChapterNinthApp.cpp.o.d -o CMakeFiles/AnimationProject.dir/src/application/ch9/ChapterNinthApp.cpp.o -c /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch9/ChapterNinthApp.cpp
 
-CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterNinthApp.cpp > CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.i
+CMakeFiles/AnimationProject.dir/src/application/ch9/ChapterNinthApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnimationProject.dir/src/application/ch9/ChapterNinthApp.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch9/ChapterNinthApp.cpp > CMakeFiles/AnimationProject.dir/src/application/ch9/ChapterNinthApp.cpp.i
 
-CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterNinthApp.cpp -o CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.s
+CMakeFiles/AnimationProject.dir/src/application/ch9/ChapterNinthApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/application/ch9/ChapterNinthApp.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch9/ChapterNinthApp.cpp -o CMakeFiles/AnimationProject.dir/src/application/ch9/ChapterNinthApp.cpp.s
 
-CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
-CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/application/OwnNinthApp.cpp
-CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.o: CMakeFiles/AnimationProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.o -MF CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.o.d -o CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.o -c /Users/mharitsnf/Documents/C++/AnimationProject/src/application/OwnNinthApp.cpp
+CMakeFiles/AnimationProject.dir/src/application/ch9/OwnNinthApp.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
+CMakeFiles/AnimationProject.dir/src/application/ch9/OwnNinthApp.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch9/OwnNinthApp.cpp
+CMakeFiles/AnimationProject.dir/src/application/ch9/OwnNinthApp.cpp.o: CMakeFiles/AnimationProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/AnimationProject.dir/src/application/ch9/OwnNinthApp.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AnimationProject.dir/src/application/ch9/OwnNinthApp.cpp.o -MF CMakeFiles/AnimationProject.dir/src/application/ch9/OwnNinthApp.cpp.o.d -o CMakeFiles/AnimationProject.dir/src/application/ch9/OwnNinthApp.cpp.o -c /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch9/OwnNinthApp.cpp
 
-CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mharitsnf/Documents/C++/AnimationProject/src/application/OwnNinthApp.cpp > CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.i
+CMakeFiles/AnimationProject.dir/src/application/ch9/OwnNinthApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnimationProject.dir/src/application/ch9/OwnNinthApp.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch9/OwnNinthApp.cpp > CMakeFiles/AnimationProject.dir/src/application/ch9/OwnNinthApp.cpp.i
 
-CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/application/OwnNinthApp.cpp -o CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.s
+CMakeFiles/AnimationProject.dir/src/application/ch9/OwnNinthApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/application/ch9/OwnNinthApp.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch9/OwnNinthApp.cpp -o CMakeFiles/AnimationProject.dir/src/application/ch9/OwnNinthApp.cpp.s
 
 CMakeFiles/AnimationProject.dir/src/animation/Skeleton.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
 CMakeFiles/AnimationProject.dir/src/animation/Skeleton.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Skeleton.cpp
@@ -475,47 +475,47 @@ CMakeFiles/AnimationProject.dir/src/animation/Mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/animation/Mesh.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Mesh.cpp -o CMakeFiles/AnimationProject.dir/src/animation/Mesh.cpp.s
 
-CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
-CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterTenApp.cpp
-CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp.cpp.o: CMakeFiles/AnimationProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp.cpp.o -MF CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp.cpp.o.d -o CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp.cpp.o -c /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterTenApp.cpp
+CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
+CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/ChapterTenApp.cpp
+CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp.cpp.o: CMakeFiles/AnimationProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp.cpp.o -MF CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp.cpp.o.d -o CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp.cpp.o -c /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/ChapterTenApp.cpp
 
-CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterTenApp.cpp > CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp.cpp.i
+CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/ChapterTenApp.cpp > CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp.cpp.i
 
-CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterTenApp.cpp -o CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp.cpp.s
+CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/ChapterTenApp.cpp -o CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp.cpp.s
 
-CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp2.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
-CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp2.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterTenApp2.cpp
-CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp2.cpp.o: CMakeFiles/AnimationProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp2.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp2.cpp.o -MF CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp2.cpp.o.d -o CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp2.cpp.o -c /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterTenApp2.cpp
+CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp2.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
+CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp2.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/ChapterTenApp2.cpp
+CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp2.cpp.o: CMakeFiles/AnimationProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp2.cpp.o -MF CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp2.cpp.o.d -o CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp2.cpp.o -c /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/ChapterTenApp2.cpp
 
-CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp2.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterTenApp2.cpp > CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp2.cpp.i
+CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp2.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/ChapterTenApp2.cpp > CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp2.cpp.i
 
-CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp2.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ChapterTenApp2.cpp -o CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp2.cpp.s
+CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp2.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/ChapterTenApp2.cpp -o CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp2.cpp.s
 
-CMakeFiles/AnimationProject.dir/src/application/OwnChapterTen.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
-CMakeFiles/AnimationProject.dir/src/application/OwnChapterTen.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/application/OwnChapterTen.cpp
-CMakeFiles/AnimationProject.dir/src/application/OwnChapterTen.cpp.o: CMakeFiles/AnimationProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/AnimationProject.dir/src/application/OwnChapterTen.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AnimationProject.dir/src/application/OwnChapterTen.cpp.o -MF CMakeFiles/AnimationProject.dir/src/application/OwnChapterTen.cpp.o.d -o CMakeFiles/AnimationProject.dir/src/application/OwnChapterTen.cpp.o -c /Users/mharitsnf/Documents/C++/AnimationProject/src/application/OwnChapterTen.cpp
+CMakeFiles/AnimationProject.dir/src/application/ch10/OwnChapterTen.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
+CMakeFiles/AnimationProject.dir/src/application/ch10/OwnChapterTen.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/OwnChapterTen.cpp
+CMakeFiles/AnimationProject.dir/src/application/ch10/OwnChapterTen.cpp.o: CMakeFiles/AnimationProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/AnimationProject.dir/src/application/ch10/OwnChapterTen.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AnimationProject.dir/src/application/ch10/OwnChapterTen.cpp.o -MF CMakeFiles/AnimationProject.dir/src/application/ch10/OwnChapterTen.cpp.o.d -o CMakeFiles/AnimationProject.dir/src/application/ch10/OwnChapterTen.cpp.o -c /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/OwnChapterTen.cpp
 
-CMakeFiles/AnimationProject.dir/src/application/OwnChapterTen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnimationProject.dir/src/application/OwnChapterTen.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mharitsnf/Documents/C++/AnimationProject/src/application/OwnChapterTen.cpp > CMakeFiles/AnimationProject.dir/src/application/OwnChapterTen.cpp.i
+CMakeFiles/AnimationProject.dir/src/application/ch10/OwnChapterTen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnimationProject.dir/src/application/ch10/OwnChapterTen.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/OwnChapterTen.cpp > CMakeFiles/AnimationProject.dir/src/application/ch10/OwnChapterTen.cpp.i
 
-CMakeFiles/AnimationProject.dir/src/application/OwnChapterTen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/application/OwnChapterTen.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/application/OwnChapterTen.cpp -o CMakeFiles/AnimationProject.dir/src/application/OwnChapterTen.cpp.s
+CMakeFiles/AnimationProject.dir/src/application/ch10/OwnChapterTen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/application/ch10/OwnChapterTen.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/OwnChapterTen.cpp -o CMakeFiles/AnimationProject.dir/src/application/ch10/OwnChapterTen.cpp.s
 
 CMakeFiles/AnimationProject.dir/src/animation/RearrangeBones.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
 CMakeFiles/AnimationProject.dir/src/animation/RearrangeBones.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/RearrangeBones.cpp
@@ -545,6 +545,34 @@ CMakeFiles/AnimationProject.dir/src/application/ch11/Sample01.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/application/ch11/Sample01.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch11/Sample01.cpp -o CMakeFiles/AnimationProject.dir/src/application/ch11/Sample01.cpp.s
 
+CMakeFiles/AnimationProject.dir/src/application/ch11/Sample02.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
+CMakeFiles/AnimationProject.dir/src/application/ch11/Sample02.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch11/Sample02.cpp
+CMakeFiles/AnimationProject.dir/src/application/ch11/Sample02.cpp.o: CMakeFiles/AnimationProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/AnimationProject.dir/src/application/ch11/Sample02.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AnimationProject.dir/src/application/ch11/Sample02.cpp.o -MF CMakeFiles/AnimationProject.dir/src/application/ch11/Sample02.cpp.o.d -o CMakeFiles/AnimationProject.dir/src/application/ch11/Sample02.cpp.o -c /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch11/Sample02.cpp
+
+CMakeFiles/AnimationProject.dir/src/application/ch11/Sample02.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnimationProject.dir/src/application/ch11/Sample02.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch11/Sample02.cpp > CMakeFiles/AnimationProject.dir/src/application/ch11/Sample02.cpp.i
+
+CMakeFiles/AnimationProject.dir/src/application/ch11/Sample02.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/application/ch11/Sample02.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch11/Sample02.cpp -o CMakeFiles/AnimationProject.dir/src/application/ch11/Sample02.cpp.s
+
+CMakeFiles/AnimationProject.dir/src/application/ch11/Sample03.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
+CMakeFiles/AnimationProject.dir/src/application/ch11/Sample03.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch11/Sample03.cpp
+CMakeFiles/AnimationProject.dir/src/application/ch11/Sample03.cpp.o: CMakeFiles/AnimationProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/AnimationProject.dir/src/application/ch11/Sample03.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AnimationProject.dir/src/application/ch11/Sample03.cpp.o -MF CMakeFiles/AnimationProject.dir/src/application/ch11/Sample03.cpp.o.d -o CMakeFiles/AnimationProject.dir/src/application/ch11/Sample03.cpp.o -c /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch11/Sample03.cpp
+
+CMakeFiles/AnimationProject.dir/src/application/ch11/Sample03.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnimationProject.dir/src/application/ch11/Sample03.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch11/Sample03.cpp > CMakeFiles/AnimationProject.dir/src/application/ch11/Sample03.cpp.i
+
+CMakeFiles/AnimationProject.dir/src/application/ch11/Sample03.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/application/ch11/Sample03.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch11/Sample03.cpp -o CMakeFiles/AnimationProject.dir/src/application/ch11/Sample03.cpp.s
+
 # Object files for target AnimationProject
 AnimationProject_OBJECTS = \
 "CMakeFiles/AnimationProject.dir/main.cpp.o" \
@@ -568,19 +596,21 @@ AnimationProject_OBJECTS = \
 "CMakeFiles/AnimationProject.dir/src/animation/Track.cpp.o" \
 "CMakeFiles/AnimationProject.dir/src/animation/TransformTrack.cpp.o" \
 "CMakeFiles/AnimationProject.dir/src/opengl/DebugDraw.cpp.o" \
-"CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o" \
+"CMakeFiles/AnimationProject.dir/src/application/ch8/ChapterEightApp.cpp.o" \
 "CMakeFiles/AnimationProject.dir/src/application/DebugApp.cpp.o" \
 "CMakeFiles/AnimationProject.dir/src/animation/Pose.cpp.o" \
 "CMakeFiles/AnimationProject.dir/src/animation/Clip.cpp.o" \
-"CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.o" \
-"CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.o" \
+"CMakeFiles/AnimationProject.dir/src/application/ch9/ChapterNinthApp.cpp.o" \
+"CMakeFiles/AnimationProject.dir/src/application/ch9/OwnNinthApp.cpp.o" \
 "CMakeFiles/AnimationProject.dir/src/animation/Skeleton.cpp.o" \
 "CMakeFiles/AnimationProject.dir/src/animation/Mesh.cpp.o" \
-"CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp.cpp.o" \
-"CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp2.cpp.o" \
-"CMakeFiles/AnimationProject.dir/src/application/OwnChapterTen.cpp.o" \
+"CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp.cpp.o" \
+"CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp2.cpp.o" \
+"CMakeFiles/AnimationProject.dir/src/application/ch10/OwnChapterTen.cpp.o" \
 "CMakeFiles/AnimationProject.dir/src/animation/RearrangeBones.cpp.o" \
-"CMakeFiles/AnimationProject.dir/src/application/ch11/Sample01.cpp.o"
+"CMakeFiles/AnimationProject.dir/src/application/ch11/Sample01.cpp.o" \
+"CMakeFiles/AnimationProject.dir/src/application/ch11/Sample02.cpp.o" \
+"CMakeFiles/AnimationProject.dir/src/application/ch11/Sample03.cpp.o"
 
 # External object files for target AnimationProject
 AnimationProject_EXTERNAL_OBJECTS =
@@ -606,23 +636,25 @@ AnimationProject: CMakeFiles/AnimationProject.dir/src/application/BasicApp.cpp.o
 AnimationProject: CMakeFiles/AnimationProject.dir/src/animation/Track.cpp.o
 AnimationProject: CMakeFiles/AnimationProject.dir/src/animation/TransformTrack.cpp.o
 AnimationProject: CMakeFiles/AnimationProject.dir/src/opengl/DebugDraw.cpp.o
-AnimationProject: CMakeFiles/AnimationProject.dir/src/application/ChapterEightApp.cpp.o
+AnimationProject: CMakeFiles/AnimationProject.dir/src/application/ch8/ChapterEightApp.cpp.o
 AnimationProject: CMakeFiles/AnimationProject.dir/src/application/DebugApp.cpp.o
 AnimationProject: CMakeFiles/AnimationProject.dir/src/animation/Pose.cpp.o
 AnimationProject: CMakeFiles/AnimationProject.dir/src/animation/Clip.cpp.o
-AnimationProject: CMakeFiles/AnimationProject.dir/src/application/ChapterNinthApp.cpp.o
-AnimationProject: CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.o
+AnimationProject: CMakeFiles/AnimationProject.dir/src/application/ch9/ChapterNinthApp.cpp.o
+AnimationProject: CMakeFiles/AnimationProject.dir/src/application/ch9/OwnNinthApp.cpp.o
 AnimationProject: CMakeFiles/AnimationProject.dir/src/animation/Skeleton.cpp.o
 AnimationProject: CMakeFiles/AnimationProject.dir/src/animation/Mesh.cpp.o
-AnimationProject: CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp.cpp.o
-AnimationProject: CMakeFiles/AnimationProject.dir/src/application/ChapterTenApp2.cpp.o
-AnimationProject: CMakeFiles/AnimationProject.dir/src/application/OwnChapterTen.cpp.o
+AnimationProject: CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp.cpp.o
+AnimationProject: CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp2.cpp.o
+AnimationProject: CMakeFiles/AnimationProject.dir/src/application/ch10/OwnChapterTen.cpp.o
 AnimationProject: CMakeFiles/AnimationProject.dir/src/animation/RearrangeBones.cpp.o
 AnimationProject: CMakeFiles/AnimationProject.dir/src/application/ch11/Sample01.cpp.o
+AnimationProject: CMakeFiles/AnimationProject.dir/src/application/ch11/Sample02.cpp.o
+AnimationProject: CMakeFiles/AnimationProject.dir/src/application/ch11/Sample03.cpp.o
 AnimationProject: CMakeFiles/AnimationProject.dir/build.make
 AnimationProject: external/glfw/src/libglfw3.a
 AnimationProject: CMakeFiles/AnimationProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX executable AnimationProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Linking CXX executable AnimationProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AnimationProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

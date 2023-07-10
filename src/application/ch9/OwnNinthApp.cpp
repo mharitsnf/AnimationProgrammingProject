@@ -1,8 +1,8 @@
 #include "OwnNinthApp.h"
-#include "../animation/Transform.h"
-#include "../animation/TransformTrack.h"
-#include "../animation/Track.h"
-#include "../math/mat4.h"
+#include "../../animation/Transform.h"
+#include "../../animation/TransformTrack.h"
+#include "../../animation/Track.h"
+#include "../../math/mat4.h"
 
 void OwnNinthApp::Initialize() {
     // Pose setup

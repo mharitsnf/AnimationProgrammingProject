@@ -1,13 +1,13 @@
 #ifndef _H_OWNNINTHAPP_
 #define _H_OWNNINTHAPP_
 
-#include "Application.h"
-#include "../opengl/DebugDraw.h"
-#include "../animation/Pose.h"
-#include "../animation/Clip.h"
-#include "../animation/Frame.h"
-#include "../math/vec3.h"
-#include "../math/quat.h"
+#include "../Application.h"
+#include "../../opengl/DebugDraw.h"
+#include "../../animation/Pose.h"
+#include "../../animation/Clip.h"
+#include "../../animation/Frame.h"
+#include "../../math/vec3.h"
+#include "../../math/quat.h"
 
 class OwnNinthApp : public Application {
 protected:
