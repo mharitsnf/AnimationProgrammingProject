@@ -15,7 +15,7 @@ BoneMap RearrangeSkeleton(Skeleton& skeleton) {
 		int parent = restPose.GetParent(i);
 		if (parent >= 0) {
             // the current joint (i) has a parent
-            // add the current joint (i) to the vector at element parent
+            // add the current joint (i) to the vector hierarchy[parent]
 			hierarchy[parent].push_back((int)i);
 		}
 		else {
@@ -34,7 +34,7 @@ BoneMap RearrangeSkeleton(Skeleton& skeleton) {
         // a reference to the children of the parent (according to the hierarchy position)
 		std::vector<int>& children = hierarchy[current];
 
-        // loop through all the children, and process them directlu
+        // loop through all the children, and process them directly
 		unsigned int numChildren = (unsigned int)children.size();
 		for (unsigned int i = 0; i < numChildren; ++i) {
 			process.push_back(children[i]);

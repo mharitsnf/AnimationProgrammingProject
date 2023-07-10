@@ -45,8 +45,9 @@ void ChapterTenApp2::Initialize() {
 	}
 }
 
+// An update function that runs every frame
 void ChapterTenApp2::Update(float deltaTime) {
-	// like before, we "move" the pose (joints) first using the sample function in the clip
+	// like before, we "move" the pose (joints) first using the sample function in the clip using interpolation
 	mCPUAnimInfo.mPlayback = mClips[mCPUAnimInfo.mClip].Sample(mCPUAnimInfo.mAnimatedPose, mCPUAnimInfo.mPlayback + deltaTime);
 	mGPUAnimInfo.mPlayback = mClips[mGPUAnimInfo.mClip].Sample(mGPUAnimInfo.mAnimatedPose, mGPUAnimInfo.mPlayback + deltaTime);
 

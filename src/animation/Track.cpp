@@ -284,7 +284,7 @@ void FastTrack<T, N>::UpdateIndexLookupTable() {
 	}
 
 	float duration = this->GetEndTime() - this->GetStartTime();
-	unsigned int numSamples = 60 + (unsigned int)(duration * 60.0f);
+	unsigned int numSamples = 60 + (unsigned int)(duration * 60.0f); // 60 samples (frames) per second of animation
 	mSampledFrames.resize(numSamples);
 	for (unsigned int i = 0; i < numSamples; ++i) {
 		float t = (float)i / (float)(numSamples - 1);
@@ -304,10 +304,6 @@ void FastTrack<T, N>::UpdateIndexLookupTable() {
 	}
 }
 
-template FastTrack<float, 1> OptimizeTrack(Track<float, 1>& input);
-template FastTrack<vec3, 3> OptimizeTrack(Track<vec3, 3>& input);
-template FastTrack<quat, 4> OptimizeTrack(Track<quat, 4>& input);
-
 template<typename T, int N>
 FastTrack<T, N> OptimizeTrack(Track<T, N>& input) {
 	FastTrack<T, N> result;
@@ -322,6 +318,10 @@ FastTrack<T, N> OptimizeTrack(Track<T, N>& input) {
 
 	return result;
 }
+
+template FastTrack<float, 1> OptimizeTrack(Track<float, 1>& input);
+template FastTrack<vec3, 3> OptimizeTrack(Track<vec3, 3>& input);
+template FastTrack<quat, 4> OptimizeTrack(Track<quat, 4>& input);
 
 template class Track<float, 1>;
 template class Track<vec3, 3>;
