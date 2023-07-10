@@ -162,6 +162,34 @@ void Mesh::UnBind(int position, int normal, int texCoord, int weight, int influc
 	mVertexArray->Unbind();
 }
 
+void Mesh::CPUSkin(std::vector<mat4>& animatedPose) {
+	unsigned int numVerts = (unsigned int)mPosition.size();
+	if (numVerts == 0) { return; }
+
+	mSkinnedPosition.resize(numVerts);
+	mSkinnedNormal.resize(numVerts);
+
+	for (unsigned int i = 0; i < numVerts; ++i) {
+		ivec4& j = mInfluences[i];
+		vec4& w = mWeights[i];
+
+		vec3 p0 = transformPoint(animatedPose[j.x], mPosition[i]);
+		vec3 p1 = transformPoint(animatedPose[j.y], mPosition[i]);
+		vec3 p2 = transformPoint(animatedPose[j.z], mPosition[i]);
+		vec3 p3 = transformPoint(animatedPose[j.w], mPosition[i]);
+		mSkinnedPosition[i] = p0 * w.x + p1 * w.y + p2 * w.z + p3 * w.w;
+
+		vec3 n0 = transformVector(animatedPose[j.x], mNormal[i]);
+		vec3 n1 = transformVector(animatedPose[j.y], mNormal[i]);
+		vec3 n2 = transformVector(animatedPose[j.z], mNormal[i]);
+		vec3 n3 = transformVector(animatedPose[j.w], mNormal[i]);
+		mSkinnedNormal[i] = n0 * w.x + n1 * w.y + n2 * w.z + n3 * w.w;
+	}
+
+	mPosAttrib->Set(mSkinnedPosition);
+	mNormAttrib->Set(mSkinnedNormal);
+}
+
 #if 1
 void Mesh::CPUSkin(Skeleton& skeleton, Pose& pose) {
 	unsigned int numVerts = (unsigned int)mPosition.size();
@@ -171,7 +199,9 @@ void Mesh::CPUSkin(Skeleton& skeleton, Pose& pose) {
 	mSkinnedNormal.resize(numVerts);
 
 	// get the array of inverse bind pose matrices of the skeleton
+	// how: get the global transform of the vertices, and then convert it to matrix
 	pose.GetMatrixPalette(mPosePalette);
+	// get the bind pose of all of the skeleton joints, and then invert it. Then, convert to matrix
 	std::vector<mat4> invPosePalette = skeleton.GetInvBindPose();
 
 	// loop through the current vertices:

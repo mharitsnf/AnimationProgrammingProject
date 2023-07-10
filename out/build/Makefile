@@ -405,6 +405,30 @@ src/animation/Pose.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Pose.cpp.s
 .PHONY : src/animation/Pose.cpp.s
 
+src/animation/RearrangeBones.o: src/animation/RearrangeBones.cpp.o
+.PHONY : src/animation/RearrangeBones.o
+
+# target to build an object file
+src/animation/RearrangeBones.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/RearrangeBones.cpp.o
+.PHONY : src/animation/RearrangeBones.cpp.o
+
+src/animation/RearrangeBones.i: src/animation/RearrangeBones.cpp.i
+.PHONY : src/animation/RearrangeBones.i
+
+# target to preprocess a source file
+src/animation/RearrangeBones.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/RearrangeBones.cpp.i
+.PHONY : src/animation/RearrangeBones.cpp.i
+
+src/animation/RearrangeBones.s: src/animation/RearrangeBones.cpp.s
+.PHONY : src/animation/RearrangeBones.s
+
+# target to generate assembly for a file
+src/animation/RearrangeBones.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/RearrangeBones.cpp.s
+.PHONY : src/animation/RearrangeBones.cpp.s
+
 src/animation/Skeleton.o: src/animation/Skeleton.cpp.o
 .PHONY : src/animation/Skeleton.o
 
@@ -717,6 +741,30 @@ src/application/OwnNinthApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/OwnNinthApp.cpp.s
 .PHONY : src/application/OwnNinthApp.cpp.s
 
+src/application/ch11/Sample01.o: src/application/ch11/Sample01.cpp.o
+.PHONY : src/application/ch11/Sample01.o
+
+# target to build an object file
+src/application/ch11/Sample01.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch11/Sample01.cpp.o
+.PHONY : src/application/ch11/Sample01.cpp.o
+
+src/application/ch11/Sample01.i: src/application/ch11/Sample01.cpp.i
+.PHONY : src/application/ch11/Sample01.i
+
+# target to preprocess a source file
+src/application/ch11/Sample01.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch11/Sample01.cpp.i
+.PHONY : src/application/ch11/Sample01.cpp.i
+
+src/application/ch11/Sample01.s: src/application/ch11/Sample01.cpp.s
+.PHONY : src/application/ch11/Sample01.s
+
+# target to generate assembly for a file
+src/application/ch11/Sample01.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch11/Sample01.cpp.s
+.PHONY : src/application/ch11/Sample01.cpp.s
+
 src/math/mat4.o: src/math/mat4.cpp.o
 .PHONY : src/math/mat4.o
 
@@ -1021,6 +1069,9 @@ help:
 	@echo "... src/animation/Pose.o"
 	@echo "... src/animation/Pose.i"
 	@echo "... src/animation/Pose.s"
+	@echo "... src/animation/RearrangeBones.o"
+	@echo "... src/animation/RearrangeBones.i"
+	@echo "... src/animation/RearrangeBones.s"
 	@echo "... src/animation/Skeleton.o"
 	@echo "... src/animation/Skeleton.i"
 	@echo "... src/animation/Skeleton.s"
@@ -1060,6 +1111,9 @@ help:
 	@echo "... src/application/OwnNinthApp.o"
 	@echo "... src/application/OwnNinthApp.i"
 	@echo "... src/application/OwnNinthApp.s"
+	@echo "... src/application/ch11/Sample01.o"
+	@echo "... src/application/ch11/Sample01.i"
+	@echo "... src/application/ch11/Sample01.s"
 	@echo "... src/math/mat4.o"
 	@echo "... src/math/mat4.i"
 	@echo "... src/math/mat4.s"

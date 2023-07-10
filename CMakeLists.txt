@@ -73,6 +73,10 @@ add_executable(${PROJECT_NAME}
     src/application/ChapterTenApp2.h
     src/application/OwnChapterTen.cpp
     src/application/OwnChapterTen.h
+    src/animation/RearrangeBones.cpp
+    src/animation/RearrangeBones.h
+    src/application/ch11/Sample01.cpp
+    src/application/ch11/Sample01.h
 )
 
 

@@ -10,24 +10,23 @@
 // of the transform components.
 // Since each TransformTrack contains a joint ID,
 // 
-class Clip {
+template <typename TRACK>
+class TClip {
 protected:
-	std::vector<TransformTrack> mTracks;
+	std::vector<TRACK> mTracks;
 	std::string mName;
 	float mStartTime;
 	float mEndTime;
 	bool mLooping;
-
 protected:
 	float AdjustTimeToFitRange(float inTime);
-    
 public:
-	Clip();
+	TClip();
 	unsigned int GetIdAtIndex(unsigned int index);
 	void SetIdAtIndex(unsigned int index, unsigned int id);
 	unsigned int Size();
 	float Sample(Pose& outPose, float inTime);
-	TransformTrack& operator[](unsigned int index);
+	TRACK& operator[](unsigned int index);
 	void RecalculateDuration();
 	std::string& GetName();
 	void SetName(const std::string& inNewName);
@@ -37,5 +36,11 @@ public:
 	bool GetLooping();
 	void SetLooping(bool inLooping);
 };
+
+typedef TClip<TransformTrack> Clip;
+typedef TClip<FastTransformTrack> FastClip;
+
+
+FastClip OptimizeClip(Clip& input);
 
 #endif 
