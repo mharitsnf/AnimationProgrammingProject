@@ -746,6 +746,9 @@ CMakeFiles/AnimationProject.dir/src/application/ch9/ChapterNinthApp.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch9/../../opengl/../animation/../math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch9/../../opengl/../animation/../math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch9/../../opengl/../animation/../math/quat.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch9/../../opengl/../ik/CCDSolver.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch9/../../opengl/../ik/../animation/Transform.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch9/../../opengl/../ik/FABRIKSolver.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch9/../../animation/Pose.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch9/../../animation/Clip.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch9/../../opengl/../animation/TransformTrack.h \

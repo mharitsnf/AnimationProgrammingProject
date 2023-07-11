@@ -758,6 +758,9 @@ CMakeFiles/AnimationProject.dir/src/application/ch10/ChapterTenApp2.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/../../animation/../opengl/../math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/../../animation/../opengl/../math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/../../animation/../opengl/../animation/Pose.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/../../animation/../opengl/../ik/CCDSolver.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/../../animation/../opengl/../ik/../animation/Transform.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/../../animation/../opengl/../ik/FABRIKSolver.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/../../../external/cgltf/GLTFLoader.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/../../../external/cgltf/cgltf.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch10/../../../external/cgltf/../../src/animation/Pose.h \

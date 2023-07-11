@@ -746,6 +746,9 @@ CMakeFiles/AnimationProject.dir/src/application/DebugApp.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/../math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/../math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../animation/../math/quat.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../ik/CCDSolver.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../ik/../animation/Transform.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../opengl/../ik/FABRIKSolver.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/../animation/Frame.h \

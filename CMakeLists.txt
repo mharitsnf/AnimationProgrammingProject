@@ -92,6 +92,22 @@ add_executable(${PROJECT_NAME}
     src/application/ch12/Sample02.h
     src/application/ch12/Sample03.cpp
     src/application/ch12/Sample03.h
+    src/ik/CCDSolver.cpp
+    src/ik/CCDSolver.h
+    src/ik/FABRIKSolver.cpp
+    src/ik/FABRIKSolver.h
+    src/application/ch13/Sample01.cpp
+    src/application/ch13/Sample01.h
+    src/application/ch13/Sample02.cpp
+    src/application/ch13/Sample02.h
+    src/ik/Intersections.cpp
+    src/ik/Intersections.h
+    src/ik/IKLeg.cpp
+    src/ik/IKLeg.h
+    src/application/ch13/Sample03.cpp
+    src/application/ch13/Sample03.h
+
+
 )
 
 

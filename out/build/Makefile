@@ -861,6 +861,78 @@ src/application/ch12/Sample03.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch12/Sample03.cpp.s
 .PHONY : src/application/ch12/Sample03.cpp.s
 
+src/application/ch13/Sample01.o: src/application/ch13/Sample01.cpp.o
+.PHONY : src/application/ch13/Sample01.o
+
+# target to build an object file
+src/application/ch13/Sample01.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch13/Sample01.cpp.o
+.PHONY : src/application/ch13/Sample01.cpp.o
+
+src/application/ch13/Sample01.i: src/application/ch13/Sample01.cpp.i
+.PHONY : src/application/ch13/Sample01.i
+
+# target to preprocess a source file
+src/application/ch13/Sample01.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch13/Sample01.cpp.i
+.PHONY : src/application/ch13/Sample01.cpp.i
+
+src/application/ch13/Sample01.s: src/application/ch13/Sample01.cpp.s
+.PHONY : src/application/ch13/Sample01.s
+
+# target to generate assembly for a file
+src/application/ch13/Sample01.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch13/Sample01.cpp.s
+.PHONY : src/application/ch13/Sample01.cpp.s
+
+src/application/ch13/Sample02.o: src/application/ch13/Sample02.cpp.o
+.PHONY : src/application/ch13/Sample02.o
+
+# target to build an object file
+src/application/ch13/Sample02.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch13/Sample02.cpp.o
+.PHONY : src/application/ch13/Sample02.cpp.o
+
+src/application/ch13/Sample02.i: src/application/ch13/Sample02.cpp.i
+.PHONY : src/application/ch13/Sample02.i
+
+# target to preprocess a source file
+src/application/ch13/Sample02.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch13/Sample02.cpp.i
+.PHONY : src/application/ch13/Sample02.cpp.i
+
+src/application/ch13/Sample02.s: src/application/ch13/Sample02.cpp.s
+.PHONY : src/application/ch13/Sample02.s
+
+# target to generate assembly for a file
+src/application/ch13/Sample02.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch13/Sample02.cpp.s
+.PHONY : src/application/ch13/Sample02.cpp.s
+
+src/application/ch13/Sample03.o: src/application/ch13/Sample03.cpp.o
+.PHONY : src/application/ch13/Sample03.o
+
+# target to build an object file
+src/application/ch13/Sample03.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch13/Sample03.cpp.o
+.PHONY : src/application/ch13/Sample03.cpp.o
+
+src/application/ch13/Sample03.i: src/application/ch13/Sample03.cpp.i
+.PHONY : src/application/ch13/Sample03.i
+
+# target to preprocess a source file
+src/application/ch13/Sample03.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch13/Sample03.cpp.i
+.PHONY : src/application/ch13/Sample03.cpp.i
+
+src/application/ch13/Sample03.s: src/application/ch13/Sample03.cpp.s
+.PHONY : src/application/ch13/Sample03.s
+
+# target to generate assembly for a file
+src/application/ch13/Sample03.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch13/Sample03.cpp.s
+.PHONY : src/application/ch13/Sample03.cpp.s
+
 src/application/ch8/ChapterEightApp.o: src/application/ch8/ChapterEightApp.cpp.o
 .PHONY : src/application/ch8/ChapterEightApp.o
 
@@ -932,6 +1004,102 @@ src/application/ch9/OwnNinthApp.s: src/application/ch9/OwnNinthApp.cpp.s
 src/application/ch9/OwnNinthApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch9/OwnNinthApp.cpp.s
 .PHONY : src/application/ch9/OwnNinthApp.cpp.s
+
+src/ik/CCDSolver.o: src/ik/CCDSolver.cpp.o
+.PHONY : src/ik/CCDSolver.o
+
+# target to build an object file
+src/ik/CCDSolver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/ik/CCDSolver.cpp.o
+.PHONY : src/ik/CCDSolver.cpp.o
+
+src/ik/CCDSolver.i: src/ik/CCDSolver.cpp.i
+.PHONY : src/ik/CCDSolver.i
+
+# target to preprocess a source file
+src/ik/CCDSolver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/ik/CCDSolver.cpp.i
+.PHONY : src/ik/CCDSolver.cpp.i
+
+src/ik/CCDSolver.s: src/ik/CCDSolver.cpp.s
+.PHONY : src/ik/CCDSolver.s
+
+# target to generate assembly for a file
+src/ik/CCDSolver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/ik/CCDSolver.cpp.s
+.PHONY : src/ik/CCDSolver.cpp.s
+
+src/ik/FABRIKSolver.o: src/ik/FABRIKSolver.cpp.o
+.PHONY : src/ik/FABRIKSolver.o
+
+# target to build an object file
+src/ik/FABRIKSolver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/ik/FABRIKSolver.cpp.o
+.PHONY : src/ik/FABRIKSolver.cpp.o
+
+src/ik/FABRIKSolver.i: src/ik/FABRIKSolver.cpp.i
+.PHONY : src/ik/FABRIKSolver.i
+
+# target to preprocess a source file
+src/ik/FABRIKSolver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/ik/FABRIKSolver.cpp.i
+.PHONY : src/ik/FABRIKSolver.cpp.i
+
+src/ik/FABRIKSolver.s: src/ik/FABRIKSolver.cpp.s
+.PHONY : src/ik/FABRIKSolver.s
+
+# target to generate assembly for a file
+src/ik/FABRIKSolver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/ik/FABRIKSolver.cpp.s
+.PHONY : src/ik/FABRIKSolver.cpp.s
+
+src/ik/IKLeg.o: src/ik/IKLeg.cpp.o
+.PHONY : src/ik/IKLeg.o
+
+# target to build an object file
+src/ik/IKLeg.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/ik/IKLeg.cpp.o
+.PHONY : src/ik/IKLeg.cpp.o
+
+src/ik/IKLeg.i: src/ik/IKLeg.cpp.i
+.PHONY : src/ik/IKLeg.i
+
+# target to preprocess a source file
+src/ik/IKLeg.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/ik/IKLeg.cpp.i
+.PHONY : src/ik/IKLeg.cpp.i
+
+src/ik/IKLeg.s: src/ik/IKLeg.cpp.s
+.PHONY : src/ik/IKLeg.s
+
+# target to generate assembly for a file
+src/ik/IKLeg.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/ik/IKLeg.cpp.s
+.PHONY : src/ik/IKLeg.cpp.s
+
+src/ik/Intersections.o: src/ik/Intersections.cpp.o
+.PHONY : src/ik/Intersections.o
+
+# target to build an object file
+src/ik/Intersections.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/ik/Intersections.cpp.o
+.PHONY : src/ik/Intersections.cpp.o
+
+src/ik/Intersections.i: src/ik/Intersections.cpp.i
+.PHONY : src/ik/Intersections.i
+
+# target to preprocess a source file
+src/ik/Intersections.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/ik/Intersections.cpp.i
+.PHONY : src/ik/Intersections.cpp.i
+
+src/ik/Intersections.s: src/ik/Intersections.cpp.s
+.PHONY : src/ik/Intersections.s
+
+# target to generate assembly for a file
+src/ik/Intersections.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/ik/Intersections.cpp.s
+.PHONY : src/ik/Intersections.cpp.s
 
 src/math/mat4.o: src/math/mat4.cpp.o
 .PHONY : src/math/mat4.o
@@ -1294,6 +1462,15 @@ help:
 	@echo "... src/application/ch12/Sample03.o"
 	@echo "... src/application/ch12/Sample03.i"
 	@echo "... src/application/ch12/Sample03.s"
+	@echo "... src/application/ch13/Sample01.o"
+	@echo "... src/application/ch13/Sample01.i"
+	@echo "... src/application/ch13/Sample01.s"
+	@echo "... src/application/ch13/Sample02.o"
+	@echo "... src/application/ch13/Sample02.i"
+	@echo "... src/application/ch13/Sample02.s"
+	@echo "... src/application/ch13/Sample03.o"
+	@echo "... src/application/ch13/Sample03.i"
+	@echo "... src/application/ch13/Sample03.s"
 	@echo "... src/application/ch8/ChapterEightApp.o"
 	@echo "... src/application/ch8/ChapterEightApp.i"
 	@echo "... src/application/ch8/ChapterEightApp.s"
@@ -1303,6 +1480,18 @@ help:
 	@echo "... src/application/ch9/OwnNinthApp.o"
 	@echo "... src/application/ch9/OwnNinthApp.i"
 	@echo "... src/application/ch9/OwnNinthApp.s"
+	@echo "... src/ik/CCDSolver.o"
+	@echo "... src/ik/CCDSolver.i"
+	@echo "... src/ik/CCDSolver.s"
+	@echo "... src/ik/FABRIKSolver.o"
+	@echo "... src/ik/FABRIKSolver.i"
+	@echo "... src/ik/FABRIKSolver.s"
+	@echo "... src/ik/IKLeg.o"
+	@echo "... src/ik/IKLeg.i"
+	@echo "... src/ik/IKLeg.s"
+	@echo "... src/ik/Intersections.o"
+	@echo "... src/ik/Intersections.i"
+	@echo "... src/ik/Intersections.s"
 	@echo "... src/math/mat4.o"
 	@echo "... src/math/mat4.i"
 	@echo "... src/math/mat4.s"
