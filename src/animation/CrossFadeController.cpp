@@ -1,5 +1,6 @@
 #include "CrossFadeController.h"
 #include "Blending.h"
+#include <iostream>
 
 CrossFadeController::CrossFadeController() {
 	mClip = 0;

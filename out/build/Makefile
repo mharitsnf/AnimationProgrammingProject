@@ -333,6 +333,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/animation/Blending.o: src/animation/Blending.cpp.o
+.PHONY : src/animation/Blending.o
+
+# target to build an object file
+src/animation/Blending.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Blending.cpp.o
+.PHONY : src/animation/Blending.cpp.o
+
+src/animation/Blending.i: src/animation/Blending.cpp.i
+.PHONY : src/animation/Blending.i
+
+# target to preprocess a source file
+src/animation/Blending.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Blending.cpp.i
+.PHONY : src/animation/Blending.cpp.i
+
+src/animation/Blending.s: src/animation/Blending.cpp.s
+.PHONY : src/animation/Blending.s
+
+# target to generate assembly for a file
+src/animation/Blending.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Blending.cpp.s
+.PHONY : src/animation/Blending.cpp.s
+
 src/animation/Clip.o: src/animation/Clip.cpp.o
 .PHONY : src/animation/Clip.o
 
@@ -356,6 +380,30 @@ src/animation/Clip.s: src/animation/Clip.cpp.s
 src/animation/Clip.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Clip.cpp.s
 .PHONY : src/animation/Clip.cpp.s
+
+src/animation/CrossFadeController.o: src/animation/CrossFadeController.cpp.o
+.PHONY : src/animation/CrossFadeController.o
+
+# target to build an object file
+src/animation/CrossFadeController.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/CrossFadeController.cpp.o
+.PHONY : src/animation/CrossFadeController.cpp.o
+
+src/animation/CrossFadeController.i: src/animation/CrossFadeController.cpp.i
+.PHONY : src/animation/CrossFadeController.i
+
+# target to preprocess a source file
+src/animation/CrossFadeController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/CrossFadeController.cpp.i
+.PHONY : src/animation/CrossFadeController.cpp.i
+
+src/animation/CrossFadeController.s: src/animation/CrossFadeController.cpp.s
+.PHONY : src/animation/CrossFadeController.s
+
+# target to generate assembly for a file
+src/animation/CrossFadeController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/CrossFadeController.cpp.s
+.PHONY : src/animation/CrossFadeController.cpp.s
 
 src/animation/Mesh.o: src/animation/Mesh.cpp.o
 .PHONY : src/animation/Mesh.o
@@ -741,6 +789,78 @@ src/application/ch11/Sample03.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch11/Sample03.cpp.s
 .PHONY : src/application/ch11/Sample03.cpp.s
 
+src/application/ch12/Sample01.o: src/application/ch12/Sample01.cpp.o
+.PHONY : src/application/ch12/Sample01.o
+
+# target to build an object file
+src/application/ch12/Sample01.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch12/Sample01.cpp.o
+.PHONY : src/application/ch12/Sample01.cpp.o
+
+src/application/ch12/Sample01.i: src/application/ch12/Sample01.cpp.i
+.PHONY : src/application/ch12/Sample01.i
+
+# target to preprocess a source file
+src/application/ch12/Sample01.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch12/Sample01.cpp.i
+.PHONY : src/application/ch12/Sample01.cpp.i
+
+src/application/ch12/Sample01.s: src/application/ch12/Sample01.cpp.s
+.PHONY : src/application/ch12/Sample01.s
+
+# target to generate assembly for a file
+src/application/ch12/Sample01.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch12/Sample01.cpp.s
+.PHONY : src/application/ch12/Sample01.cpp.s
+
+src/application/ch12/Sample02.o: src/application/ch12/Sample02.cpp.o
+.PHONY : src/application/ch12/Sample02.o
+
+# target to build an object file
+src/application/ch12/Sample02.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch12/Sample02.cpp.o
+.PHONY : src/application/ch12/Sample02.cpp.o
+
+src/application/ch12/Sample02.i: src/application/ch12/Sample02.cpp.i
+.PHONY : src/application/ch12/Sample02.i
+
+# target to preprocess a source file
+src/application/ch12/Sample02.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch12/Sample02.cpp.i
+.PHONY : src/application/ch12/Sample02.cpp.i
+
+src/application/ch12/Sample02.s: src/application/ch12/Sample02.cpp.s
+.PHONY : src/application/ch12/Sample02.s
+
+# target to generate assembly for a file
+src/application/ch12/Sample02.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch12/Sample02.cpp.s
+.PHONY : src/application/ch12/Sample02.cpp.s
+
+src/application/ch12/Sample03.o: src/application/ch12/Sample03.cpp.o
+.PHONY : src/application/ch12/Sample03.o
+
+# target to build an object file
+src/application/ch12/Sample03.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch12/Sample03.cpp.o
+.PHONY : src/application/ch12/Sample03.cpp.o
+
+src/application/ch12/Sample03.i: src/application/ch12/Sample03.cpp.i
+.PHONY : src/application/ch12/Sample03.i
+
+# target to preprocess a source file
+src/application/ch12/Sample03.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch12/Sample03.cpp.i
+.PHONY : src/application/ch12/Sample03.cpp.i
+
+src/application/ch12/Sample03.s: src/application/ch12/Sample03.cpp.s
+.PHONY : src/application/ch12/Sample03.s
+
+# target to generate assembly for a file
+src/application/ch12/Sample03.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch12/Sample03.cpp.s
+.PHONY : src/application/ch12/Sample03.cpp.s
+
 src/application/ch8/ChapterEightApp.o: src/application/ch8/ChapterEightApp.cpp.o
 .PHONY : src/application/ch8/ChapterEightApp.o
 
@@ -1108,9 +1228,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/animation/Blending.o"
+	@echo "... src/animation/Blending.i"
+	@echo "... src/animation/Blending.s"
 	@echo "... src/animation/Clip.o"
 	@echo "... src/animation/Clip.i"
 	@echo "... src/animation/Clip.s"
+	@echo "... src/animation/CrossFadeController.o"
+	@echo "... src/animation/CrossFadeController.i"
+	@echo "... src/animation/CrossFadeController.s"
 	@echo "... src/animation/Mesh.o"
 	@echo "... src/animation/Mesh.i"
 	@echo "... src/animation/Mesh.s"
@@ -1159,6 +1285,15 @@ help:
 	@echo "... src/application/ch11/Sample03.o"
 	@echo "... src/application/ch11/Sample03.i"
 	@echo "... src/application/ch11/Sample03.s"
+	@echo "... src/application/ch12/Sample01.o"
+	@echo "... src/application/ch12/Sample01.i"
+	@echo "... src/application/ch12/Sample01.s"
+	@echo "... src/application/ch12/Sample02.o"
+	@echo "... src/application/ch12/Sample02.i"
+	@echo "... src/application/ch12/Sample02.s"
+	@echo "... src/application/ch12/Sample03.o"
+	@echo "... src/application/ch12/Sample03.i"
+	@echo "... src/application/ch12/Sample03.s"
 	@echo "... src/application/ch8/ChapterEightApp.o"
 	@echo "... src/application/ch8/ChapterEightApp.i"
 	@echo "... src/application/ch8/ChapterEightApp.s"

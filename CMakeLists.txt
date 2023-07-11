@@ -81,6 +81,17 @@ add_executable(${PROJECT_NAME}
     src/application/ch11/Sample02.h
     src/application/ch11/Sample03.cpp
     src/application/ch11/Sample03.h
+    src/animation/Blending.cpp
+    src/animation/Blending.h
+    src/animation/CrossFadeTarget.h
+    src/animation/CrossFadeController.cpp
+    src/animation/CrossFadeController.h
+    src/application/ch12/Sample01.cpp
+    src/application/ch12/Sample01.h
+    src/application/ch12/Sample02.cpp
+    src/application/ch12/Sample02.h
+    src/application/ch12/Sample03.cpp
+    src/application/ch12/Sample03.h
 )
 
 

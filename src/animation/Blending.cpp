@@ -46,6 +46,7 @@ void Add(Pose& output, Pose& inPose, Pose& addPose, Pose& basePose, int blendroo
 			continue;
 		}
 
+		// equation for add pose
 		// outPose = inPose + (addPose - basePose)
 		Transform result(
 			input.position + (additive.position - additiveBase.position),
