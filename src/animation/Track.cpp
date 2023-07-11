@@ -136,7 +136,7 @@ int Track<T, N>::FrameIndex(float time, bool looping) {
 		}
 	}
 	for (int i = (int)size - 1; i >= 0; --i) {
-		if (time >= mFrames[i].mTime) {
+		if (time >= mFrames[i].mTime) { // if the given time is greater than the current frame time, then return the current frame
 			return i;
 		}
 	}
@@ -292,7 +292,7 @@ void FastTrack<T, N>::UpdateIndexLookupTable() {
 
 		unsigned int frameIndex = 0;
 		for (int j = numFrames - 1; j >= 0; --j) {
-			if (time >= this->mFrames[j].mTime) {
+			if (time >= this->mFrames[j].mTime) { // if the given time is greater than the current frame time, save the current frame
 				frameIndex = (unsigned int)j;
 				if ((int)frameIndex >= numFrames - 2) {
 					frameIndex = numFrames - 2;

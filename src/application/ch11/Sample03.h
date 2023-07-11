@@ -10,6 +10,7 @@
 #include "../../opengl/Texture.h"
 #include "../../opengl/Shader.h"
 
+// Bone rearrangement for faster matrix palette generation
 class Ch11Sample3 : public Application {
 protected:
 	Texture* mDiffuseTexture;

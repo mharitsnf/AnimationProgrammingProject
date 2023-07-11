@@ -36,12 +36,16 @@ void Ch11Sample1::Initialize() {
 }
 
 void Ch11Sample1::Update(float deltaTime) {
+	// by calling sample we modify the local transform of the current pose to follow the animation
 	mCPUInstance.mPlayback = mClips[mCPUInstance.mClip].Sample(mCPUInstance.mAnimatedPose, mCPUInstance.mPlayback + deltaTime);
 	mGPUInstance.mPlayback = mClips[mGPUInstance.mClip].Sample(mGPUInstance.mAnimatedPose, mGPUInstance.mPlayback + deltaTime);
 
+	// since the local transform is modified, we can get the updated global transform matrix (bind matrix) by calling
+	// GetMatrixPalette function
 	mCPUInstance.mAnimatedPose.GetMatrixPalette(mCPUInstance.mPosePalette);
 	mGPUInstance.mAnimatedPose.GetMatrixPalette(mGPUInstance.mPosePalette);
 
+	// and then multiply the bind matrix with its inverse bind matrix so we get the skin matrix
 	for (unsigned int i = 0, size = (unsigned int)mCPUInstance.mPosePalette.size(); i < size; ++i) {
 		mCPUInstance.mPosePalette[i] = mCPUInstance.mPosePalette[i] * mSkeleton.GetInvBindPose()[i];
 		mGPUInstance.mPosePalette[i] = mGPUInstance.mPosePalette[i] * mSkeleton.GetInvBindPose()[i];
