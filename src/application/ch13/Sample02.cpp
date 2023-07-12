@@ -52,7 +52,7 @@ void Ch13Sample02::SetFrame(VectorTrack& track, int index, float time, const vec
 
 void Ch13Sample02::Update(float deltaTime) {
 	mPlayTime += deltaTime;
-	if (mPlayTime > mTargetPath.GetEndTime()) {
+	if (mPlayTime > mTargetPath.GetEndTime()) { //manual looping
 		mPlayTime -= mTargetPath.GetEndTime();
 	}
 	mTarget = mTargetPath.Sample(mTarget, mPlayTime, true);
@@ -75,7 +75,7 @@ void Ch13Sample02::Render(float inAspectRatio) {
 	mSolverLines->UpdateOpenGLBuffers();
 	mSolverPoints->UpdateOpenGLBuffers();
 	mSolverLines->Draw(DebugDrawMode::Lines, vec3(1, 0, 1), mvp);
-	mSolverPoints->Draw(DebugDrawMode::Points, vec3(1, 0, 1), mvp);
+	mSolverPoints->Draw(DebugDrawMode::Points, vec3(1, 1, 1), mvp);
 
 	(*mTargetVisual[0])[0] = mTarget.position + vec3(GIZMO_SIZE, 0, 0);
 	(*mTargetVisual[1])[0] = mTarget.position + vec3(0, GIZMO_SIZE, 0);

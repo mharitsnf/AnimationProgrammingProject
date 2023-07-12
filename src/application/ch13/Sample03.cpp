@@ -126,8 +126,9 @@ void Ch13Sample03::Initialize() {
 	FreeGLTFFile(gltf);
 
 	gltf = LoadGLTFFile("assets/models/IKCourse.gltf");
-	mIKCourse = LoadStaticMeshes(gltf);
+	mIKCourse = LoadStaticMeshes(gltf); // pretty much the same as LoadMeshes, but without weight and influence attribute
 	FreeGLTFFile(gltf);
+
 	mCourseTexture = new Texture("assets/textures/uv.png");
 	mTriangles = MeshesToTriangles(mIKCourse);
 
@@ -194,14 +195,15 @@ void Ch13Sample03::Initialize() {
 	unsigned int numTriangles = (unsigned int)mTriangles.size();
 	vec3 hitPoint;
 	for (unsigned int i = 0; i < numTriangles; ++i) {
+		// if we have something above the ray, then set the position there
 		if (RaycastTriangle(groundRay, mTriangles[i], hitPoint)) {
 			mModel.position = hitPoint;
 			break;
 		}
 	}
-	mModel.position.y -= mSinkIntoGround;
+	mModel.position.y -= mSinkIntoGround; // and then shift the y position down a little bit
 	mLastModelY = mModel.position.y;
-
+	
 	mToeLength = 0.3f;
 }
 
@@ -212,7 +214,7 @@ void Ch13Sample03::Update(float deltaTime) {
 	vec3 hitPoint;
 
 	// Increment time and sample the animation clip that moves the model on the level rails
-	// The Y position is a lie, it's a trackt hat only makes sense from an ortho top view
+	// The Y position is a line, it's a track that only makes sense from an ortho top view
 	mWalkingTime += deltaTime * 0.3f;
 	while (mWalkingTime > 6.0f) { mWalkingTime -= 6.0f; }
 
@@ -235,7 +237,7 @@ void Ch13Sample03::Update(float deltaTime) {
 	vec3 characterForward = mModel.rotation * vec3(0, 0, 1);
 
 	// Figure out the Y position of the model in world spcae
-	Ray groundRay(vec3(mModel.position.x, 11, mModel.position.z));
+	Ray groundRay(vec3(mModel.position.x, 11, mModel.position.z)); // this is only the origin, the direction by default is (0,-1,0)
 	for (unsigned int i = 0; i < numTriangles; ++i) {
 		if (RaycastTriangle(groundRay, mTriangles[i], hitPoint)) {
 			// Sink the model a little bit into the ground to avoid hyper extending it's legs
@@ -250,7 +252,7 @@ void Ch13Sample03::Update(float deltaTime) {
 	mCurrentPoseVisual->FromPose(mCurrentPose);
 	float normalizedTime = (mPlaybackTime - mClips[mCurrentClip].GetStartTime()) / mClips[mCurrentClip].GetDuration();
 	if (normalizedTime < 0.0f) { std::cout << "should not be < 0\n"; normalizedTime = 0.0f; }
-	if (normalizedTime > 1.0f) { std::cout << "should not be < 0\n"; normalizedTime = 1.0f; }
+	if (normalizedTime > 1.0f) { std::cout << "should not be > 1\n"; normalizedTime = 1.0f; }
 	float leftMotion = mLeftLeg->GetTrack().Sample(normalizedTime, true);
 	float rightMotion = mRightLeg->GetTrack().Sample(normalizedTime, true);
 
