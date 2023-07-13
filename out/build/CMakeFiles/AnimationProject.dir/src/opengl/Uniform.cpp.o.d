@@ -645,4 +645,9 @@ CMakeFiles/AnimationProject.dir/src/opengl/Uniform.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/vec4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/quat.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/mat4.h
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/mat4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/DualQuaternion.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/../animation/Transform.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/../animation/../math/vec3.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/../animation/../math/mat4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/opengl/../math/../animation/../math/quat.h

@@ -686,6 +686,8 @@ CMakeFiles/AnimationProject.dir/src/animation/Clip.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Interpolation.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Transform.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Pose.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/../math/DualQuaternion.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/../math/../animation/Transform.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__locale \

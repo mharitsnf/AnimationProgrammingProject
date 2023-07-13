@@ -643,4 +643,6 @@ CMakeFiles/AnimationProject.dir/src/animation/Pose.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/../math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/../math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/../math/vec4.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/../math/quat.h
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/../math/quat.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/../math/DualQuaternion.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/../math/../animation/Transform.h

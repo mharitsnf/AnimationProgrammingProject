@@ -933,6 +933,30 @@ src/application/ch13/Sample03.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch13/Sample03.cpp.s
 .PHONY : src/application/ch13/Sample03.cpp.s
 
+src/application/ch14/Sample01.o: src/application/ch14/Sample01.cpp.o
+.PHONY : src/application/ch14/Sample01.o
+
+# target to build an object file
+src/application/ch14/Sample01.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.o
+.PHONY : src/application/ch14/Sample01.cpp.o
+
+src/application/ch14/Sample01.i: src/application/ch14/Sample01.cpp.i
+.PHONY : src/application/ch14/Sample01.i
+
+# target to preprocess a source file
+src/application/ch14/Sample01.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.i
+.PHONY : src/application/ch14/Sample01.cpp.i
+
+src/application/ch14/Sample01.s: src/application/ch14/Sample01.cpp.s
+.PHONY : src/application/ch14/Sample01.s
+
+# target to generate assembly for a file
+src/application/ch14/Sample01.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.s
+.PHONY : src/application/ch14/Sample01.cpp.s
+
 src/application/ch8/ChapterEightApp.o: src/application/ch8/ChapterEightApp.cpp.o
 .PHONY : src/application/ch8/ChapterEightApp.o
 
@@ -1100,6 +1124,30 @@ src/ik/Intersections.s: src/ik/Intersections.cpp.s
 src/ik/Intersections.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/ik/Intersections.cpp.s
 .PHONY : src/ik/Intersections.cpp.s
+
+src/math/DualQuaternion.o: src/math/DualQuaternion.cpp.o
+.PHONY : src/math/DualQuaternion.o
+
+# target to build an object file
+src/math/DualQuaternion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/DualQuaternion.cpp.o
+.PHONY : src/math/DualQuaternion.cpp.o
+
+src/math/DualQuaternion.i: src/math/DualQuaternion.cpp.i
+.PHONY : src/math/DualQuaternion.i
+
+# target to preprocess a source file
+src/math/DualQuaternion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/DualQuaternion.cpp.i
+.PHONY : src/math/DualQuaternion.cpp.i
+
+src/math/DualQuaternion.s: src/math/DualQuaternion.cpp.s
+.PHONY : src/math/DualQuaternion.s
+
+# target to generate assembly for a file
+src/math/DualQuaternion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/DualQuaternion.cpp.s
+.PHONY : src/math/DualQuaternion.cpp.s
 
 src/math/mat4.o: src/math/mat4.cpp.o
 .PHONY : src/math/mat4.o
@@ -1471,6 +1519,9 @@ help:
 	@echo "... src/application/ch13/Sample03.o"
 	@echo "... src/application/ch13/Sample03.i"
 	@echo "... src/application/ch13/Sample03.s"
+	@echo "... src/application/ch14/Sample01.o"
+	@echo "... src/application/ch14/Sample01.i"
+	@echo "... src/application/ch14/Sample01.s"
 	@echo "... src/application/ch8/ChapterEightApp.o"
 	@echo "... src/application/ch8/ChapterEightApp.i"
 	@echo "... src/application/ch8/ChapterEightApp.s"
@@ -1492,6 +1543,9 @@ help:
 	@echo "... src/ik/Intersections.o"
 	@echo "... src/ik/Intersections.i"
 	@echo "... src/ik/Intersections.s"
+	@echo "... src/math/DualQuaternion.o"
+	@echo "... src/math/DualQuaternion.i"
+	@echo "... src/math/DualQuaternion.s"
 	@echo "... src/math/mat4.o"
 	@echo "... src/math/mat4.i"
 	@echo "... src/math/mat4.s"

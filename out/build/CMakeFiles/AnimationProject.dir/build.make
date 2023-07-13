@@ -741,6 +741,34 @@ CMakeFiles/AnimationProject.dir/src/application/ch13/Sample03.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/application/ch13/Sample03.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/Sample03.cpp -o CMakeFiles/AnimationProject.dir/src/application/ch13/Sample03.cpp.s
 
+CMakeFiles/AnimationProject.dir/src/math/DualQuaternion.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
+CMakeFiles/AnimationProject.dir/src/math/DualQuaternion.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/math/DualQuaternion.cpp
+CMakeFiles/AnimationProject.dir/src/math/DualQuaternion.cpp.o: CMakeFiles/AnimationProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/AnimationProject.dir/src/math/DualQuaternion.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AnimationProject.dir/src/math/DualQuaternion.cpp.o -MF CMakeFiles/AnimationProject.dir/src/math/DualQuaternion.cpp.o.d -o CMakeFiles/AnimationProject.dir/src/math/DualQuaternion.cpp.o -c /Users/mharitsnf/Documents/C++/AnimationProject/src/math/DualQuaternion.cpp
+
+CMakeFiles/AnimationProject.dir/src/math/DualQuaternion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnimationProject.dir/src/math/DualQuaternion.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mharitsnf/Documents/C++/AnimationProject/src/math/DualQuaternion.cpp > CMakeFiles/AnimationProject.dir/src/math/DualQuaternion.cpp.i
+
+CMakeFiles/AnimationProject.dir/src/math/DualQuaternion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/math/DualQuaternion.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/math/DualQuaternion.cpp -o CMakeFiles/AnimationProject.dir/src/math/DualQuaternion.cpp.s
+
+CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.o: CMakeFiles/AnimationProject.dir/flags.make
+CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.o: /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/Sample01.cpp
+CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.o: CMakeFiles/AnimationProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.o -MF CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.o.d -o CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.o -c /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/Sample01.cpp
+
+CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/Sample01.cpp > CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.i
+
+CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/Sample01.cpp -o CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.s
+
 # Object files for target AnimationProject
 AnimationProject_OBJECTS = \
 "CMakeFiles/AnimationProject.dir/main.cpp.o" \
@@ -790,7 +818,9 @@ AnimationProject_OBJECTS = \
 "CMakeFiles/AnimationProject.dir/src/application/ch13/Sample02.cpp.o" \
 "CMakeFiles/AnimationProject.dir/src/ik/Intersections.cpp.o" \
 "CMakeFiles/AnimationProject.dir/src/ik/IKLeg.cpp.o" \
-"CMakeFiles/AnimationProject.dir/src/application/ch13/Sample03.cpp.o"
+"CMakeFiles/AnimationProject.dir/src/application/ch13/Sample03.cpp.o" \
+"CMakeFiles/AnimationProject.dir/src/math/DualQuaternion.cpp.o" \
+"CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.o"
 
 # External object files for target AnimationProject
 AnimationProject_EXTERNAL_OBJECTS =
@@ -843,10 +873,12 @@ AnimationProject: CMakeFiles/AnimationProject.dir/src/application/ch13/Sample02.
 AnimationProject: CMakeFiles/AnimationProject.dir/src/ik/Intersections.cpp.o
 AnimationProject: CMakeFiles/AnimationProject.dir/src/ik/IKLeg.cpp.o
 AnimationProject: CMakeFiles/AnimationProject.dir/src/application/ch13/Sample03.cpp.o
+AnimationProject: CMakeFiles/AnimationProject.dir/src/math/DualQuaternion.cpp.o
+AnimationProject: CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.o
 AnimationProject: CMakeFiles/AnimationProject.dir/build.make
 AnimationProject: external/glfw/src/libglfw3.a
 AnimationProject: CMakeFiles/AnimationProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX executable AnimationProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mharitsnf/Documents/C++/AnimationProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking CXX executable AnimationProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AnimationProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

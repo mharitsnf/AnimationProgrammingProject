@@ -747,6 +747,8 @@ CMakeFiles/AnimationProject.dir/src/ik/IKLeg.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/ik/../opengl/../math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/ik/../opengl/../math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/ik/../opengl/../animation/Pose.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/ik/../animation/../math/DualQuaternion.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/ik/../animation/../math/../animation/Transform.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/ik/../opengl/../ik/CCDSolver.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/ik/../opengl/../ik/FABRIKSolver.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/ik/../animation/Skeleton.h \

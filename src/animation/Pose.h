@@ -3,6 +3,7 @@
 
 #include <vector>
 #include "Transform.h"
+#include "../math/DualQuaternion.h"
 
 class Pose {
 protected:
@@ -26,6 +27,9 @@ public:
 
 	bool operator==(const Pose& other);
 	bool operator!=(const Pose& other);
+
+	void GetDualQuaternionPalette(std::vector<DualQuaternion>& out); 
+	DualQuaternion GetGlobalDualQuaternion(unsigned int index);
 };
 
 #endif // !_H_POSE_

@@ -742,4 +742,6 @@ CMakeFiles/AnimationProject.dir/src/animation/Mesh.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Pose.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/Transform.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/../math/quat.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/../math/DualQuaternion.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/../math/../animation/Transform.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/animation/../opengl/Draw.h

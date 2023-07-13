@@ -745,4 +745,7 @@ CMakeFiles/AnimationProject.dir/src/ik/Intersections.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/ik/../animation/Pose.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/ik/../animation/Transform.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/ik/../animation/../math/quat.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/ik/../math/mat4.h
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/ik/../math/mat4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/ik/../animation/../math/DualQuaternion.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/ik/../math/quat.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/ik/../math/../animation/Transform.h

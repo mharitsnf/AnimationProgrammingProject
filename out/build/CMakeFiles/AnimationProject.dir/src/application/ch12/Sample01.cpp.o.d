@@ -647,6 +647,8 @@ CMakeFiles/AnimationProject.dir/src/application/ch12/Sample01.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch12/../../animation/../math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch12/../../animation/../math/vec4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch12/../../animation/../math/quat.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch12/../../animation/../math/DualQuaternion.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch12/../../animation/../math/../animation/Transform.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ios/fpos.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__string/char_traits.h \

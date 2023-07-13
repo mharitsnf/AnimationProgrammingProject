@@ -733,44 +733,28 @@ CMakeFiles/AnimationProject.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/Sample03.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../Application.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/DebugDraw.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/Shader.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/Sample01.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../Application.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/Pose.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/Transform.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/../math/vec3.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/../math/mat4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/../math/vec4.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/../math/quat.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/../math/DualQuaternion.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/../math/../animation/Transform.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/Clip.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/TransformTrack.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/Track.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/Frame.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/Interpolation.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/Skeleton.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/Mesh.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/../math/vec2.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/../opengl/Attribute.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/../opengl/IndexBuffer.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../animation/../opengl/VertexArray.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../opengl/Texture.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch14/../../opengl/Shader.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/Attribute.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/VertexArray.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../math/vec3.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../math/mat4.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../math/vec4.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/Pose.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/Transform.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/../math/vec3.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/../math/mat4.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/../math/quat.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../ik/CCDSolver.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../ik/../animation/Transform.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../ik/FABRIKSolver.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../animation/Pose.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../animation/Clip.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/TransformTrack.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/Track.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/Frame.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/Interpolation.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../animation/Skeleton.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../animation/Mesh.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/../math/vec2.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/../math/vec4.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/../opengl/Attribute.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/../opengl/IndexBuffer.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/../opengl/VertexArray.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/Skeleton.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/Texture.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../ik/Intersections.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../ik/../math/vec3.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../ik/../animation/Mesh.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../ik/IKLeg.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../ik/../opengl/DebugDraw.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../ik/../animation/Skeleton.h \
-  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../ik/../animation/Track.h
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree

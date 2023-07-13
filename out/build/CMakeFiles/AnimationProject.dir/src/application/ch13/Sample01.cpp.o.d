@@ -746,6 +746,9 @@ CMakeFiles/AnimationProject.dir/src/application/ch13/Sample01.cpp.o: \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/../math/vec3.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/../math/mat4.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/../math/quat.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../animation/../math/DualQuaternion.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../math/quat.h \
+  /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../math/../animation/Transform.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../ik/CCDSolver.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../ik/../animation/Transform.h \
   /Users/mharitsnf/Documents/C++/AnimationProject/src/application/ch13/../../opengl/../ik/FABRIKSolver.h \

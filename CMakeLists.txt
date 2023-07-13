@@ -106,8 +106,10 @@ add_executable(${PROJECT_NAME}
     src/ik/IKLeg.h
     src/application/ch13/Sample03.cpp
     src/application/ch13/Sample03.h
-
-
+    src/math/DualQuaternion.cpp
+    src/math/DualQuaternion.h
+    src/application/ch14/Sample01.cpp
+    src/application/ch14/Sample01.h
 )
 
 

@@ -3,6 +3,7 @@
 
 #include "Pose.h"
 #include "../math/mat4.h"
+#include "../math/DualQuaternion.h"
 #include <vector>
 #include <string>
 
@@ -27,6 +28,8 @@ public:
 	std::vector<mat4>& GetInvBindPose();
 	std::vector<std::string>& GetJointNames();
 	std::string& GetJointName(unsigned int index);
+
+	void GetInvBindPose(std::vector<DualQuaternion>& outInvBndPose);
 };
 
 #endif 
