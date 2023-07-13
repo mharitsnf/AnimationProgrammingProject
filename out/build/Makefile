@@ -405,6 +405,30 @@ src/animation/CrossFadeController.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/CrossFadeController.cpp.s
 .PHONY : src/animation/CrossFadeController.cpp.s
 
+src/animation/Crowd.o: src/animation/Crowd.cpp.o
+.PHONY : src/animation/Crowd.o
+
+# target to build an object file
+src/animation/Crowd.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Crowd.cpp.o
+.PHONY : src/animation/Crowd.cpp.o
+
+src/animation/Crowd.i: src/animation/Crowd.cpp.i
+.PHONY : src/animation/Crowd.i
+
+# target to preprocess a source file
+src/animation/Crowd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Crowd.cpp.i
+.PHONY : src/animation/Crowd.cpp.i
+
+src/animation/Crowd.s: src/animation/Crowd.cpp.s
+.PHONY : src/animation/Crowd.s
+
+# target to generate assembly for a file
+src/animation/Crowd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/animation/Crowd.cpp.s
+.PHONY : src/animation/Crowd.cpp.s
+
 src/animation/Mesh.o: src/animation/Mesh.cpp.o
 .PHONY : src/animation/Mesh.o
 
@@ -957,6 +981,30 @@ src/application/ch14/Sample01.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch14/Sample01.cpp.s
 .PHONY : src/application/ch14/Sample01.cpp.s
 
+src/application/ch15/Sample01.o: src/application/ch15/Sample01.cpp.o
+.PHONY : src/application/ch15/Sample01.o
+
+# target to build an object file
+src/application/ch15/Sample01.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch15/Sample01.cpp.o
+.PHONY : src/application/ch15/Sample01.cpp.o
+
+src/application/ch15/Sample01.i: src/application/ch15/Sample01.cpp.i
+.PHONY : src/application/ch15/Sample01.i
+
+# target to preprocess a source file
+src/application/ch15/Sample01.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch15/Sample01.cpp.i
+.PHONY : src/application/ch15/Sample01.cpp.i
+
+src/application/ch15/Sample01.s: src/application/ch15/Sample01.cpp.s
+.PHONY : src/application/ch15/Sample01.s
+
+# target to generate assembly for a file
+src/application/ch15/Sample01.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/application/ch15/Sample01.cpp.s
+.PHONY : src/application/ch15/Sample01.cpp.s
+
 src/application/ch8/ChapterEightApp.o: src/application/ch8/ChapterEightApp.cpp.o
 .PHONY : src/application/ch8/ChapterEightApp.o
 
@@ -1221,6 +1269,54 @@ src/math/vec3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/math/vec3.cpp.s
 .PHONY : src/math/vec3.cpp.s
 
+src/opengl/AnimBaker.o: src/opengl/AnimBaker.cpp.o
+.PHONY : src/opengl/AnimBaker.o
+
+# target to build an object file
+src/opengl/AnimBaker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/AnimBaker.cpp.o
+.PHONY : src/opengl/AnimBaker.cpp.o
+
+src/opengl/AnimBaker.i: src/opengl/AnimBaker.cpp.i
+.PHONY : src/opengl/AnimBaker.i
+
+# target to preprocess a source file
+src/opengl/AnimBaker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/AnimBaker.cpp.i
+.PHONY : src/opengl/AnimBaker.cpp.i
+
+src/opengl/AnimBaker.s: src/opengl/AnimBaker.cpp.s
+.PHONY : src/opengl/AnimBaker.s
+
+# target to generate assembly for a file
+src/opengl/AnimBaker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/AnimBaker.cpp.s
+.PHONY : src/opengl/AnimBaker.cpp.s
+
+src/opengl/AnimTexture.o: src/opengl/AnimTexture.cpp.o
+.PHONY : src/opengl/AnimTexture.o
+
+# target to build an object file
+src/opengl/AnimTexture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/AnimTexture.cpp.o
+.PHONY : src/opengl/AnimTexture.cpp.o
+
+src/opengl/AnimTexture.i: src/opengl/AnimTexture.cpp.i
+.PHONY : src/opengl/AnimTexture.i
+
+# target to preprocess a source file
+src/opengl/AnimTexture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/AnimTexture.cpp.i
+.PHONY : src/opengl/AnimTexture.cpp.i
+
+src/opengl/AnimTexture.s: src/opengl/AnimTexture.cpp.s
+.PHONY : src/opengl/AnimTexture.s
+
+# target to generate assembly for a file
+src/opengl/AnimTexture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnimationProject.dir/build.make CMakeFiles/AnimationProject.dir/src/opengl/AnimTexture.cpp.s
+.PHONY : src/opengl/AnimTexture.cpp.s
+
 src/opengl/Attribute.o: src/opengl/Attribute.cpp.o
 .PHONY : src/opengl/Attribute.o
 
@@ -1453,6 +1549,9 @@ help:
 	@echo "... src/animation/CrossFadeController.o"
 	@echo "... src/animation/CrossFadeController.i"
 	@echo "... src/animation/CrossFadeController.s"
+	@echo "... src/animation/Crowd.o"
+	@echo "... src/animation/Crowd.i"
+	@echo "... src/animation/Crowd.s"
 	@echo "... src/animation/Mesh.o"
 	@echo "... src/animation/Mesh.i"
 	@echo "... src/animation/Mesh.s"
@@ -1522,6 +1621,9 @@ help:
 	@echo "... src/application/ch14/Sample01.o"
 	@echo "... src/application/ch14/Sample01.i"
 	@echo "... src/application/ch14/Sample01.s"
+	@echo "... src/application/ch15/Sample01.o"
+	@echo "... src/application/ch15/Sample01.i"
+	@echo "... src/application/ch15/Sample01.s"
 	@echo "... src/application/ch8/ChapterEightApp.o"
 	@echo "... src/application/ch8/ChapterEightApp.i"
 	@echo "... src/application/ch8/ChapterEightApp.s"
@@ -1555,6 +1657,12 @@ help:
 	@echo "... src/math/vec3.o"
 	@echo "... src/math/vec3.i"
 	@echo "... src/math/vec3.s"
+	@echo "... src/opengl/AnimBaker.o"
+	@echo "... src/opengl/AnimBaker.i"
+	@echo "... src/opengl/AnimBaker.s"
+	@echo "... src/opengl/AnimTexture.o"
+	@echo "... src/opengl/AnimTexture.i"
+	@echo "... src/opengl/AnimTexture.s"
 	@echo "... src/opengl/Attribute.o"
 	@echo "... src/opengl/Attribute.i"
 	@echo "... src/opengl/Attribute.s"

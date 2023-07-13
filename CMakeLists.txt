@@ -110,6 +110,14 @@ add_executable(${PROJECT_NAME}
     src/math/DualQuaternion.h
     src/application/ch14/Sample01.cpp
     src/application/ch14/Sample01.h
+    src/opengl/AnimTexture.cpp
+    src/opengl/AnimTexture.h
+    src/opengl/AnimBaker.cpp
+    src/opengl/AnimBaker.h
+    src/animation/Crowd.cpp
+    src/animation/Crowd.h
+    src/application/ch15/Sample01.cpp
+    src/application/ch15/Sample01.h
 )
 
 
